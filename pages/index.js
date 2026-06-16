@@ -43,43 +43,43 @@ export default function Home() {
       <style jsx global>{`
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         :root {
-          --navy: #1B2A5E; --red: #CC2020; --gold: #F5C400;
-          --white: #FFFFFF; --light: #F4F6FB; --dark-text: #111827;
+          --navy: #102444; --red: #D4202C; --gold: #F6C035;
+          --white: #FFFFFF; --bone: #F4F6F8; --steel: #B9BFC6; --ink: #0A1322;
         }
-        body { font-family: 'Open Sans', sans-serif; color: var(--dark-text); background: var(--white); }
+        body { font-family: 'Barlow', sans-serif; color: var(--ink); background: var(--white); }
 
         /* NAV */
         nav { background: var(--navy); display: flex; align-items: center; justify-content: space-between; padding: 14px 40px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
-        .nav-logo { font-family: 'Oswald', sans-serif; font-size: 1.3rem; color: var(--white); letter-spacing: 0.04em; text-transform: uppercase; }
+        .nav-logo { font-family: 'Anton', sans-serif; font-size: 1.5rem; color: var(--white); letter-spacing: 0.03em; text-transform: uppercase; }
         .nav-logo span { color: var(--gold); }
-        nav a.cta-nav { background: var(--red); color: var(--white); font-family: 'Oswald', sans-serif; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 10px 24px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
-        nav a.cta-nav:hover { background: #a81818; }
+        nav a.cta-nav { background: var(--red); color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 600; font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 24px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
+        nav a.cta-nav:hover { background: #a8161f; }
 
         /* HERO */
         .hero { background: var(--navy); color: var(--white); padding: 80px 40px 70px; text-align: center; position: relative; overflow: hidden; }
         .hero::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(-55deg, transparent, transparent 38px, rgba(255,255,255,0.03) 38px, rgba(255,255,255,0.03) 40px); pointer-events: none; }
-        .hero-eyebrow { display: inline-block; background: var(--gold); color: var(--navy); font-family: 'Oswald', sans-serif; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 4px 14px; border-radius: 2px; margin-bottom: 22px; }
-        .hero h1 { font-family: 'Oswald', sans-serif; font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 700; line-height: 1.05; text-transform: uppercase; letter-spacing: 0.02em; margin-bottom: 18px; }
+        .hero-eyebrow { display: inline-block; background: var(--gold); color: var(--navy); font-family: 'Saira Condensed', sans-serif; font-weight: 600; font-size: 0.85rem; letter-spacing: 0.14em; text-transform: uppercase; padding: 4px 14px; border-radius: 2px; margin-bottom: 22px; }
+        .hero h1 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(2.8rem, 7vw, 5rem); line-height: 0.98; text-transform: uppercase; letter-spacing: 0.01em; margin-bottom: 18px; }
         .hero h1 em { color: var(--red); font-style: normal; }
         .hero p { font-size: 1.1rem; opacity: 0.85; max-width: 520px; margin: 0 auto 36px; line-height: 1.65; }
-        .hero-cta { display: inline-block; background: var(--red); color: var(--white); font-family: 'Oswald', sans-serif; font-size: 1.1rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 16px 40px; border-radius: 4px; text-decoration: none; border-bottom: 4px solid #8c0f0f; transition: transform 0.15s, background 0.2s; }
-        .hero-cta:hover { background: #a81818; transform: translateY(-2px); }
+        .hero-cta { display: inline-block; background: var(--red); color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.15rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 16px 40px; border-radius: 4px; text-decoration: none; border-bottom: 4px solid #8c0f0f; transition: transform 0.15s, background 0.2s; }
+        .hero-cta:hover { background: #a8161f; transform: translateY(-2px); }
 
-        /* TRUST BAR */
-        .trust-bar { background: var(--gold); padding: 14px 40px; display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; }
-        .trust-item { font-family: 'Oswald', sans-serif; font-size: 0.9rem; color: var(--navy); letter-spacing: 0.06em; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
+        /* TRUST BAR — navy base, gold as a spark (rule + icons) */
+        .trust-bar { background: var(--navy); padding: 16px 40px; display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; border-top: 3px solid var(--gold); border-bottom: 1px solid rgba(255,255,255,0.08); }
+        .trust-item { font-family: 'Saira Condensed', sans-serif; font-weight: 600; font-size: 0.92rem; color: var(--white); letter-spacing: 0.08em; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
 
         /* SECTIONS */
         .section { padding: 72px 40px; }
-        .section-label { font-family: 'Oswald', sans-serif; font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); margin-bottom: 10px; }
-        .section h2 { font-family: 'Oswald', sans-serif; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 700; color: var(--navy); text-transform: uppercase; margin-bottom: 48px; }
+        .section-label { font-family: 'Saira Condensed', sans-serif; font-weight: 600; font-size: 0.85rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--red); margin-bottom: 10px; }
+        .section h2 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(2rem, 4.5vw, 3rem); color: var(--navy); text-transform: uppercase; letter-spacing: 0.01em; margin-bottom: 48px; }
 
         /* SERVICES */
         .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px; max-width: 960px; margin: 0 auto; }
-        .service-card { background: var(--light); border-top: 4px solid var(--red); border-radius: 6px; padding: 28px 24px; }
+        .service-card { background: var(--bone); border-top: 4px solid var(--red); border-radius: 6px; padding: 28px 24px; }
         .service-card .icon { font-size: 2rem; margin-bottom: 14px; }
-        .service-card h3 { font-family: 'Oswald', sans-serif; font-size: 1.1rem; color: var(--navy); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 10px; }
-        .service-card p { font-size: 0.9rem; line-height: 1.6; color: #444; }
+        .service-card h3 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 1.25rem; color: var(--navy); text-transform: uppercase; letter-spacing: 0.02em; margin-bottom: 10px; }
+        .service-card p { font-size: 0.95rem; line-height: 1.6; color: #444; }
 
         /* HOW IT WORKS */
         .how-section { background: var(--navy); color: var(--white); text-align: center; }
@@ -87,25 +87,25 @@ export default function Home() {
         .steps { display: flex; justify-content: center; gap: 0; flex-wrap: wrap; max-width: 860px; margin: 0 auto; }
         .step { flex: 1; min-width: 180px; max-width: 240px; padding: 0 20px 20px; position: relative; }
         .step:not(:last-child)::after { content: '→'; position: absolute; right: -10px; top: 32px; color: var(--gold); font-size: 1.5rem; }
-        .step-num { width: 56px; height: 56px; border-radius: 50%; background: var(--gold); color: var(--navy); font-family: 'Oswald', sans-serif; font-size: 1.4rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
-        .step h3 { font-family: 'Oswald', sans-serif; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; color: var(--gold); }
-        .step p { font-size: 0.88rem; opacity: 0.8; line-height: 1.55; }
+        .step-num { width: 56px; height: 56px; border-radius: 50%; background: var(--gold); color: var(--navy); font-family: 'Anton', sans-serif; font-weight: 400; font-size: 1.6rem; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
+        .step h3 { font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; color: var(--gold); }
+        .step p { font-size: 0.92rem; opacity: 0.8; line-height: 1.55; }
 
         /* FORM */
-        .form-section { background: var(--light); text-align: center; }
+        .form-section { background: var(--bone); text-align: center; }
         .form-section h2 { text-align: center; }
-        .form-wrap { max-width: 620px; margin: 0 auto; background: var(--white); border-radius: 8px; padding: 40px; box-shadow: 0 4px 30px rgba(27,42,94,0.1); border-top: 5px solid var(--red); text-align: left; }
+        .form-wrap { max-width: 620px; margin: 0 auto; background: var(--white); border-radius: 8px; padding: 40px; box-shadow: 0 4px 30px rgba(16,36,68,0.1); border-top: 5px solid var(--red); text-align: left; }
         .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 18px; }
         .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 18px; }
-        .form-group label { font-size: 0.8rem; font-family: 'Oswald', sans-serif; letter-spacing: 0.06em; text-transform: uppercase; color: var(--navy); }
-        .form-group input, .form-group select, .form-group textarea { padding: 11px 14px; border: 1.5px solid #cdd2e0; border-radius: 4px; font-family: 'Open Sans', sans-serif; font-size: 0.95rem; color: var(--dark-text); outline: none; transition: border-color 0.2s; background: var(--white); }
+        .form-group label { font-size: 0.85rem; font-family: 'Saira Condensed', sans-serif; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--navy); }
+        .form-group input, .form-group select, .form-group textarea { padding: 11px 14px; border: 1.5px solid var(--steel); border-radius: 4px; font-family: 'Barlow', sans-serif; font-size: 0.95rem; color: var(--ink); outline: none; transition: border-color 0.2s; background: var(--white); }
         .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--red); }
         .form-group textarea { resize: vertical; min-height: 100px; }
-        .form-submit { width: 100%; background: var(--red); color: var(--white); font-family: 'Oswald', sans-serif; font-size: 1.1rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 15px; border: none; border-radius: 4px; border-bottom: 4px solid #8c0f0f; cursor: pointer; transition: background 0.2s, transform 0.15s; margin-top: 6px; }
-        .form-submit:hover:not(:disabled) { background: #a81818; transform: translateY(-2px); }
+        .form-submit { width: 100%; background: var(--red); color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.15rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 15px; border: none; border-radius: 4px; border-bottom: 4px solid #8c0f0f; cursor: pointer; transition: background 0.2s, transform 0.15s; margin-top: 6px; }
+        .form-submit:hover:not(:disabled) { background: #a8161f; transform: translateY(-2px); }
         .form-submit:disabled { opacity: 0.6; cursor: not-allowed; }
-        .success-msg { background: #d1fae5; border: 1px solid #6ee7b7; color: #065f46; padding: 16px; border-radius: 6px; text-align: center; font-family: 'Oswald', sans-serif; letter-spacing: 0.04em; margin-top: 16px; }
-        .error-msg { background: #fee2e2; border: 1px solid #fca5a5; color: #991b1b; padding: 16px; border-radius: 6px; text-align: center; font-family: 'Oswald', sans-serif; letter-spacing: 0.04em; margin-top: 16px; }
+        .success-msg { background: #d1fae5; border: 1px solid #6ee7b7; color: #065f46; padding: 16px; border-radius: 6px; text-align: center; font-family: 'Saira Condensed', sans-serif; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; margin-top: 16px; }
+        .error-msg { background: #fee2e2; border: 1px solid #fca5a5; color: #991b1b; padding: 16px; border-radius: 6px; text-align: center; font-family: 'Saira Condensed', sans-serif; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; margin-top: 16px; }
 
         /* FOOTER */
         footer { background: var(--navy); color: rgba(255,255,255,0.7); text-align: center; padding: 28px 40px; font-size: 0.85rem; }
@@ -134,25 +134,25 @@ export default function Home() {
         <div className="hero-eyebrow">Fast · Reliable · Affordable</div>
         <h1>We Haul It.<br /><em>You Forget It.</em></h1>
         <p>Same-day and next-day junk removal for homes and businesses. No hidden fees — just one call and it&apos;s gone.</p>
-        <a href="#quote" className="hero-cta">Get My Free Quote</a>
+        <a href="#quote" className="hero-cta">Get My Free Quote →</a>
       </section>
 
       {/* TRUST BAR */}
       <div className="trust-bar">
         <div className="trust-item">
-          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#1B2A5E" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"/></svg>
+          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#F6C035" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"/></svg>
           Licensed &amp; Insured
         </div>
         <div className="trust-item">
-          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#1B2A5E" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#F6C035" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
           Same-Day Service Available
         </div>
         <div className="trust-item">
-          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#1B2A5E" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#F6C035" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
           Upfront Pricing
         </div>
         <div className="trust-item">
-          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#1B2A5E" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#F6C035" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
           Eco-Friendly Disposal
         </div>
       </div>
