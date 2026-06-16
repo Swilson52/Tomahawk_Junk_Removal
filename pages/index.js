@@ -58,6 +58,9 @@ export default function Home() {
         nav a.nav-phone { color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.03em; text-decoration: none; display: flex; align-items: center; gap: 7px; white-space: nowrap; transition: color 0.2s; }
         nav a.nav-phone svg { stroke: var(--gold); flex-shrink: 0; }
         nav a.nav-phone:hover { color: var(--gold); }
+        nav a.nav-email { color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 600; font-size: 1rem; letter-spacing: 0.02em; text-decoration: none; display: flex; align-items: center; gap: 7px; white-space: nowrap; transition: color 0.2s; }
+        nav a.nav-email svg { stroke: var(--gold); flex-shrink: 0; }
+        nav a.nav-email:hover { color: var(--gold); }
 
         /* HERO */
         .hero { background: var(--navy); color: var(--white); padding: 80px 40px 70px; text-align: center; position: relative; overflow: hidden; }
@@ -118,6 +121,9 @@ export default function Home() {
         footer a.footer-phone:hover { color: var(--gold); }
 
         /* RESPONSIVE */
+        @media (max-width: 880px) {
+          nav a.nav-email { display: none; }
+        }
         @media (max-width: 600px) {
           nav { padding: 12px 16px; }
           .nav-logo { font-size: 1.15rem; }
@@ -141,6 +147,10 @@ export default function Home() {
           <a href="tel:+14047717677" className="nav-phone" aria-label="Call Tomahawk Junk Removal at (404) 771-7677">
             <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#F6C035" strokeWidth="2.2"><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
           (404) 771-7677
+          </a>
+          <a href="mailto:tomahawkjunkremoval@gmail.com" className="nav-email" aria-label="Email Tomahawk Junk Removal at tomahawkjunkremoval@gmail.com">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#F6C035" strokeWidth="2.2"><path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          tomahawkjunkremoval@gmail.com
           </a>
           <a href="#quote" className="cta-nav">Get a Free Quote</a>
         </div>
@@ -254,7 +264,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer>
-        <p style={{marginBottom: '10px'}}>Call us today: <a href="tel:+14047717677" className="footer-phone">(404) 771-7677</a></p>
+        <p style={{marginBottom: '10px'}}>Call us today: <a href="tel:+14047717677" className="footer-phone">(404) 771-7677</a> &nbsp;·&nbsp; <a href="mailto:tomahawkjunkremoval@gmail.com" className="footer-phone">tomahawkjunkremoval@gmail.com</a></p>
         <p><strong>Tomahawk Junk Removal LLC</strong> &nbsp;|&nbsp; &copy; 2026 All Rights Reserved</p>
         <p style={{marginTop: '6px'}}>Licensed &amp; Insured &nbsp;·&nbsp; Serving the Metro Atlanta Area</p>
       </footer>
