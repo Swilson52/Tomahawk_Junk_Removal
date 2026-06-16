@@ -54,6 +54,10 @@ export default function Home() {
         .nav-logo span { color: var(--gold); }
         nav a.cta-nav { background: var(--red); color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 600; font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 24px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
         nav a.cta-nav:hover { background: #a8161f; }
+        .nav-actions { display: flex; align-items: center; gap: 22px; }
+        nav a.nav-phone { color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.03em; text-decoration: none; display: flex; align-items: center; gap: 7px; white-space: nowrap; transition: color 0.2s; }
+        nav a.nav-phone svg { stroke: var(--gold); flex-shrink: 0; }
+        nav a.nav-phone:hover { color: var(--gold); }
 
         /* HERO */
         .hero { background: var(--navy); color: var(--white); padding: 80px 40px 70px; text-align: center; position: relative; overflow: hidden; }
@@ -110,10 +114,17 @@ export default function Home() {
         /* FOOTER */
         footer { background: var(--navy); color: rgba(255,255,255,0.7); text-align: center; padding: 28px 40px; font-size: 0.85rem; }
         footer strong { color: var(--gold); }
+        footer a.footer-phone { color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.15rem; letter-spacing: 0.03em; text-decoration: none; transition: color 0.2s; }
+        footer a.footer-phone:hover { color: var(--gold); }
 
         /* RESPONSIVE */
         @media (max-width: 600px) {
-          nav { padding: 12px 20px; }
+          nav { padding: 12px 16px; }
+          .nav-logo { font-size: 1.15rem; }
+          .nav-actions { gap: 12px; }
+          nav a.nav-phone { font-size: 0.9rem; gap: 5px; }
+          nav a.nav-phone svg { width: 16px; height: 16px; }
+          nav a.cta-nav { padding: 9px 14px; font-size: 0.82rem; }
           .hero { padding: 60px 24px 50px; }
           .section { padding: 54px 24px; }
           .form-row { grid-template-columns: 1fr; }
@@ -126,7 +137,13 @@ export default function Home() {
       {/* NAV */}
       <nav>
         <div className="nav-logo">Tomahawk <span>Junk Removal</span> LLC</div>
-        <a href="#quote" className="cta-nav">Get a Free Quote</a>
+        <div className="nav-actions">
+          <a href="tel:+14047717677" className="nav-phone" aria-label="Call Tomahawk Junk Removal at (404) 771-7677">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#F6C035" strokeWidth="2.2"><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          (404) 771-7677
+          </a>
+          <a href="#quote" className="cta-nav">Get a Free Quote</a>
+        </div>
       </nav>
 
       {/* HERO */}
@@ -237,6 +254,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer>
+        <p style={{marginBottom: '10px'}}>Call us today: <a href="tel:+14047717677" className="footer-phone">(404) 771-7677</a></p>
         <p><strong>Tomahawk Junk Removal LLC</strong> &nbsp;|&nbsp; &copy; 2026 All Rights Reserved</p>
         <p style={{marginTop: '6px'}}>Licensed &amp; Insured &nbsp;·&nbsp; Serving the Metro Atlanta Area</p>
       </footer>
