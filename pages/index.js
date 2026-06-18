@@ -12,6 +12,13 @@ export default function Home() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Fire a Google Ads conversion when a visitor clicks the phone number to call.
+  const trackPhoneClick = () => {
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', { send_to: 'AW-18244573282/5bGkCOr-r8AcEOKw2PtD' });
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('loading');
@@ -144,7 +151,7 @@ export default function Home() {
       <nav>
         <div className="nav-logo">Tomahawk <span>Junk Removal</span> LLC</div>
         <div className="nav-actions">
-          <a href="tel:+14047717677" className="nav-phone" aria-label="Call Tomahawk Junk Removal at (404) 771-7677">
+          <a href="tel:+14047717677" onClick={trackPhoneClick} className="nav-phone" aria-label="Call Tomahawk Junk Removal at (404) 771-7677">
             <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#F6C035" strokeWidth="2.2"><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
           (404) 771-7677
           </a>
@@ -264,7 +271,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer>
-        <p style={{marginBottom: '10px'}}>Call us today: <a href="tel:+14047717677" className="footer-phone">(404) 771-7677</a> &nbsp;·&nbsp; <a href="mailto:tomahawkjunkremoval@gmail.com" className="footer-phone">tomahawkjunkremoval@gmail.com</a></p>
+        <p style={{marginBottom: '10px'}}>Call us today: <a href="tel:+14047717677" onClick={trackPhoneClick} className="footer-phone">(404) 771-7677</a> &nbsp;·&nbsp; <a href="mailto:tomahawkjunkremoval@gmail.com" className="footer-phone">tomahawkjunkremoval@gmail.com</a></p>
         <p><strong>Tomahawk Junk Removal LLC</strong> &nbsp;|&nbsp; &copy; 2026 All Rights Reserved</p>
         <p style={{marginTop: '6px'}}>Licensed &amp; Insured &nbsp;·&nbsp; Serving the Metro Atlanta Area</p>
       </footer>

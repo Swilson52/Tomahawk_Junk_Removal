@@ -12,6 +12,18 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;600;700&family=Saira+Condensed:wght@500;600;700&display=swap" rel="stylesheet" />
+        {/* Google tag (gtag.js) — Google Ads */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18244573282" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18244573282');
+            `,
+          }}
+        />
       </Head>
       <body>
         <Main />
