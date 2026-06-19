@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function Home() {
   const [formData, setFormData] = useState({
     firstName: '', lastName: '', phone: '', email: '',
-    address: '', junkType: '', details: ''
+    address: '', junkType: '', propertyType: '', pickupLocation: '', details: ''
   });
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
@@ -30,7 +30,7 @@ export default function Home() {
       });
       if (res.ok) {
         setStatus('success');
-        setFormData({ firstName: '', lastName: '', phone: '', email: '', address: '', junkType: '', details: '' });
+        setFormData({ firstName: '', lastName: '', phone: '', email: '', address: '', junkType: '', propertyType: '', pickupLocation: '', details: '' });
       } else {
         setStatus('error');
       }
@@ -255,6 +255,27 @@ export default function Home() {
                 <option>Yard Waste</option>
                 <option>Mixed / Other</option>
               </select>
+            </div>
+            <div className="form-row">
+              <div className="form-group">
+                <label htmlFor="propertyType">Property Type</label>
+                <select id="propertyType" name="propertyType" value={formData.propertyType} onChange={handleChange} required>
+                  <option value="" disabled>Select property type…</option>
+                  <option>Residential Home</option>
+                  <option>Apartment / Condo</option>
+                  <option>Commercial / Business</option>
+                  <option>Storage Unit</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div className="form-group">
+                <label htmlFor="pickupLocation">Curbside or Inside?</label>
+                <select id="pickupLocation" name="pickupLocation" value={formData.pickupLocation} onChange={handleChange} required>
+                  <option value="" disabled>Select one…</option>
+                  <option>Curbside / outside — no entry needed</option>
+                  <option>Inside the home or building</option>
+                </select>
+              </div>
             </div>
             <div className="form-group">
               <label htmlFor="details">Describe What Needs to Go</label>

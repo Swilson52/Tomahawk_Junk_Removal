@@ -7,14 +7,23 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { firstName, lastName, phone, email, address, junkType, details } = req.body;
+  const { firstName, lastName, phone, email, address, junkType, propertyType, pickupLocation, details } = req.body;
 
-  if (!firstName || !lastName || !phone || !email || !address || !junkType) {
+  if (!firstName || !lastName || !phone || !email || !address || !junkType || !propertyType || !pickupLocation) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
+  if (!process.env.RESEND_API_KEY || !process.env.RESEND_FROM_EMAIL || !process.env.QUOTE_RECIPIENT_EMAIL) {
+    console.error('Missing required env vars:', {
+      hasKey: !!process.env.RESEND_API_KEY,
+      hasFrom: !!process.env.RESEND_FROM_EMAIL,
+      hasTo: !!process.env.QUOTE_RECIPIENT_EMAIL,
+    });
+    return res.status(500).json({ error: 'Server email configuration is incomplete.' });
+  }
+
   try {
-    await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL,
       to: process.env.QUOTE_RECIPIENT_EMAIL,
       replyTo: email,
@@ -51,6 +60,14 @@ export default async function handler(req, res) {
                 <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${junkType}</td>
               </tr>
               <tr>
+                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Property Type</td>
+                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${propertyType}</td>
+              </tr>
+              <tr>
+                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Curbside or Inside</td>
+                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${pickupLocation}</td>
+              </tr>
+              <tr>
                 <td style="padding: 10px 0; color: #555; font-weight: bold; vertical-align: top;">Details</td>
                 <td style="padding: 10px 0;">${details || 'None provided'}</td>
               </tr>
@@ -66,9 +83,14 @@ export default async function handler(req, res) {
       `,
     });
 
-    return res.status(200).json({ success: true });
+    if (error) {
+      console.error('Resend API error:', error);
+      return res.status(500).json({ error: error.message || 'Failed to send email' });
+    }
+
+    return res.status(200).json({ success: true, id: data?.id });
   } catch (error) {
-    console.error('Resend error:', error);
+    console.error('Resend threw:', error);
     return res.status(500).json({ error: 'Failed to send email' });
   }
 }
