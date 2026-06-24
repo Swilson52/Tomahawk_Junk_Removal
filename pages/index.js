@@ -19,6 +19,13 @@ export default function Home() {
     }
   };
 
+  // Fire a Google Ads conversion when a visitor submits the quote request form.
+  const trackQuoteSubmit = () => {
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', { send_to: 'AW-18244573282/m7zXCJbXiMUcEOKw2PtD' });
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('loading');
@@ -30,6 +37,7 @@ export default function Home() {
       });
       if (res.ok) {
         setStatus('success');
+        trackQuoteSubmit();
         setFormData({ firstName: '', lastName: '', phone: '', email: '', address: '', junkType: '', propertyType: '', pickupLocation: '', details: '' });
       } else {
         setStatus('error');
