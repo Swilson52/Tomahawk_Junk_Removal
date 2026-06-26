@@ -7,9 +7,9 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { firstName, lastName, phone, email, address, junkType, propertyType, pickupLocation, details } = req.body;
+  const { name, phone, details } = req.body;
 
-  if (!firstName || !lastName || !phone || !email || !address || !junkType || !propertyType || !pickupLocation) {
+  if (!name || !phone || !details) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
@@ -26,8 +26,7 @@ export default async function handler(req, res) {
     const { data, error } = await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL,
       to: process.env.QUOTE_RECIPIENT_EMAIL,
-      replyTo: email,
-      subject: `New Quote Request — ${firstName} ${lastName}`,
+      subject: `New Quote Request — ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: #1B2A5E; padding: 24px; text-align: center;">
@@ -41,42 +40,22 @@ export default async function handler(req, res) {
             <table style="width: 100%; border-collapse: collapse;">
               <tr>
                 <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; width: 40%; font-weight: bold;">Name</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${firstName} ${lastName}</td>
+                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${name}</td>
               </tr>
               <tr>
                 <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Phone</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${phone}</td>
+                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;"><a href="tel:${phone}">${phone}</a></td>
               </tr>
               <tr>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Email</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${email}</td>
-              </tr>
-              <tr>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Service Address</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${address}</td>
-              </tr>
-              <tr>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Type of Junk</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${junkType}</td>
-              </tr>
-              <tr>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Property Type</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${propertyType}</td>
-              </tr>
-              <tr>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Curbside or Inside</td>
-                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;">${pickupLocation}</td>
-              </tr>
-              <tr>
-                <td style="padding: 10px 0; color: #555; font-weight: bold; vertical-align: top;">Details</td>
-                <td style="padding: 10px 0;">${details || 'None provided'}</td>
+                <td style="padding: 10px 0; color: #555; font-weight: bold; vertical-align: top;">What needs to go</td>
+                <td style="padding: 10px 0;">${details}</td>
               </tr>
             </table>
           </div>
 
           <div style="background: #CC2020; padding: 14px; text-align: center;">
             <p style="color: #ffffff; margin: 0; font-size: 13px;">
-              Reply directly to this email to respond to ${firstName}.
+              Call ${name} back at ${phone} to give a quote.
             </p>
           </div>
         </div>

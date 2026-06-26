@@ -3,8 +3,7 @@ import { useState } from 'react';
 
 export default function Home() {
   const [formData, setFormData] = useState({
-    firstName: '', lastName: '', phone: '', email: '',
-    address: '', junkType: '', propertyType: '', pickupLocation: '', details: ''
+    name: '', phone: '', details: ''
   });
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
@@ -38,7 +37,7 @@ export default function Home() {
       if (res.ok) {
         setStatus('success');
         trackQuoteSubmit();
-        setFormData({ firstName: '', lastName: '', phone: '', email: '', address: '', junkType: '', propertyType: '', pickupLocation: '', details: '' });
+        setFormData({ name: '', phone: '', details: '' });
       } else {
         setStatus('error');
       }
@@ -84,8 +83,11 @@ export default function Home() {
         .hero h1 { font-family: 'Anton', sans-serif; font-weight: 400; font-size: clamp(2.8rem, 7vw, 5rem); line-height: 0.98; text-transform: uppercase; letter-spacing: 0.01em; margin-bottom: 18px; }
         .hero h1 em { color: var(--red); font-style: normal; }
         .hero p { font-size: 1.1rem; opacity: 0.85; max-width: 520px; margin: 0 auto 36px; line-height: 1.65; }
+        .hero-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
         .hero-cta { display: inline-block; background: var(--red); color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.15rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 16px 40px; border-radius: 4px; text-decoration: none; border-bottom: 4px solid #8c0f0f; transition: transform 0.15s, background 0.2s; }
         .hero-cta:hover { background: #a8161f; transform: translateY(-2px); }
+        .hero-call { display: inline-flex; align-items: center; gap: 9px; background: var(--gold); color: var(--navy); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.15rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 16px 34px; border-radius: 4px; text-decoration: none; border-bottom: 4px solid #c9971c; transition: transform 0.15s, background 0.2s; }
+        .hero-call:hover { background: #ffce4a; transform: translateY(-2px); }
 
         /* TRUST BAR — navy base, gold as a spark (rule + icons) */
         .trust-bar { background: var(--navy); padding: 16px 40px; display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; border-top: 3px solid var(--gold); border-bottom: 1px solid rgba(255,255,255,0.08); }
@@ -117,6 +119,9 @@ export default function Home() {
         .form-section { background: var(--bone); text-align: center; }
         .form-section h2 { text-align: center; }
         .form-wrap { max-width: 620px; margin: 0 auto; background: var(--white); border-radius: 8px; padding: 40px; box-shadow: 0 4px 30px rgba(16,36,68,0.1); border-top: 5px solid var(--red); text-align: left; }
+        .form-intro { font-size: 0.98rem; line-height: 1.55; color: #444; margin-bottom: 24px; }
+        .form-intro a { color: var(--red); font-weight: 700; text-decoration: none; white-space: nowrap; }
+        .form-intro a:hover { text-decoration: underline; }
         .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 18px; }
         .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 18px; }
         .form-group label { font-size: 0.85rem; font-family: 'Saira Condensed', sans-serif; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--navy); }
@@ -135,6 +140,9 @@ export default function Home() {
         footer a.footer-phone { color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.15rem; letter-spacing: 0.03em; text-decoration: none; transition: color 0.2s; }
         footer a.footer-phone:hover { color: var(--gold); }
 
+        /* STICKY MOBILE CALL BAR — hidden on desktop, shown on small screens */
+        .sticky-call { display: none; }
+
         /* RESPONSIVE */
         @media (max-width: 880px) {
           nav a.nav-email { display: none; }
@@ -147,11 +155,17 @@ export default function Home() {
           nav a.nav-phone svg { width: 16px; height: 16px; }
           nav a.cta-nav { padding: 9px 14px; font-size: 0.82rem; }
           .hero { padding: 60px 24px 50px; }
+          .hero-actions { flex-direction: column; gap: 12px; }
+          .hero-call, .hero-cta { width: 100%; justify-content: center; text-align: center; }
           .section { padding: 54px 24px; }
           .form-row { grid-template-columns: 1fr; }
           .form-wrap { padding: 28px 20px; }
           .step:not(:last-child)::after { display: none; }
           .trust-bar { gap: 20px; padding: 14px 20px; }
+          /* leave room for the sticky call bar */
+          footer { padding-bottom: 84px; }
+          .sticky-call { display: flex; align-items: center; justify-content: center; gap: 10px; position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; background: var(--red); color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.1rem; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; padding: 15px 16px; box-shadow: 0 -3px 14px rgba(0,0,0,0.25); border-top: 3px solid var(--gold); }
+          .sticky-call:active { background: #a8161f; }
         }
       `}</style>
 
@@ -176,7 +190,13 @@ export default function Home() {
         <div className="hero-eyebrow">Fast · Reliable · Affordable</div>
         <h1>We Haul It.<br /><em>You Forget It.</em></h1>
         <p>Same-day and next-day junk removal for homes and businesses. No hidden fees — just one call and it&apos;s gone.</p>
-        <a href="#quote" className="hero-cta">Get My Free Quote →</a>
+        <div className="hero-actions">
+          <a href="tel:+14047717677" onClick={trackPhoneClick} className="hero-call" aria-label="Call Tomahawk Junk Removal at (404) 771-7677">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2"><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            Call (404) 771-7677
+          </a>
+          <a href="#quote" className="hero-cta">Get My Free Quote →</a>
+        </div>
       </section>
 
       {/* TRUST BAR */}
@@ -227,76 +247,34 @@ export default function Home() {
         <p className="section-label">Free Estimate</p>
         <h2>Get Your Quote Today</h2>
         <div className="form-wrap">
+          <p className="form-intro">Takes 20 seconds — just the basics and we&apos;ll call you right back. Prefer to talk now? <a href="tel:+14047717677" onClick={trackPhoneClick}>Call (404) 771-7677</a>.</p>
           <form onSubmit={handleSubmit}>
-            <div className="form-row">
-              <div className="form-group">
-                <label htmlFor="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName" placeholder="John" value={formData.firstName} onChange={handleChange} required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName" placeholder="Smith" value={formData.lastName} onChange={handleChange} required />
-              </div>
-            </div>
-            <div className="form-row">
-              <div className="form-group">
-                <label htmlFor="phone">Phone</label>
-                <input type="tel" id="phone" name="phone" placeholder="(404) 555-0100" value={formData.phone} onChange={handleChange} required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="john@example.com" value={formData.email} onChange={handleChange} required />
-              </div>
+            <div className="form-group">
+              <label htmlFor="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" value={formData.name} onChange={handleChange} required />
             </div>
             <div className="form-group">
-              <label htmlFor="address">Service Address</label>
-              <input type="text" id="address" name="address" placeholder="123 Main St, Atlanta, GA" value={formData.address} onChange={handleChange} required />
+              <label htmlFor="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="(404) 555-0100" value={formData.phone} onChange={handleChange} required />
             </div>
             <div className="form-group">
-              <label htmlFor="junkType">Type of Junk</label>
-              <select id="junkType" name="junkType" value={formData.junkType} onChange={handleChange} required>
-                <option value="" disabled>Select a category…</option>
-                <option>Household Junk</option>
-                <option>Furniture / Appliances</option>
-                <option>Construction Debris</option>
-                <option>Commercial Cleanout</option>
-                <option>Yard Waste</option>
-                <option>Mixed / Other</option>
-              </select>
-            </div>
-            <div className="form-row">
-              <div className="form-group">
-                <label htmlFor="propertyType">Property Type</label>
-                <select id="propertyType" name="propertyType" value={formData.propertyType} onChange={handleChange} required>
-                  <option value="" disabled>Select property type…</option>
-                  <option>Residential Home</option>
-                  <option>Apartment / Condo</option>
-                  <option>Commercial / Business</option>
-                  <option>Storage Unit</option>
-                  <option>Other</option>
-                </select>
-              </div>
-              <div className="form-group">
-                <label htmlFor="pickupLocation">Curbside or Inside?</label>
-                <select id="pickupLocation" name="pickupLocation" value={formData.pickupLocation} onChange={handleChange} required>
-                  <option value="" disabled>Select one…</option>
-                  <option>Curbside / outside — no entry needed</option>
-                  <option>Inside the home or building</option>
-                </select>
-              </div>
-            </div>
-            <div className="form-group">
-              <label htmlFor="details">Describe What Needs to Go</label>
-              <textarea id="details" name="details" placeholder="E.g. old couch, broken dresser, bags of yard debris — give us a rough idea of the amount and items." value={formData.details} onChange={handleChange} />
+              <label htmlFor="details">What needs to go?</label>
+              <textarea id="details" name="details" placeholder="E.g. old couch and a broken dresser in the garage, plus a few bags of yard debris." value={formData.details} onChange={handleChange} required />
             </div>
             <button type="submit" className="form-submit" disabled={status === 'loading'}>
-              {status === 'loading' ? 'Sending...' : 'Send My Quote Request →'}
+              {status === 'loading' ? 'Sending...' : 'Get My Free Quote →'}
             </button>
             {status === 'success' && <div className="success-msg">✅ Quote request sent! We&apos;ll be in touch shortly.</div>}
             {status === 'error' && <div className="error-msg">❌ Something went wrong. Please try again or call us directly.</div>}
           </form>
         </div>
       </section>
+
+      {/* STICKY MOBILE CALL BAR */}
+      <a href="tel:+14047717677" onClick={trackPhoneClick} className="sticky-call" aria-label="Call Tomahawk Junk Removal at (404) 771-7677">
+        <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2"><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        Call Now — (404) 771-7677
+      </a>
 
       {/* FOOTER */}
       <footer>
