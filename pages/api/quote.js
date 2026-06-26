@@ -7,9 +7,9 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { name, phone, details } = req.body;
+  const { name, phone, email, details } = req.body;
 
-  if (!name || !phone || !details) {
+  if (!name || !phone || !email || !details) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
@@ -26,6 +26,7 @@ export default async function handler(req, res) {
     const { data, error } = await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL,
       to: process.env.QUOTE_RECIPIENT_EMAIL,
+      replyTo: email,
       subject: `New Quote Request — ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -45,6 +46,10 @@ export default async function handler(req, res) {
               <tr>
                 <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Phone</td>
                 <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;"><a href="tel:${phone}">${phone}</a></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0; color: #555; font-weight: bold;">Email</td>
+                <td style="padding: 10px 0; border-bottom: 1px solid #e0e0e0;"><a href="mailto:${email}">${email}</a></td>
               </tr>
               <tr>
                 <td style="padding: 10px 0; color: #555; font-weight: bold; vertical-align: top;">What needs to go</td>

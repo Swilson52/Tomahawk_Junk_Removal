@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 export default function Home() {
   const [formData, setFormData] = useState({
-    name: '', phone: '', details: ''
+    name: '', phone: '', email: '', details: ''
   });
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
@@ -37,7 +37,7 @@ export default function Home() {
       if (res.ok) {
         setStatus('success');
         trackQuoteSubmit();
-        setFormData({ name: '', phone: '', details: '' });
+        setFormData({ name: '', phone: '', email: '', details: '' });
       } else {
         setStatus('error');
       }
@@ -253,9 +253,15 @@ export default function Home() {
               <label htmlFor="name">Name</label>
               <input type="text" id="name" name="name" placeholder="John Smith" value={formData.name} onChange={handleChange} required />
             </div>
-            <div className="form-group">
-              <label htmlFor="phone">Phone</label>
-              <input type="tel" id="phone" name="phone" placeholder="(404) 555-0100" value={formData.phone} onChange={handleChange} required />
+            <div className="form-row">
+              <div className="form-group">
+                <label htmlFor="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(404) 555-0100" value={formData.phone} onChange={handleChange} required />
+              </div>
+              <div className="form-group">
+                <label htmlFor="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" value={formData.email} onChange={handleChange} required />
+              </div>
             </div>
             <div className="form-group">
               <label htmlFor="details">What needs to go?</label>
