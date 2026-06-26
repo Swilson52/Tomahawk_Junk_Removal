@@ -68,6 +68,8 @@ export default function Home() {
         .nav-logo span { color: var(--gold); }
         nav a.cta-nav { background: var(--red); color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 600; font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 24px; border-radius: 4px; text-decoration: none; transition: background 0.2s; }
         nav a.cta-nav:hover { background: #a8161f; }
+        nav a.nav-pricing { color: var(--gold); border: 1.5px solid var(--gold); font-family: 'Saira Condensed', sans-serif; font-weight: 600; font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 8px 18px; border-radius: 4px; text-decoration: none; transition: background 0.2s, color 0.2s; white-space: nowrap; }
+        nav a.nav-pricing:hover { background: var(--gold); color: var(--navy); }
         .nav-actions { display: flex; align-items: center; gap: 22px; }
         nav a.nav-phone { color: var(--white); font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.03em; text-decoration: none; display: flex; align-items: center; gap: 7px; white-space: nowrap; transition: color 0.2s; }
         nav a.nav-phone svg { stroke: var(--gold); flex-shrink: 0; }
@@ -153,7 +155,8 @@ export default function Home() {
           .nav-actions { gap: 12px; }
           nav a.nav-phone { font-size: 0.9rem; gap: 5px; }
           nav a.nav-phone svg { width: 16px; height: 16px; }
-          nav a.cta-nav { padding: 9px 14px; font-size: 0.82rem; }
+          nav a.cta-nav { padding: 9px 12px; font-size: 0.82rem; }
+          nav a.nav-pricing { padding: 7px 11px; font-size: 0.82rem; }
           .hero { padding: 60px 24px 50px; }
           .hero-actions { flex-direction: column; gap: 12px; }
           .hero-call, .hero-cta { width: 100%; justify-content: center; text-align: center; }
@@ -181,6 +184,7 @@ export default function Home() {
             <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#F6C035" strokeWidth="2.2"><path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
           tomahawkjunkremoval@gmail.com
           </a>
+          <a href="/pricing" className="nav-pricing">Pricing</a>
           <a href="#quote" className="cta-nav">Get a Free Quote</a>
         </div>
       </nav>
