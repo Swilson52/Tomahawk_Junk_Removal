@@ -84,20 +84,27 @@ That's it. The schedule (weekday mornings) is in
 
 ## Test it safely before going live
 
-Run the pieces locally first (uses file storage in `data/`):
+**Recommended first run — discover only, in GitHub Actions (real network so the
+website email-scrape actually works):**
+
+1. Add the secrets above.
+2. Go to **Actions → Outreach automation → Run workflow**, leave
+   **"Discover only"** checked (the default), and run it.
+3. It finds + scrapes + verifies leads and commits them to the `outreach-state`
+   branch **without sending any email**. Open `data/leads.csv` on that branch to
+   review exactly who it found and how good the emails look.
+4. Happy with the quality? Run the workflow again with **"Discover only"
+   unchecked** to send a batch — or just let the weekday schedule take over
+   (scheduled runs always send live).
+
+You can also run the pieces locally (uses file storage in `data/`; note the
+website scrape needs unrestricted outbound network to work):
 
 ```bash
-# 1) Discover, but DON'T send — preview the leads it finds
 GOOGLE_PLACES_API_KEY=... npm run find-leads -- --dry-run --limit 10
-
-# 2) Look at what it queued, then dry-run the emails (still sends nothing)
-npm run send-campaign -- --file data/leads.csv
-
-# 3) Send a tiny real batch to confirm end-to-end
+npm run send-campaign -- --file data/leads.csv            # dry run, sends nothing
 npm run send-campaign -- --file data/leads.csv --limit 3 --live
 ```
-
-When that looks right, let the schedule take over.
 
 ## Tuning
 

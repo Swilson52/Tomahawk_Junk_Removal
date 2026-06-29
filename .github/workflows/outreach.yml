@@ -8,7 +8,16 @@ on:
   schedule:
     # Weekdays at 13:17 UTC (~9:17am US Eastern). Off-minute on purpose.
     - cron: '17 13 * * 1-5'
-  workflow_dispatch: {}   # lets you run it manually from the Actions tab
+  workflow_dispatch:
+    # Run manually from the Actions tab. Defaults to a DRY RUN so you can find
+    # leads and review them (committed to the outreach-state branch) before any
+    # email is sent. Set dry_run = false to actually send. Scheduled runs always
+    # send live.
+    inputs:
+      dry_run:
+        description: 'Discover only, do not send email (review leads first)'
+        type: boolean
+        default: true
 
 # Serialize anything that writes the state branch (this job + the unsubscribe
 # workflow) so they never clobber each other.
@@ -27,6 +36,8 @@ jobs:
       DISCOVER_LIMIT: '40'
       DAILY_SEND_LIMIT: '25'
       STATE_BRANCH: outreach-state
+      # Manual runs default to dry-run (no send); scheduled runs send live.
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -70,7 +81,13 @@ jobs:
           BUSINESS_EMAIL: ${{ secrets.BUSINESS_EMAIL }}
           SITE_URL: ${{ secrets.SITE_URL }}
           UNSUBSCRIBE_SECRET: ${{ secrets.UNSUBSCRIBE_SECRET }}
-        run: node scripts/send-campaign.js --file data/leads.csv --live --limit "$DAILY_SEND_LIMIT" --delay 800
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "DRY RUN — discovering and queueing leads, but NOT sending."
+            node scripts/send-campaign.js --file data/leads.csv --limit "$DAILY_SEND_LIMIT" --delay 800
+          else
+            node scripts/send-campaign.js --file data/leads.csv --live --limit "$DAILY_SEND_LIMIT" --delay 800
+          fi
 
       - name: Persist outreach state
         if: always()
