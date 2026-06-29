@@ -65,6 +65,27 @@ function csvCell(v) {
   return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
+// Round-robin the queries across segments so a capped daily batch spans every
+// segment (HOA, apartment, realtor, ...) instead of filling up on whichever
+// segment happens to be listed first. Order within a segment is preserved.
+function interleaveBySegment(targets) {
+  const groups = new Map();
+  for (const t of targets) {
+    if (!groups.has(t.segment)) groups.set(t.segment, []);
+    groups.get(t.segment).push(t);
+  }
+  const lists = [...groups.values()];
+  const out = [];
+  let pulled = true;
+  while (pulled) {
+    pulled = false;
+    for (const list of lists) {
+      if (list.length) { out.push(list.shift()); pulled = true; }
+    }
+  }
+  return out;
+}
+
 // Collect every email we should NOT re-discover: already queued, already
 // emailed, or unsubscribed.
 function knownEmails(outPath) {
@@ -96,7 +117,7 @@ async function main() {
 
   const configPath = resolveConfig(args.config);
   const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
-  const targets = config.targets || [];
+  const targets = interleaveBySegment(config.targets || []);
   const outPath = path.resolve(process.cwd(), args.out || 'data/leads.csv');
   const perQuery = args.perQuery || config.perQuery || 20;
 
