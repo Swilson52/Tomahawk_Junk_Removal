@@ -5,7 +5,7 @@
     "Powder Springs", "Austell", "Mableton", "Dallas", "Hiram", "Woodstock",
     "Canton", "Cartersville", "Douglasville", "Roswell", "Sandy Springs", "Atlanta"
   ],
-  "perQuery": 20,
+  "perQuery": 12,
   "targets": [
     { "query": "HOA management companies in Marietta GA", "segment": "hoa" },
     { "query": "homeowners association management in Kennesaw GA", "segment": "hoa" },
