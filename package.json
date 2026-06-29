@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "send-campaign": "node scripts/send-campaign.js"
   },
   "dependencies": {
     "next": "14.2.3",
