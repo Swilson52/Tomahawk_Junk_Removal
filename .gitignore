@@ -34,3 +34,9 @@ Thumbs.db
 
 # Claude Code
 .claude/
+
+# Outreach data — never commit real prospect lists, opt-outs, or send history
+/data/*.csv
+/data/suppression.json
+/data/sent-log.json
+!/data/contacts.example.csv

@@ -1,0 +1,112 @@
+name: Outreach automation
+
+# Zero-touch daily outreach: find new leads, then send a small verified batch.
+# State (leads queue, suppression, send log) persists on the `outreach-state`
+# branch so runs don't repeat work or re-email people.
+
+on:
+  schedule:
+    # Weekdays at 13:17 UTC (~9:17am US Eastern). Off-minute on purpose.
+    - cron: '17 13 * * 1-5'
+  workflow_dispatch:
+    # Run manually from the Actions tab. Defaults to a DRY RUN so you can find
+    # leads and review them (committed to the outreach-state branch) before any
+    # email is sent. Set dry_run = false to actually send. Scheduled runs always
+    # send live.
+    inputs:
+      dry_run:
+        description: 'Discover only, do not send email (review leads first)'
+        type: boolean
+        default: true
+
+# Serialize anything that writes the state branch (this job + the unsubscribe
+# workflow) so they never clobber each other.
+concurrency:
+  group: outreach-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      # How many businesses to scan per query, leads to add, and emails to send.
+      DISCOVER_LIMIT: '40'
+      DAILY_SEND_LIMIT: '25'
+      STATE_BRANCH: outreach-state
+      # Manual runs default to dry-run (no send); scheduled runs send live.
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Restore outreach state
+        run: |
+          mkdir -p data
+          repo_url="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          if git clone --depth 1 --branch "$STATE_BRANCH" "$repo_url" state 2>/dev/null; then
+            cp state/data/leads.csv        data/ 2>/dev/null || true
+            cp state/data/suppression.json data/ 2>/dev/null || true
+            cp state/data/sent-log.json    data/ 2>/dev/null || true
+            echo "Restored state from $STATE_BRANCH."
+          else
+            echo "No $STATE_BRANCH branch yet — starting fresh."
+          fi
+          rm -rf state
+
+      - name: Discover new leads
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        run: node scripts/find-leads.js --limit "$DISCOVER_LIMIT" --delay 800
+
+      - name: Send daily batch
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          OUTREACH_FROM_EMAIL: ${{ secrets.OUTREACH_FROM_EMAIL }}
+          OUTREACH_REPLY_TO: ${{ secrets.OUTREACH_REPLY_TO }}
+          BUSINESS_NAME: ${{ secrets.BUSINESS_NAME }}
+          BUSINESS_ADDRESS: ${{ secrets.BUSINESS_ADDRESS }}
+          BUSINESS_PHONE: ${{ secrets.BUSINESS_PHONE }}
+          BUSINESS_EMAIL: ${{ secrets.BUSINESS_EMAIL }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+          UNSUBSCRIBE_SECRET: ${{ secrets.UNSUBSCRIBE_SECRET }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "DRY RUN — discovering and queueing leads, but NOT sending."
+            node scripts/send-campaign.js --file data/leads.csv --limit "$DAILY_SEND_LIMIT" --delay 800
+          else
+            node scripts/send-campaign.js --file data/leads.csv --live --limit "$DAILY_SEND_LIMIT" --delay 800
+          fi
+
+      - name: Persist outreach state
+        if: always()
+        run: |
+          git config --global user.name "tomahawk-outreach-bot"
+          git config --global user.email "actions@users.noreply.github.com"
+          repo_url="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          if git clone --depth 1 --branch "$STATE_BRANCH" "$repo_url" state 2>/dev/null; then
+            cd state
+          else
+            git clone --depth 1 "$repo_url" state
+            cd state
+            git checkout --orphan "$STATE_BRANCH"
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+          mkdir -p data
+          cp ../data/leads.csv        data/ 2>/dev/null || true
+          cp ../data/suppression.json data/ 2>/dev/null || true
+          cp ../data/sent-log.json    data/ 2>/dev/null || true
+          git add -f data/leads.csv data/suppression.json data/sent-log.json 2>/dev/null || true
+          git commit -m "Update outreach state [skip ci]" || { echo "No state changes."; exit 0; }
+          git push origin "$STATE_BRANCH"
