@@ -68,7 +68,7 @@ jobs:
       - name: Discover new leads
         env:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
-        run: node scripts/find-leads.js --limit "$DISCOVER_LIMIT" --delay 800
+        run: node scripts/find-leads.js --limit "$DISCOVER_LIMIT" --delay 400
 
       - name: Send daily batch
         env:
@@ -107,6 +107,10 @@ jobs:
           cp ../data/leads.csv        data/ 2>/dev/null || true
           cp ../data/suppression.json data/ 2>/dev/null || true
           cp ../data/sent-log.json    data/ 2>/dev/null || true
-          git add -f data/leads.csv data/suppression.json data/sent-log.json 2>/dev/null || true
+          # Add each file individually so a missing one (e.g. sent-log.json on a
+          # dry run) doesn't abort the whole `git add` and lose the others.
+          git add -f data/leads.csv 2>/dev/null || true
+          git add -f data/suppression.json 2>/dev/null || true
+          git add -f data/sent-log.json 2>/dev/null || true
           git commit -m "Update outreach state [skip ci]" || { echo "No state changes."; exit 0; }
           git push origin "$STATE_BRANCH"
