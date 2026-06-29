@@ -1,0 +1,64 @@
+{
+  "_about": "Lead-discovery targets tailored to a ~45-minute drive radius of 2700 Huckleberry Path, Marietta, GA 30064 (west Cobb). Each entry is a Google Places text query plus the segment its results belong to. Edit freely; one query per business-type-per-city gives the best coverage.",
+  "_serviceArea": [
+    "Marietta", "Kennesaw", "Acworth", "Smyrna", "Vinings", "East Cobb",
+    "Powder Springs", "Austell", "Mableton", "Dallas", "Hiram", "Woodstock",
+    "Canton", "Cartersville", "Douglasville", "Roswell", "Sandy Springs", "Atlanta"
+  ],
+  "perQuery": 20,
+  "targets": [
+    { "query": "HOA management companies in Marietta GA", "segment": "hoa" },
+    { "query": "homeowners association management in Kennesaw GA", "segment": "hoa" },
+    { "query": "HOA management companies in Acworth GA", "segment": "hoa" },
+    { "query": "community association management in Woodstock GA", "segment": "hoa" },
+    { "query": "homeowners association management in Smyrna GA", "segment": "hoa" },
+    { "query": "HOA management companies in Powder Springs GA", "segment": "hoa" },
+    { "query": "HOA management companies in Douglasville GA", "segment": "hoa" },
+    { "query": "community association management in Roswell GA", "segment": "hoa" },
+
+    { "query": "apartment complexes in Marietta GA", "segment": "apartment" },
+    { "query": "apartment communities in Smyrna GA", "segment": "apartment" },
+    { "query": "apartment complexes in Kennesaw GA", "segment": "apartment" },
+    { "query": "apartment complexes in Acworth GA", "segment": "apartment" },
+    { "query": "apartment communities in Austell GA", "segment": "apartment" },
+    { "query": "apartment complexes in Woodstock GA", "segment": "apartment" },
+    { "query": "apartment property management in Sandy Springs GA", "segment": "apartment" },
+    { "query": "apartment complexes in Mableton GA", "segment": "apartment" },
+
+    { "query": "real estate agents in Marietta GA", "segment": "realtor" },
+    { "query": "real estate agents in Kennesaw GA", "segment": "realtor" },
+    { "query": "realtors in Acworth GA", "segment": "realtor" },
+    { "query": "real estate agents in Woodstock GA", "segment": "realtor" },
+    { "query": "realtors in Powder Springs GA", "segment": "realtor" },
+    { "query": "real estate agents in Dallas GA", "segment": "realtor" },
+    { "query": "realtors in Douglasville GA", "segment": "realtor" },
+    { "query": "real estate brokers in Roswell GA", "segment": "realtor" },
+
+    { "query": "property management companies in Marietta GA", "segment": "property_manager" },
+    { "query": "property management companies in Smyrna GA", "segment": "property_manager" },
+    { "query": "rental property management in Kennesaw GA", "segment": "property_manager" },
+    { "query": "property management companies in Woodstock GA", "segment": "property_manager" },
+    { "query": "property management companies in Roswell GA", "segment": "property_manager" },
+    { "query": "property management companies in Atlanta GA", "segment": "property_manager" },
+
+    { "query": "general contractors in Marietta GA", "segment": "contractor" },
+    { "query": "home remodeling contractors in Kennesaw GA", "segment": "contractor" },
+    { "query": "general contractors in Woodstock GA", "segment": "contractor" },
+    { "query": "remodeling contractors in Acworth GA", "segment": "contractor" },
+    { "query": "general contractors in Powder Springs GA", "segment": "contractor" },
+    { "query": "home builders in Dallas GA", "segment": "contractor" },
+    { "query": "general contractors in Canton GA", "segment": "contractor" },
+    { "query": "remodeling contractors in Cartersville GA", "segment": "contractor" },
+
+    { "query": "estate sale companies in Marietta GA", "segment": "estate" },
+    { "query": "senior move managers in Marietta GA", "segment": "estate" },
+    { "query": "estate liquidators in Roswell GA", "segment": "estate" },
+    { "query": "estate sale companies in Woodstock GA", "segment": "estate" },
+    { "query": "estate sale companies in Atlanta GA", "segment": "estate" },
+
+    { "query": "office parks in Marietta GA", "segment": "office" },
+    { "query": "office buildings in Vinings GA", "segment": "office" },
+    { "query": "office space in Kennesaw GA", "segment": "office" },
+    { "query": "office buildings in Smyrna GA", "segment": "office" }
+  ]
+}

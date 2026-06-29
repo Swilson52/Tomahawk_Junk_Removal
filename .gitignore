@@ -40,6 +40,3 @@ Thumbs.db
 /data/suppression.json
 /data/sent-log.json
 !/data/contacts.example.csv
-
-# Discovery config (may contain your specific target areas) — keep example only
-/config/targets.json
