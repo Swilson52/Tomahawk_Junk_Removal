@@ -122,6 +122,7 @@ async function main() {
     known,
     perQuery,
     delayMs: args.delay,
+    maxLeads: args.limit, // stop crawling once we've found enough (huge speedup)
     onProgress: ({ phase, query, business, email, status }) => {
       if (phase === 'search') console.log(`  🔎 ${query}`);
       else if (phase === 'add') console.log(`     ✅ ${business} → ${email}`);
