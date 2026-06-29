@@ -1,0 +1,18 @@
+{
+  "//": "Search targets for automated lead discovery. Each entry is a Google Places text query plus the segment its results belong to. Copy this to config/targets.json and edit the cities/queries for YOUR service area. Tip: one query per business-type-per-city gives the best coverage.",
+  "perQuery": 20,
+  "targets": [
+    { "query": "HOA management companies in Marietta GA", "segment": "hoa" },
+    { "query": "homeowners association management in Roswell GA", "segment": "hoa" },
+    { "query": "apartment complexes in Atlanta GA", "segment": "apartment" },
+    { "query": "apartment property management in Sandy Springs GA", "segment": "apartment" },
+    { "query": "real estate agents in Marietta GA", "segment": "realtor" },
+    { "query": "real estate brokers in Alpharetta GA", "segment": "realtor" },
+    { "query": "property management companies in Atlanta GA", "segment": "property_manager" },
+    { "query": "general contractors in Marietta GA", "segment": "contractor" },
+    { "query": "home remodeling contractors in Roswell GA", "segment": "contractor" },
+    { "query": "estate sale companies in Atlanta GA", "segment": "estate" },
+    { "query": "senior move managers in Atlanta GA", "segment": "estate" },
+    { "query": "office buildings in Marietta GA", "segment": "office" }
+  ]
+}

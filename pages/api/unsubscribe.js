@@ -13,6 +13,7 @@
 import { Resend } from 'resend';
 import { addSuppression, isSuppressed } from '../../lib/contacts';
 import { verifyUnsubscribe, businessInfo } from '../../lib/compliance';
+import { dispatchUnsubscribe } from '../../lib/github-dispatch';
 
 export default async function handler(req, res) {
   const email = String(req.query.email || req.body?.email || '').trim().toLowerCase();
@@ -39,8 +40,12 @@ export default async function handler(req, res) {
     console.error('Could not write suppression file:', err.message);
   }
 
-  // Best-effort: notify the owner so the opt-out is honored even if the write failed.
-  await notifyOwner(email).catch((e) => console.error('Owner notify failed:', e.message));
+  // Record the opt-out in the automated pipeline's state (GitHub Actions branch),
+  // and notify the owner. Both are best-effort and never block the response.
+  await Promise.allSettled([
+    dispatchUnsubscribe(email),
+    notifyOwner(email),
+  ]);
 
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
   if (req.method === 'POST') {

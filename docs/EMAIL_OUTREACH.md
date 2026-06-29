@@ -6,6 +6,11 @@ management companies, contractors, estate-sale companies, and offices/retail.
 
 It builds on the same Resend setup the quote form already uses.
 
+> **Want it fully hands-off?** See [`AUTOMATION.md`](./AUTOMATION.md) — it adds
+> automated lead discovery (Google Places + website email scraping + verification)
+> and a scheduled GitHub Actions job that finds and emails new businesses every
+> weekday on its own. This document covers the manual / send-your-own-list flow.
+
 ---
 
 ## What's included

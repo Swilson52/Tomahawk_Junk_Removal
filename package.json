@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "find-leads": "node scripts/find-leads.js",
     "send-campaign": "node scripts/send-campaign.js"
   },
   "dependencies": {

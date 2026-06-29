@@ -1,0 +1,64 @@
+name: Outreach unsubscribe
+
+# Records an opt-out into the outreach pipeline's suppression list. Triggered by
+# the website's /api/unsubscribe route via a repository_dispatch event, so this
+# workflow is the single writer of suppression on the state branch (no races).
+
+on:
+  repository_dispatch:
+    types: [unsubscribe]
+
+# Share the state-branch lock with the main automation so writes serialize.
+concurrency:
+  group: outreach-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  suppress:
+    runs-on: ubuntu-latest
+    env:
+      STATE_BRANCH: outreach-state
+      UNSUB_EMAIL: ${{ github.event.client_payload.email }}
+    steps:
+      - name: Validate email
+        run: |
+          echo "Request to unsubscribe: $UNSUB_EMAIL"
+          echo "$UNSUB_EMAIL" | grep -qiE '^[^[:space:]@]+@[^[:space:]@]+\.[^[:space:]@]+$' \
+            || { echo "Invalid email payload; ignoring."; exit 1; }
+
+      - name: Append to suppression list
+        run: |
+          git config --global user.name "tomahawk-outreach-bot"
+          git config --global user.email "actions@users.noreply.github.com"
+          repo_url="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          if git clone --depth 1 --branch "$STATE_BRANCH" "$repo_url" state 2>/dev/null; then
+            cd state
+          else
+            git clone --depth 1 "$repo_url" state
+            cd state
+            git checkout --orphan "$STATE_BRANCH"
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+          mkdir -p data
+          node -e '
+            const fs = require("fs");
+            const p = "data/suppression.json";
+            let d = { emails: [], records: [] };
+            try { d = JSON.parse(fs.readFileSync(p, "utf8")); } catch {}
+            d.emails = d.emails || []; d.records = d.records || [];
+            const e = String(process.env.UNSUB_EMAIL).trim().toLowerCase();
+            if (!d.emails.includes(e)) {
+              d.emails.push(e);
+              d.records.push({ email: e, at: new Date().toISOString(), source: "web" });
+              fs.writeFileSync(p, JSON.stringify(d, null, 2));
+              console.log("Added", e);
+            } else {
+              console.log(e, "already suppressed");
+            }
+          '
+          git add -f data/suppression.json
+          git commit -m "Unsubscribe: $UNSUB_EMAIL [skip ci]" || { echo "No change."; exit 0; }
+          git push origin "$STATE_BRANCH"
