@@ -1,0 +1,154 @@
+{
+  "sends": [
+    {
+      "email": "mgmt@atlantamarietta.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "5d30fa75-3027-41ff-bb25-a1556396ad42"
+    },
+    {
+      "email": "front@tolleycm.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "b0bbc0fc-1e25-463f-a4f0-42dac183caa1"
+    },
+    {
+      "email": "fieldstone@fieldstonerp.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "4f6570f4-d327-45ab-9e5c-e0b2b0189e78"
+    },
+    {
+      "email": "customerservice@beaconmanagementservices.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "de291c34-4e6e-466a-b96c-985adbe7550d"
+    },
+    {
+      "email": "office@aristarpro.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "bf6c2076-9572-43f6-92c6-adcae1e6c83f"
+    },
+    {
+      "email": "careyj@pmicornerstone.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "9bf98b5d-ddc9-4d6a-b5e4-91b51abe6eb6"
+    },
+    {
+      "email": "reception@psatlanta.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "17a03021-7b4a-4535-be4b-707ba665784b"
+    },
+    {
+      "email": "info@cnarentals.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "6973e57a-4d1b-4085-8342-92c0e611e204"
+    },
+    {
+      "email": "customerservice@platinumrentalproperty.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "d323b209-269a-46b2-9a10-2c4c2dd406be"
+    },
+    {
+      "email": "hms@hms-inc.net",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "d21cf352-ae67-4c9f-8600-c250e6e21f34"
+    },
+    {
+      "email": "support@gcmmgt.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "05ca8990-8817-486b-80c4-7d8e6ee2ca4e"
+    },
+    {
+      "email": "info@acmga.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "db995018-a498-4441-bcef-0109fc8fa854"
+    },
+    {
+      "email": "info@hoaservicesinc.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "6bc28ed8-6346-49b5-966a-5256de9d1462"
+    },
+    {
+      "email": "lturner@silverleafmanagement.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "e40f8728-3eab-47d4-816d-16300be7e0e3"
+    },
+    {
+      "email": "info@theiconrealestategroup.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "c4cef770-58cd-494b-9f6e-3c28eb7c6dc5"
+    },
+    {
+      "email": "info@tritonpropgroup.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "233726be-c5b0-4b96-b4bb-16955ea4fb25"
+    },
+    {
+      "email": "office@purpledoorpm.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "8401dd75-b8d8-4a91-aab0-a5237c5fa872"
+    },
+    {
+      "email": "info@go.tiva.properties",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "abd92788-00c3-46fa-91b7-2ee057e8a488"
+    },
+    {
+      "email": "contact@evolveam.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "ca2f5e34-fbe9-4cc5-84a2-772eb4e4904a"
+    },
+    {
+      "email": "info@fmsdirect.net",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "346c9f07-5cd5-4af9-a41c-d76861de0177"
+    },
+    {
+      "email": "info@sixesmanagement.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "a04f4568-9059-4eef-a12f-53da6e08980d"
+    },
+    {
+      "email": "info@dpm-re.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "b4359367-1569-45eb-8e55-9bc16d8fdec7"
+    },
+    {
+      "email": "kingsgate@sixesmanagement.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "1f738a52-f1ce-4df0-a54b-89767535dc6a"
+    },
+    {
+      "email": "woodlands@sixesmanagement.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "4fde0129-5eba-499c-b8e0-9366c22a18ba"
+    },
+    {
+      "email": "ataylor@dpm-re.com",
+      "segment": "hoa",
+      "at": "2026-06-30T01:16:45.825Z",
+      "id": "db4f7a06-3d44-45b5-8076-76c83155b241"
+    }
+  ]
+}
