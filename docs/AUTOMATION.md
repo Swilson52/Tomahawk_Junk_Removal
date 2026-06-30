@@ -60,13 +60,13 @@ Add each of these:
 |--------|-------|
 | `GOOGLE_PLACES_API_KEY` | your Places key |
 | `RESEND_API_KEY` | your Resend key |
-| `OUTREACH_FROM_EMAIL` | e.g. `hello@tomahawkjunkremoval.com` (verified domain) |
+| `OUTREACH_FROM_EMAIL` | e.g. `hello@tomahawkjunk.com` (verified domain) |
 | `OUTREACH_REPLY_TO` | where replies go |
 | `BUSINESS_NAME` | `Tomahawk Junk Removal LLC` |
 | `BUSINESS_ADDRESS` | your real mailing address (**required by law**) |
 | `BUSINESS_PHONE` | `(404) 771-7677` |
 | `BUSINESS_EMAIL` | `tomahawkjunkremoval@gmail.com` |
-| `SITE_URL` | `https://tomahawkjunkremoval.com` |
+| `SITE_URL` | `https://tomahawkjunk.com` |
 | `UNSUBSCRIBE_SECRET` | a long random string |
 
 ### 5. Wire the live unsubscribe page to the pipeline
