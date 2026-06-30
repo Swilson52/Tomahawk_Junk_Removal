@@ -47,5 +47,8 @@ jobs:
         run: |
           mkdir -p data
           printf 'email,firstName,company,city,segment\n%s,Sam,Sample Community Association,Marietta,hoa\n' "$TO_EMAIL" > data/test.csv
+          # Debug: print which DOMAIN the From / Reply-To resolve to (domains aren't
+          # secrets, so they're not masked — lets us verify reply routing from logs).
+          node -e "const f=(process.env.OUTREACH_FROM_EMAIL||process.env.RESEND_FROM_EMAIL||'').split('@')[1]||'(unset)'; const r=(process.env.OUTREACH_REPLY_TO||process.env.BUSINESS_EMAIL||'tomahawkjunkremoval@gmail.com').split('@')[1]; console.log('DEBUG  From domain:',f,'|  Reply-To domain:',r);"
           echo "Sending one test email to $TO_EMAIL ..."
           node scripts/send-campaign.js --file data/test.csv --live --limit 1 --delay 0
