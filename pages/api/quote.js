@@ -26,7 +26,7 @@ export default async function handler(req, res) {
     const { data, error } = await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL,
       to: process.env.QUOTE_RECIPIENT_EMAIL,
-      replyTo: email,
+      reply_to: email, // Resend SDK expects snake_case; `replyTo` is silently ignored
       subject: `New Quote Request — ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
