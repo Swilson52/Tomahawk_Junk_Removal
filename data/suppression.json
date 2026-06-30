@@ -9,7 +9,8 @@
     "vaab@acmga.com",
     "info@acmga.com",
     "loop-test@example.com",
-    "windward@accessmgt.com"
+    "windward@accessmgt.com",
+    "jvaejbee@accessmgt.com"
   ],
   "records": [
     {
@@ -60,6 +61,11 @@
     {
       "email": "windward@accessmgt.com",
       "at": "2026-06-30T19:33:56.055Z",
+      "source": "web"
+    },
+    {
+      "email": "jvaejbee@accessmgt.com",
+      "at": "2026-06-30T19:34:17.618Z",
       "source": "web"
     }
   ]
