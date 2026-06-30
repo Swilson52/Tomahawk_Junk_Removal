@@ -1,0 +1,22 @@
+{
+  "emails": [
+    "avfyefgbaf@fieldstonerp.com",
+    "fieldstone@fieldstonerp.com",
+    "info@dpm-re.com",
+    "ataylor@dpm-re.com",
+    "ygheafe@silverleafmanagement.com",
+    "lturner@silverleafmanagement.com",
+    "vaab@acmga.com",
+    "info@acmga.com"
+  ],
+  "records": [
+    { "email": "avfyefgbaf@fieldstonerp.com", "at": "2026-06-30T02:00:00.000Z", "source": "manual-batch-1" },
+    { "email": "fieldstone@fieldstonerp.com", "at": "2026-06-30T02:00:00.000Z", "source": "manual-batch-1-as-sent" },
+    { "email": "info@dpm-re.com", "at": "2026-06-30T02:00:00.000Z", "source": "manual-batch-1" },
+    { "email": "ataylor@dpm-re.com", "at": "2026-06-30T02:00:00.000Z", "source": "manual-batch-1" },
+    { "email": "ygheafe@silverleafmanagement.com", "at": "2026-06-30T02:00:00.000Z", "source": "manual-batch-1" },
+    { "email": "lturner@silverleafmanagement.com", "at": "2026-06-30T02:00:00.000Z", "source": "manual-batch-1-as-sent" },
+    { "email": "vaab@acmga.com", "at": "2026-06-30T02:00:00.000Z", "source": "manual-batch-1" },
+    { "email": "info@acmga.com", "at": "2026-06-30T02:00:00.000Z", "source": "manual-batch-1-as-sent" }
+  ]
+}
