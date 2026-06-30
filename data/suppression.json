@@ -10,7 +10,8 @@
     "info@acmga.com",
     "loop-test@example.com",
     "windward@accessmgt.com",
-    "jvaejbee@accessmgt.com"
+    "jvaejbee@accessmgt.com",
+    "cbbee@invernesshoa.org"
   ],
   "records": [
     {
@@ -66,6 +67,11 @@
     {
       "email": "jvaejbee@accessmgt.com",
       "at": "2026-06-30T19:34:17.618Z",
+      "source": "web"
+    },
+    {
+      "email": "cbbee@invernesshoa.org",
+      "at": "2026-06-30T19:36:14.594Z",
       "source": "web"
     }
   ]
