@@ -14,7 +14,8 @@
     "cbbee@invernesshoa.org",
     "dbaafdg@fortispm.com",
     "fadhvevff@regus.com",
-    "gbjaxfaaffbj@relatedgroup.com"
+    "gbjaxfaaffbj@relatedgroup.com",
+    "tebdfc@windsorcommunities.com"
   ],
   "records": [
     {
@@ -90,6 +91,11 @@
     {
       "email": "gbjaxfaaffbj@relatedgroup.com",
       "at": "2026-07-01T19:38:27.651Z",
+      "source": "web"
+    },
+    {
+      "email": "tebdfc@windsorcommunities.com",
+      "at": "2026-07-01T21:17:29.557Z",
       "source": "web"
     }
   ]
