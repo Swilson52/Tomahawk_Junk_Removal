@@ -299,6 +299,156 @@
       "segment": "estate",
       "at": "2026-06-30T19:33:42.774Z",
       "id": "bf9c37c3-faca-40ce-8e56-1a650d7f954e"
+    },
+    {
+      "email": "tina@sensingtransitions.com",
+      "segment": "estate",
+      "at": "2026-07-01T19:37:40.448Z",
+      "id": "851bf816-009b-4bda-941f-560e5edc8538"
+    },
+    {
+      "email": "josh@greenleafmgmt.com",
+      "segment": "office",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "3230cd3c-c604-42a2-8b7b-ddc3721b4ed0"
+    },
+    {
+      "email": "work@fireworksfly.com",
+      "segment": "office",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "6085f904-fc94-4966-ad03-d2742e558542"
+    },
+    {
+      "email": "graceb@windsorcommunities.com",
+      "segment": "apartment",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "8ca02a4b-6925-465e-9d13-fa6686da92e1"
+    },
+    {
+      "email": "info@highcaliberrealty.com",
+      "segment": "realtor",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "e0064a03-314b-4ce3-a930-e3a6e4933754"
+    },
+    {
+      "email": "hello@justinlandisgroup.com",
+      "segment": "realtor",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "8eff7b9b-614e-475b-bb0f-57749a9bd676"
+    },
+    {
+      "email": "contact@sansoxygen.com",
+      "segment": "realtor",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "b9905dad-9654-4d3c-90f1-0534d785fb29"
+    },
+    {
+      "email": "connect@fortispm.com",
+      "segment": "property_manager",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "3cb309f4-b492-4ea6-bc08-7c7f261f2035"
+    },
+    {
+      "email": "support@evernest.co",
+      "segment": "property_manager",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "cc68f39f-2d77-409c-b5b6-07b5e15450ab"
+    },
+    {
+      "email": "elly@wiseeremodeling.com",
+      "segment": "contractor",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "e2762965-8c99-4da9-90b8-32699d296572"
+    },
+    {
+      "email": "info@swifthomerenovations.com",
+      "segment": "contractor",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "4a20bea9-ef1c-48bb-a03c-1957e2fa5da7"
+    },
+    {
+      "email": "eben@eyebytes.com",
+      "segment": "contractor",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "b949e986-8d35-48a9-930c-18f0f1dbdeb1"
+    },
+    {
+      "email": "info@bcmlondon.com",
+      "segment": "contractor",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "f5ef644b-7f3d-44d8-98dd-63096b06b843"
+    },
+    {
+      "email": "admin@brawnerrenovations.com",
+      "segment": "contractor",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "5e02e9ea-b4c8-458a-a9b6-8284d433ce41"
+    },
+    {
+      "email": "catanyassis@gmail.com",
+      "segment": "contractor",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "d871b66d-f898-4932-855a-5d9fb5b175c2"
+    },
+    {
+      "email": "holly@changingspacesatlanta.com",
+      "segment": "estate",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "7bf94c63-b74c-42fa-b2f7-277e21c7144e"
+    },
+    {
+      "email": "info@onyourmarkmovers.net",
+      "segment": "estate",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "4e438fb8-6f60-40b6-9eba-e9cb5995cb64"
+    },
+    {
+      "email": "rkurth@stsmoves.com",
+      "segment": "estate",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "00139a50-8a27-422c-9b37-e6717259221a"
+    },
+    {
+      "email": "info@georgiahomemovers.com",
+      "segment": "estate",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "f900bbe4-b62e-408a-9cf2-400c61b82d39"
+    },
+    {
+      "email": "info@letsgetmovingusa.com",
+      "segment": "estate",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "7ae3b231-d291-435c-9af5-69b395901286"
+    },
+    {
+      "email": "enquiries@regus.com",
+      "segment": "office",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "ebcdb259-4920-4d01-9b0b-031c56c14879"
+    },
+    {
+      "email": "info@carespacesuites.com",
+      "segment": "office",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "3f5ab84d-1a2a-40ba-9f7b-2b142985e90a"
+    },
+    {
+      "email": "customerservice@peachtreeoffices.com",
+      "segment": "office",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "0e8f88e7-1b95-40c4-8c09-3bf36acd815d"
+    },
+    {
+      "email": "info@therbsolutioncenter.com",
+      "segment": "office",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "8f7647f2-a3b5-4284-8e0c-41478f069c3d"
+    },
+    {
+      "email": "townkennesaw@relatedgroup.com",
+      "segment": "apartment",
+      "at": "2026-07-01T19:37:40.449Z",
+      "id": "e75f29ff-e962-41ef-aa59-a93aa5f33fc8"
     }
   ]
 }
