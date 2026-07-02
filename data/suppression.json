@@ -17,7 +17,8 @@
     "gbjaxfaaffbj@relatedgroup.com",
     "tebdfc@windsorcommunities.com",
     "vaab@hensslerpm.com",
-    "ffevff@pemresidential.com"
+    "ffevff@pemresidential.com",
+    "tebdfb@windsorcommunities.com"
   ],
   "records": [
     {
@@ -108,6 +109,11 @@
     {
       "email": "ffevff@pemresidential.com",
       "at": "2026-07-02T19:08:56.374Z",
+      "source": "web"
+    },
+    {
+      "email": "tebdfb@windsorcommunities.com",
+      "at": "2026-07-02T21:18:28.725Z",
       "source": "web"
     }
   ]
