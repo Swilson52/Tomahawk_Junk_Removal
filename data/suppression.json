@@ -20,7 +20,8 @@
     "ffevff@pemresidential.com",
     "tebdfb@windsorcommunities.com",
     "info@metrobrokers.com",
-    "getfubefefcbdf@totalretail.com"
+    "getfubefefcbdf@totalretail.com",
+    "yfbfvat@boxerproperty.com"
   ],
   "records": [
     {
@@ -126,6 +127,11 @@
     {
       "email": "getfubefefcbdf@totalretail.com",
       "at": "2026-07-06T19:39:04.790Z",
+      "source": "web"
+    },
+    {
+      "email": "yfbfvat@boxerproperty.com",
+      "at": "2026-07-06T19:39:12.402Z",
       "source": "web"
     }
   ]
