@@ -18,7 +18,8 @@
     "tebdfc@windsorcommunities.com",
     "vaab@hensslerpm.com",
     "ffevff@pemresidential.com",
-    "tebdfb@windsorcommunities.com"
+    "tebdfb@windsorcommunities.com",
+    "info@metrobrokers.com"
   ],
   "records": [
     {
@@ -114,6 +115,11 @@
     {
       "email": "tebdfb@windsorcommunities.com",
       "at": "2026-07-02T21:18:28.725Z",
+      "source": "web"
+    },
+    {
+      "email": "info@metrobrokers.com",
+      "at": "2026-07-06T19:38:42.772Z",
       "source": "web"
     }
   ]
