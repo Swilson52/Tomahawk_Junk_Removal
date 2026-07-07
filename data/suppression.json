@@ -24,7 +24,8 @@
     "yfbfvat@boxerproperty.com",
     "fyfibgfjbbefgbdx@fortispm.com",
     "bfd@davidsonhomes.com",
-    "vaab@lgihomes.com"
+    "vaab@lgihomes.com",
+    "cfyyb143@assetliving.com"
   ],
   "records": [
     {
@@ -150,6 +151,11 @@
     {
       "email": "vaab@lgihomes.com",
       "at": "2026-07-07T19:17:40.089Z",
+      "source": "web"
+    },
+    {
+      "email": "cfyyb143@assetliving.com",
+      "at": "2026-07-07T19:17:54.242Z",
       "source": "web"
     }
   ]
