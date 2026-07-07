@@ -28,7 +28,8 @@
     "cfyyb143@assetliving.com",
     "jfcfvgf@specialized247.com",
     "vaab@montagerg.com",
-    "yfbfvat@invitationhomes.com"
+    "yfbfvat@invitationhomes.com",
+    "vaab@bestassociationmanagement.com"
   ],
   "records": [
     {
@@ -174,6 +175,11 @@
     {
       "email": "yfbfvat@invitationhomes.com",
       "at": "2026-07-07T19:41:44.146Z",
+      "source": "web"
+    },
+    {
+      "email": "vaab@bestassociationmanagement.com",
+      "at": "2026-07-07T19:41:53.486Z",
       "source": "web"
     }
   ]
