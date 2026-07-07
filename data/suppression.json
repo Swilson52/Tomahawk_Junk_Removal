@@ -30,7 +30,8 @@
     "vaab@montagerg.com",
     "yfbfvat@invitationhomes.com",
     "vaab@bestassociationmanagement.com",
-    "atlwthompsonridge@drhorton.com"
+    "atlwthompsonridge@drhorton.com",
+    "atlwhamptonsatriverwood@drhorton.com"
   ],
   "records": [
     {
@@ -186,6 +187,11 @@
     {
       "email": "atlwthompsonridge@drhorton.com",
       "at": "2026-07-07T20:00:29.209Z",
+      "source": "web"
+    },
+    {
+      "email": "atlwhamptonsatriverwood@drhorton.com",
+      "at": "2026-07-07T20:23:55.658Z",
       "source": "web"
     }
   ]
