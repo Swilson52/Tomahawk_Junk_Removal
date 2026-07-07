@@ -29,7 +29,8 @@
     "jfcfvgf@specialized247.com",
     "vaab@montagerg.com",
     "yfbfvat@invitationhomes.com",
-    "vaab@bestassociationmanagement.com"
+    "vaab@bestassociationmanagement.com",
+    "atlwthompsonridge@drhorton.com"
   ],
   "records": [
     {
@@ -180,6 +181,11 @@
     {
       "email": "vaab@bestassociationmanagement.com",
       "at": "2026-07-07T19:41:53.486Z",
+      "source": "web"
+    },
+    {
+      "email": "atlwthompsonridge@drhorton.com",
+      "at": "2026-07-07T20:00:29.209Z",
       "source": "web"
     }
   ]
