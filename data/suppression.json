@@ -31,7 +31,8 @@
     "yfbfvat@invitationhomes.com",
     "vaab@bestassociationmanagement.com",
     "atlwthompsonridge@drhorton.com",
-    "atlwhamptonsatriverwood@drhorton.com"
+    "atlwhamptonsatriverwood@drhorton.com",
+    "atlwsheffieldhighlands@drhorton.com"
   ],
   "records": [
     {
@@ -192,6 +193,11 @@
     {
       "email": "atlwhamptonsatriverwood@drhorton.com",
       "at": "2026-07-07T20:23:55.658Z",
+      "source": "web"
+    },
+    {
+      "email": "atlwsheffieldhighlands@drhorton.com",
+      "at": "2026-07-07T20:30:34.270Z",
       "source": "web"
     }
   ]
