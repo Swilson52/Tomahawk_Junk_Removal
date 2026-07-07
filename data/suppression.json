@@ -22,7 +22,8 @@
     "info@metrobrokers.com",
     "getfubefefcbdf@totalretail.com",
     "yfbfvat@boxerproperty.com",
-    "fyfibgfjbbefgbdx@fortispm.com"
+    "fyfibgfjbbefgbdx@fortispm.com",
+    "bfd@davidsonhomes.com"
   ],
   "records": [
     {
@@ -138,6 +139,11 @@
     {
       "email": "fyfibgfjbbefgbdx@fortispm.com",
       "at": "2026-07-06T19:39:52.382Z",
+      "source": "web"
+    },
+    {
+      "email": "bfd@davidsonhomes.com",
+      "at": "2026-07-07T19:17:32.171Z",
       "source": "web"
     }
   ]
