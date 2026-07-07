@@ -26,7 +26,8 @@
     "bfd@davidsonhomes.com",
     "vaab@lgihomes.com",
     "cfyyb143@assetliving.com",
-    "jfcfvgf@specialized247.com"
+    "jfcfvgf@specialized247.com",
+    "vaab@montagerg.com"
   ],
   "records": [
     {
@@ -162,6 +163,11 @@
     {
       "email": "jfcfvgf@specialized247.com",
       "at": "2026-07-07T19:18:03.114Z",
+      "source": "web"
+    },
+    {
+      "email": "vaab@montagerg.com",
+      "at": "2026-07-07T19:41:21.838Z",
       "source": "web"
     }
   ]
