@@ -23,7 +23,8 @@
     "getfubefefcbdf@totalretail.com",
     "yfbfvat@boxerproperty.com",
     "fyfibgfjbbefgbdx@fortispm.com",
-    "bfd@davidsonhomes.com"
+    "bfd@davidsonhomes.com",
+    "vaab@lgihomes.com"
   ],
   "records": [
     {
@@ -144,6 +145,11 @@
     {
       "email": "bfd@davidsonhomes.com",
       "at": "2026-07-07T19:17:32.171Z",
+      "source": "web"
+    },
+    {
+      "email": "vaab@lgihomes.com",
+      "at": "2026-07-07T19:17:40.089Z",
       "source": "web"
     }
   ]
