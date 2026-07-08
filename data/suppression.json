@@ -32,7 +32,8 @@
     "vaab@bestassociationmanagement.com",
     "atlwthompsonridge@drhorton.com",
     "atlwhamptonsatriverwood@drhorton.com",
-    "atlwsheffieldhighlands@drhorton.com"
+    "atlwsheffieldhighlands@drhorton.com",
+    "martyethomas@rwsco.com"
   ],
   "records": [
     {
@@ -198,6 +199,11 @@
     {
       "email": "atlwsheffieldhighlands@drhorton.com",
       "at": "2026-07-07T20:30:34.270Z",
+      "source": "web"
+    },
+    {
+      "email": "martyethomas@rwsco.com",
+      "at": "2026-07-08T18:24:35.433Z",
       "source": "web"
     }
   ]
