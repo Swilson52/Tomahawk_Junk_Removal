@@ -34,7 +34,8 @@
     "atlwhamptonsatriverwood@drhorton.com",
     "atlwsheffieldhighlands@drhorton.com",
     "martyethomas@rwsco.com",
-    "fuvybu@camdenliving.com"
+    "fuvybu@camdenliving.com",
+    "jackdavis@eureliosollutions.com"
   ],
   "records": [
     {
@@ -210,6 +211,11 @@
     {
       "email": "fuvybu@camdenliving.com",
       "at": "2026-07-08T18:24:55.425Z",
+      "source": "web"
+    },
+    {
+      "email": "jackdavis@eureliosollutions.com",
+      "at": "2026-07-08T19:31:55.740Z",
       "source": "web"
     }
   ]
