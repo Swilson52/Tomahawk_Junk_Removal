@@ -1199,6 +1199,84 @@
       "segment": "apartment",
       "at": "2026-07-07T19:40:43.462Z",
       "id": "7c41dd14-aff4-46e6-a0de-28457ed21e3f"
+    },
+    {
+      "email": "hello@apexsouthernhomes.com",
+      "segment": "contractor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "2250eb92-8fed-4a76-bb62-9de4ddf0b035"
+    },
+    {
+      "email": "eaglebuiltconstruction@gmail.com",
+      "segment": "contractor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "5953ad70-e8c3-4986-abd3-306d0e5737a9"
+    },
+    {
+      "email": "martyethomas@rwsco.com",
+      "segment": "contractor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "8aa2dc86-67ff-4fd8-bae1-1d806ce85991"
+    },
+    {
+      "email": "work@minbrowork.com",
+      "segment": "office",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "ab3293f8-3763-4569-9910-a6460723343e"
+    },
+    {
+      "email": "jennifer@3optionsrealty.com",
+      "segment": "property_manager",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "1f20aa43-7bf6-4429-ae3e-3648fa32ac76"
+    },
+    {
+      "email": "krackley@vintageconstructors.com",
+      "segment": "contractor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "2fbf7e13-3a6c-46e4-90ea-72e2501bace7"
+    },
+    {
+      "email": "contact@gdhomeremodelingllc.com",
+      "segment": "contractor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "21b4e28a-2816-490e-9123-93f7bdfec7d9"
+    },
+    {
+      "email": "sraclosings@gmail.com",
+      "segment": "realtor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "9d525793-92a2-4fe1-a571-0a53becf2f5d"
+    },
+    {
+      "email": "shiloh@camdenliving.com",
+      "segment": "apartment",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "927f7047-6b2f-49bf-a894-ca19af05c2d4"
+    },
+    {
+      "email": "tom@townrg.com",
+      "segment": "realtor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "d5595481-4718-4ac5-aeaf-b07e4f37eb40"
+    },
+    {
+      "email": "templeton@kw.com",
+      "segment": "realtor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "b853eaf6-1890-485d-97ba-1515b7739521"
+    },
+    {
+      "email": "atlwauroracreek@drhorton.com",
+      "segment": "contractor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "08c6c9fc-0883-45fe-bacd-84586d1d7aad"
+    },
+    {
+      "email": "general@grahamcommercial.org",
+      "segment": "contractor",
+      "at": "2026-07-08T18:24:19.928Z",
+      "id": "0dc3e805-3444-455b-92bb-45e1ece679c1"
     }
   ]
 }
