@@ -35,7 +35,8 @@
     "atlwsheffieldhighlands@drhorton.com",
     "martyethomas@rwsco.com",
     "fuvybu@camdenliving.com",
-    "jackdavis@eureliosollutions.com"
+    "jackdavis@eureliosollutions.com",
+    "atlwauroracreek@drhorton.com"
   ],
   "records": [
     {
@@ -216,6 +217,11 @@
     {
       "email": "jackdavis@eureliosollutions.com",
       "at": "2026-07-08T19:31:55.740Z",
+      "source": "web"
+    },
+    {
+      "email": "atlwauroracreek@drhorton.com",
+      "at": "2026-07-09T01:21:34.317Z",
       "source": "web"
     }
   ]
