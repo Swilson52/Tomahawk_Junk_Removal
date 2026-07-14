@@ -1289,6 +1289,306 @@
       "segment": "contractor",
       "at": "2026-07-09T19:26:37.952Z",
       "id": "2eda998c-6b1b-4e63-9e5d-b4b0b07fc791"
+    },
+    {
+      "email": "justin@meltyard.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "30110400-6af6-41d5-acec-8ca04ae9d119"
+    },
+    {
+      "email": "info@mariettaproper.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "ff2ad67d-3e64-4b25-bcd9-709fc3f852ab"
+    },
+    {
+      "email": "kioscorestaurants@gmail.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "10e11a62-3847-43a0-8d6c-d5e8242273a2"
+    },
+    {
+      "email": "info@stockyardburger.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "3383e6b4-87b8-47f6-8b56-9d20ca51b18d"
+    },
+    {
+      "email": "info@1885grill.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "67c94d51-520c-4a09-ab21-76c69953505f"
+    },
+    {
+      "email": "owners@berniessocialbar.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "d214defc-ae05-4113-a716-0f89b758d52f"
+    },
+    {
+      "email": "admin@livingintown.com",
+      "segment": "property_manager",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "92b9ab24-718b-4aa4-bc9d-5255a570457e"
+    },
+    {
+      "email": "info@brownthrashermovers.com",
+      "segment": "estate",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "47bb49c1-b4a9-44e9-b0c1-abc8a1e5b852"
+    },
+    {
+      "email": "steve@ivyleaguemovers.com",
+      "segment": "estate",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "92ac646c-1795-4b58-9d51-bbd8fb21a5a7"
+    },
+    {
+      "email": "homemoversal@gmail.com",
+      "segment": "estate",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "4c4a0e11-1ba5-4dac-8ad2-df8875f82d68"
+    },
+    {
+      "email": "info0106@twomen.com",
+      "segment": "estate",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "e7041065-3312-41a8-b35d-0e1b980890fb"
+    },
+    {
+      "email": "info@nobelrelo.com",
+      "segment": "estate",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "a90382c6-2a78-47f0-9868-ddeeb7fb8b92"
+    },
+    {
+      "email": "amsprivacypolicy@allmysons.com",
+      "segment": "estate",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "089c084e-a7b6-4bdc-a58f-b8853c23c650"
+    },
+    {
+      "email": "marketwithab113@gmail.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "2ef4d5b3-d759-4af7-ab67-cb698d7caa05"
+    },
+    {
+      "email": "hello@shoptherusticmarket.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "be565fba-5d99-430d-bfc9-f39bac53c291"
+    },
+    {
+      "email": "shoptilyoudropmarietta@gmail.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "e5ab02df-2e3b-41d7-b01e-843b20241f1c"
+    },
+    {
+      "email": "patientrelations@southeastmedicalgroup.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "b119322e-847c-435f-a7ba-1bb624fa49f6"
+    },
+    {
+      "email": "mariettaclinic@yahoo.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "968433f1-e9ac-4a95-8d5e-bb378b28b2b3"
+    },
+    {
+      "email": "wellstarhealthsystemfinancialcounselingcopy1@wellstarhealthsystem.onmicrosoft.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "b32a3e05-30df-4176-95a9-4989f3adfe35"
+    },
+    {
+      "email": "thenest@americancampus.com",
+      "segment": "apartment",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "3975fa48-6996-4bca-bfbe-7dbcad040970"
+    },
+    {
+      "email": "bixby@peakmade.com",
+      "segment": "apartment",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "093cae3a-083c-49e5-ac1d-494f5fe80b72"
+    },
+    {
+      "email": "hello@hunthometeam.com",
+      "segment": "realtor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "44aed601-93bc-491a-8a71-8a5c8d1d57d3"
+    },
+    {
+      "email": "chad@totalatlantagroup.com",
+      "segment": "realtor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "b7844b56-b1ff-43b7-9e6f-d6c3ab2c2bf5"
+    },
+    {
+      "email": "info@platinumrealestate.com",
+      "segment": "realtor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "c6f0fe73-76dd-446c-893a-c5cdd6b2abf3"
+    },
+    {
+      "email": "amabry@realtracs.com",
+      "segment": "realtor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "f25ab4bd-e619-4661-9408-c81674bfefdf"
+    },
+    {
+      "email": "csrga@bluebuiltroofs.com",
+      "segment": "contractor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "39631acc-4fd6-45d5-a17d-a3ac1af1634b"
+    },
+    {
+      "email": "bthomason74@gmail.com",
+      "segment": "contractor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "e836e977-e3c8-4b65-ac21-94acc58170f0"
+    },
+    {
+      "email": "classicroofing@yahoo.com",
+      "segment": "contractor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "ba9a4e8e-3e33-4c5e-9326-48d423121f76"
+    },
+    {
+      "email": "marietta@modernroofingusa.com",
+      "segment": "contractor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "a29370fc-1dd2-4e7e-b8f4-6f1d8f05a8c8"
+    },
+    {
+      "email": "info@summitroofingga.com",
+      "segment": "contractor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "1a457604-8d2d-4d84-ac11-68df3fa46b3d"
+    },
+    {
+      "email": "info@theroofgallery.com",
+      "segment": "contractor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "944eb47e-f633-45eb-a17d-b113d77c3962"
+    },
+    {
+      "email": "sushil.kumar@swissdigitech.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "39146624-34de-4585-bd6c-910e53be8a74"
+    },
+    {
+      "email": "hi@roswellds.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "6af1a62c-8169-4896-bcf7-d0041e9db39a"
+    },
+    {
+      "email": "info@trucaredentistry.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "cf99bffb-e1ca-434d-8895-4e44184b76f8"
+    },
+    {
+      "email": "reception@roswellmilldentistry.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "74bdec52-650a-42ce-88a9-0be526417a89"
+    },
+    {
+      "email": "banberry@assetliving.com",
+      "segment": "apartment",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "064c81f7-8c25-46c3-86a5-e3d61db7cb01"
+    },
+    {
+      "email": "info@azurebrokerage.com",
+      "segment": "realtor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "6d182a93-92ce-4213-8c41-830f6db47fab"
+    },
+    {
+      "email": "alan.weng@goodshepherdrealty.com",
+      "segment": "realtor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "7e593631-c4bf-49f5-9d37-86053a76d1b9"
+    },
+    {
+      "email": "contact@heritageproperty.com",
+      "segment": "property_manager",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "a1d47fc4-1165-4759-a4e2-474f904b602d"
+    },
+    {
+      "email": "floors2012@gmail.com",
+      "segment": "contractor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "281f7acd-f58d-40b3-aec8-5d6b05406d92"
+    },
+    {
+      "email": "customercare@mrhardwoodinc.com",
+      "segment": "contractor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "6dccbe38-51ab-43ef-821f-2c88d7065fcd"
+    },
+    {
+      "email": "contact@dcastroflooring.com",
+      "segment": "contractor",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "0ced5bb0-2baa-4e15-9c7e-ca450f15cbd2"
+    },
+    {
+      "email": "info@crunchmarietta.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "c5c38825-ef81-4cf6-afb0-793aac464d64"
+    },
+    {
+      "email": "workout-anytime-marietta@email.gymsales.net",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "75eca4bf-52e2-49e3-b55e-15ce5c8767fd"
+    },
+    {
+      "email": "info@crunchwestcobb.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "77854329-c0f0-416b-bb0e-4ea1128c3d98"
+    },
+    {
+      "email": "info@inspireeastcobb.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "7c236c44-c923-485b-80ea-349124e0d8cf"
+    },
+    {
+      "email": "info@cruncheastcobb.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "e58dba16-89a7-4767-a35c-2aecdc1f18ed"
+    },
+    {
+      "email": "eastcobb@justfitness4u.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "7eb969b5-abfd-42a3-9171-a04d106042c9"
+    },
+    {
+      "email": "requiredfitnessgym@gmail.com",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "e8606304-059a-41bb-8fcf-0e641a1bf13b"
+    },
+    {
+      "email": "info@fitnessmarietta.biz",
+      "segment": "office",
+      "at": "2026-07-14T18:01:44.930Z",
+      "id": "7fa9ac4e-dcec-4210-af49-8d6c68de634b"
     }
   ]
 }
