@@ -37,7 +37,8 @@
     "fuvybu@camdenliving.com",
     "jackdavis@eureliosollutions.com",
     "atlwauroracreek@drhorton.com",
-    "bezva@livingintown.com"
+    "bezva@livingintown.com",
+    "jfyyfgbeufbyguflfgfzavabadvbydbhaffyvatdbcl4@wellstarhealthsystem.onmicrosoft.com"
   ],
   "records": [
     {
@@ -228,6 +229,11 @@
     {
       "email": "bezva@livingintown.com",
       "at": "2026-07-14T18:01:56.975Z",
+      "source": "web"
+    },
+    {
+      "email": "jfyyfgbeufbyguflfgfzavabadvbydbhaffyvatdbcl4@wellstarhealthsystem.onmicrosoft.com",
+      "at": "2026-07-14T18:02:11.286Z",
       "source": "web"
     }
   ]
