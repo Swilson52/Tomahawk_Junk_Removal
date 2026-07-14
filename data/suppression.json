@@ -40,7 +40,8 @@
     "bezva@livingintown.com",
     "jfyyfgbeufbyguflfgfzavabadvbydbhaffyvatdbcl4@wellstarhealthsystem.onmicrosoft.com",
     "vaab3439@twomen.com",
-    "dhfgbzfedbef@mrhardwoodinc.com"
+    "dhfgbzfedbef@mrhardwoodinc.com",
+    "cbacfeel@assetliving.com"
   ],
   "records": [
     {
@@ -246,6 +247,11 @@
     {
       "email": "dhfgbzfedbef@mrhardwoodinc.com",
       "at": "2026-07-14T18:04:04.353Z",
+      "source": "web"
+    },
+    {
+      "email": "cbacfeel@assetliving.com",
+      "at": "2026-07-14T18:04:20.274Z",
       "source": "web"
     }
   ]
