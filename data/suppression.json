@@ -44,7 +44,8 @@
     "cbacfeel@assetliving.com",
     "dbagbdg@foxcroftcondosga.com",
     "933@tkosuites.com",
-    "vaab@serendipitylabs.com"
+    "vaab@serendipitylabs.com",
+    "bfdfaedbeygba@liverangewater.com"
   ],
   "records": [
     {
@@ -270,6 +271,11 @@
     {
       "email": "vaab@serendipitylabs.com",
       "at": "2026-07-15T18:19:40.638Z",
+      "source": "web"
+    },
+    {
+      "email": "bfdfaedbeygba@liverangewater.com",
+      "at": "2026-07-15T18:19:49.408Z",
       "source": "web"
     }
   ]
