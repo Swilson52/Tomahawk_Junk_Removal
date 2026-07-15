@@ -43,7 +43,8 @@
     "dhfgbzfedbef@mrhardwoodinc.com",
     "cbacfeel@assetliving.com",
     "dbagbdg@foxcroftcondosga.com",
-    "933@tkosuites.com"
+    "933@tkosuites.com",
+    "vaab@serendipitylabs.com"
   ],
   "records": [
     {
@@ -264,6 +265,11 @@
     {
       "email": "933@tkosuites.com",
       "at": "2026-07-15T18:19:31.989Z",
+      "source": "web"
+    },
+    {
+      "email": "vaab@serendipitylabs.com",
+      "at": "2026-07-15T18:19:40.638Z",
       "source": "web"
     }
   ]
