@@ -46,7 +46,8 @@
     "933@tkosuites.com",
     "vaab@serendipitylabs.com",
     "bfdfaedbeygba@liverangewater.com",
-    "flyibazte@elmingtonliving.com"
+    "flyibazte@elmingtonliving.com",
+    "evifefifagf@raysrestaurants.com"
   ],
   "records": [
     {
@@ -282,6 +283,11 @@
     {
       "email": "flyibazte@elmingtonliving.com",
       "at": "2026-07-15T18:20:08.521Z",
+      "source": "web"
+    },
+    {
+      "email": "evifefifagf@raysrestaurants.com",
+      "at": "2026-07-15T18:20:17.500Z",
       "source": "web"
     }
   ]
