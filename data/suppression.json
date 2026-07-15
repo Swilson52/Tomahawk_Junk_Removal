@@ -45,7 +45,8 @@
     "dbagbdg@foxcroftcondosga.com",
     "933@tkosuites.com",
     "vaab@serendipitylabs.com",
-    "bfdfaedbeygba@liverangewater.com"
+    "bfdfaedbeygba@liverangewater.com",
+    "flyibazte@elmingtonliving.com"
   ],
   "records": [
     {
@@ -276,6 +277,11 @@
     {
       "email": "bfdfaedbeygba@liverangewater.com",
       "at": "2026-07-15T18:19:49.408Z",
+      "source": "web"
+    },
+    {
+      "email": "flyibazte@elmingtonliving.com",
+      "at": "2026-07-15T18:20:08.521Z",
       "source": "web"
     }
   ]
