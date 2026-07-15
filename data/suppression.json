@@ -47,7 +47,8 @@
     "vaab@serendipitylabs.com",
     "bfdfaedbeygba@liverangewater.com",
     "flyibazte@elmingtonliving.com",
-    "evifefifagf@raysrestaurants.com"
+    "evifefifagf@raysrestaurants.com",
+    "vaab@sovereignbuckhead.com"
   ],
   "records": [
     {
@@ -288,6 +289,11 @@
     {
       "email": "evifefifagf@raysrestaurants.com",
       "at": "2026-07-15T18:20:17.500Z",
+      "source": "web"
+    },
+    {
+      "email": "vaab@sovereignbuckhead.com",
+      "at": "2026-07-15T18:20:56.393Z",
       "source": "web"
     }
   ]
