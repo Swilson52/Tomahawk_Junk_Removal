@@ -42,7 +42,8 @@
     "vaab3439@twomen.com",
     "dhfgbzfedbef@mrhardwoodinc.com",
     "cbacfeel@assetliving.com",
-    "dbagbdg@foxcroftcondosga.com"
+    "dbagbdg@foxcroftcondosga.com",
+    "933@tkosuites.com"
   ],
   "records": [
     {
@@ -258,6 +259,11 @@
     {
       "email": "dbagbdg@foxcroftcondosga.com",
       "at": "2026-07-15T18:19:15.514Z",
+      "source": "web"
+    },
+    {
+      "email": "933@tkosuites.com",
+      "at": "2026-07-15T18:19:31.989Z",
       "source": "web"
     }
   ]
