@@ -48,7 +48,8 @@
     "bfdfaedbeygba@liverangewater.com",
     "flyibazte@elmingtonliving.com",
     "evifefifagf@raysrestaurants.com",
-    "vaab@sovereignbuckhead.com"
+    "vaab@sovereignbuckhead.com",
+    "parliament@americancampus.com"
   ],
   "records": [
     {
@@ -294,6 +295,11 @@
     {
       "email": "vaab@sovereignbuckhead.com",
       "at": "2026-07-15T18:20:56.393Z",
+      "source": "web"
+    },
+    {
+      "email": "parliament@americancampus.com",
+      "at": "2026-07-15T22:24:00.790Z",
       "source": "web"
     }
   ]
