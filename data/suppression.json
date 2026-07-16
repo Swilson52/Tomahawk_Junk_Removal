@@ -49,7 +49,8 @@
     "flyibazte@elmingtonliving.com",
     "evifefifagf@raysrestaurants.com",
     "vaab@sovereignbuckhead.com",
-    "parliament@americancampus.com"
+    "parliament@americancampus.com",
+    "evdx@bullseyeauctions.com"
   ],
   "records": [
     {
@@ -300,6 +301,11 @@
     {
       "email": "parliament@americancampus.com",
       "at": "2026-07-15T22:24:00.790Z",
+      "source": "web"
+    },
+    {
+      "email": "evdx@bullseyeauctions.com",
+      "at": "2026-07-16T15:41:38.894Z",
       "source": "web"
     }
   ]
