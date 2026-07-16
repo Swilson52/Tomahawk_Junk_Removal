@@ -53,7 +53,8 @@
     "evdx@bullseyeauctions.com",
     "residencesvinings@greystar.com",
     "gaonlinesales@tollbrothers.com",
-    "fyfibgffgfjbegfzvyy@pegasusnext.com"
+    "fyfibgffgfjbegfzvyy@pegasusnext.com",
+    "tebdfe@windsorcommunities.com"
   ],
   "records": [
     {
@@ -324,6 +325,11 @@
     {
       "email": "fyfibgffgfjbegfzvyy@pegasusnext.com",
       "at": "2026-07-16T15:42:32.573Z",
+      "source": "web"
+    },
+    {
+      "email": "tebdfe@windsorcommunities.com",
+      "at": "2026-07-16T16:12:33.435Z",
       "source": "web"
     }
   ]
