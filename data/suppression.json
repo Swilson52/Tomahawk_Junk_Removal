@@ -50,7 +50,8 @@
     "evifefifagf@raysrestaurants.com",
     "vaab@sovereignbuckhead.com",
     "parliament@americancampus.com",
-    "evdx@bullseyeauctions.com"
+    "evdx@bullseyeauctions.com",
+    "residencesvinings@greystar.com"
   ],
   "records": [
     {
@@ -306,6 +307,11 @@
     {
       "email": "evdx@bullseyeauctions.com",
       "at": "2026-07-16T15:41:38.894Z",
+      "source": "web"
+    },
+    {
+      "email": "residencesvinings@greystar.com",
+      "at": "2026-07-16T15:41:49.034Z",
       "source": "web"
     }
   ]
