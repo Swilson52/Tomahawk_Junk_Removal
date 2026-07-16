@@ -51,7 +51,8 @@
     "vaab@sovereignbuckhead.com",
     "parliament@americancampus.com",
     "evdx@bullseyeauctions.com",
-    "residencesvinings@greystar.com"
+    "residencesvinings@greystar.com",
+    "gaonlinesales@tollbrothers.com"
   ],
   "records": [
     {
@@ -312,6 +313,11 @@
     {
       "email": "residencesvinings@greystar.com",
       "at": "2026-07-16T15:41:49.034Z",
+      "source": "web"
+    },
+    {
+      "email": "gaonlinesales@tollbrothers.com",
+      "at": "2026-07-16T15:42:25.483Z",
       "source": "web"
     }
   ]
