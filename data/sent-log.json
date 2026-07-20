@@ -2273,6 +2273,66 @@
       "segment": "contractor",
       "at": "2026-07-17T15:17:19.301Z",
       "id": "055de584-acd2-42c8-9bcf-66871300a2a7"
+    },
+    {
+      "email": "david.wade@seniormoveservices.com",
+      "segment": "estate",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "ffac3174-19e5-435d-baca-21ddb84110e8"
+    },
+    {
+      "email": "info@imaginecoworking.com",
+      "segment": "office",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "a461706f-5174-4d0b-8352-6a0729da690b"
+    },
+    {
+      "email": "info@choppedkennesaw.com",
+      "segment": "office",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "cee8b9b1-78c6-44a0-9f69-56f241c24e6c"
+    },
+    {
+      "email": "info@hrhomesinc.com",
+      "segment": "contractor",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "56b9b3a6-24f6-4d13-982c-2e8331d8c1f1"
+    },
+    {
+      "email": "contact@awesomehardwoodfloors.com",
+      "segment": "contractor",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "f39b6df6-f4f0-4b78-bcf2-ea8539669931"
+    },
+    {
+      "email": "zac@zac.biz",
+      "segment": "realtor",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "349f55a4-4691-4116-9fc0-f25ac492fcb4"
+    },
+    {
+      "email": "support@airkitchenandbath.com",
+      "segment": "contractor",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "08b7994c-33ac-41dd-9d09-f97976bc7824"
+    },
+    {
+      "email": "office@bakitchenandbathdesign.com",
+      "segment": "contractor",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "c34073a7-99ff-4833-aff6-9335293121f3"
+    },
+    {
+      "email": "info@1stchoiceremodelatl.com",
+      "segment": "contractor",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "3713bad0-4d34-4f13-8087-e8c45c16ec95"
+    },
+    {
+      "email": "info@dixonbrothersconstruction.com",
+      "segment": "contractor",
+      "at": "2026-07-20T15:49:06.183Z",
+      "id": "828312fc-2783-4a8a-9004-cab7f2c704a8"
     }
   ]
 }
