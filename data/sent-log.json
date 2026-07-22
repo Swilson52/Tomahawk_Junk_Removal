@@ -2357,6 +2357,24 @@
       "segment": "office",
       "at": "2026-07-21T15:43:24.848Z",
       "id": "cda880b1-3787-4d99-b1f6-79b271537b05"
+    },
+    {
+      "email": "support@ridpropertyservices.com",
+      "segment": "hoa",
+      "at": "2026-07-22T15:45:07.573Z",
+      "id": "07835dc1-d72d-4e1f-b342-425a375ed132"
+    },
+    {
+      "email": "100051853-64682-69-15027@guestcardlead.com",
+      "segment": "apartment",
+      "at": "2026-07-22T15:45:07.573Z",
+      "id": "876f9141-eab6-4778-be35-4df7db75099a"
+    },
+    {
+      "email": "info@veraremodeling.com",
+      "segment": "contractor",
+      "at": "2026-07-22T15:45:07.573Z",
+      "id": "6d83092e-8125-488c-bfff-c3cff5c0d7f6"
     }
   ]
 }
