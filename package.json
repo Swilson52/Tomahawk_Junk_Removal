@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "find-leads": "node scripts/find-leads.js",
-    "send-campaign": "node scripts/send-campaign.js"
+    "send-campaign": "node scripts/send-campaign.js",
+    "send-followups": "node scripts/send-followups.js"
   },
   "dependencies": {
     "next": "14.2.3",

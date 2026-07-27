@@ -8,6 +8,7 @@ verifies their emails, and sends a small, capped batch — no command from you.
                  ┌─────────────────────────── GitHub Actions (scheduled) ───────────────────────────┐
   Google Places →│  find-leads.js: search → scrape website for email → verify (MX) → dedupe → queue  │
                  │  send-campaign.js --live: email a capped daily batch (verified, not opted out)     │
+                 │  send-followups.js --live: re-touch earlier contacts, sharing the same daily cap   │
                  └──────────────┬─────────────────────────────────────────────┬─────────────────────┘
    state persists on the        │                                             │  opt-outs flow back in
    `outreach-state` branch ◄────┘                                             ▼
@@ -106,11 +107,45 @@ npm run send-campaign -- --file data/leads.csv            # dry run, sends nothi
 npm run send-campaign -- --file data/leads.csv --limit 3 --live
 ```
 
+## Follow-up sequence (second and third touches)
+
+Most B2B replies come on a later touch, not the first email. After the initial
+send, the daily run automatically re-touches earlier contacts:
+
+- **followup1** — a short "floating this back to the top" bump, 5+ days after the
+  initial email.
+- **followup2** — a low-pressure final "keep us in your back pocket" note, 7+
+  days after followup1.
+
+It reads the same `data/leads.csv` for personalization and the send log for who
+got which step and when, so nobody gets the same step twice and unsubscribes are
+always respected. Follow-ups **share one daily cap** with the first-touch send
+(`--daily-cap DAILY_SEND_LIMIT`): fresh cold emails go out first, then follow-ups
+fill whatever budget is left. Total volume per day never exceeds
+`DAILY_SEND_LIMIT`, which is what keeps deliverability safe.
+
+> Replies land in your Gmail and aren't tracked by the system, so a follow-up can
+> reach someone who already answered or booked. That's why the copy is short and
+> easy to ignore. If someone becomes a live conversation and you'd rather stop the
+> sequence for them, unsubscribe their address (or reply to the opt-out email you
+> get) and they'll be suppressed from all further touches.
+
+Run the pieces locally:
+
+```bash
+npm run send-followups -- --file data/leads.csv --stage followup1              # dry run
+npm run send-followups -- --file data/leads.csv --stage followup1 --preview someone@example.com
+npm run send-followups -- --file data/leads.csv --stage followup1 --daily-cap 50 --live
+```
+
 ## Tuning
 
-- **Volume:** `DISCOVER_LIMIT` / `DAILY_SEND_LIMIT` in `outreach.yml`.
+- **Volume:** `DISCOVER_LIMIT` / `DAILY_SEND_LIMIT` in `outreach.yml` (the daily
+  cap covers first-touch **and** follow-ups combined).
 - **Who to target:** `config/targets.json`.
-- **What the emails say:** `lib/templates.js` (per segment).
+- **What the emails say:** `lib/templates.js` (first touch per segment; follow-up
+  copy is `followupParts` in the same file).
+- **Follow-up timing:** `FOLLOWUP_STAGES` in `lib/followup.js` (`afterDays`).
 - **Schedule:** the `cron` in `outreach.yml`.
 
 ## How opt-outs stay honored
