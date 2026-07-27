@@ -1,106 +1,707 @@
 {
-  "_about": "Lead-discovery targets tailored to a ~45-minute drive radius of 2700 Huckleberry Path, Marietta, GA 30064 (west Cobb). Each entry is a Google Places text query plus the segment its results belong to. Expanded to sustain ~50 sends/weekday by adding more business types within the same service area (no farther cities). Every query maps to an existing email template in lib/templates.js.",
+  "_about": "Lead-discovery targets for Tomahawk Junk Removal. Each entry is a Google Places text query plus the segment its results belong to. Covers west/north/east metro Atlanta; widened beyond the original ~45-min Marietta radius to refill the lead pool after the core area saturated. Every query maps to an existing email template in lib/templates.js.",
   "_serviceArea": [
-    "Marietta", "Kennesaw", "Acworth", "Smyrna", "Vinings", "East Cobb",
-    "Powder Springs", "Austell", "Mableton", "Dallas", "Hiram", "Woodstock",
-    "Canton", "Cartersville", "Douglasville", "Roswell", "Sandy Springs", "Atlanta"
+    "Marietta",
+    "Kennesaw",
+    "Acworth",
+    "Smyrna",
+    "Vinings",
+    "East Cobb",
+    "Powder Springs",
+    "Austell",
+    "Mableton",
+    "Dallas",
+    "Hiram",
+    "Woodstock",
+    "Canton",
+    "Cartersville",
+    "Douglasville",
+    "Roswell",
+    "Sandy Springs",
+    "Atlanta",
+    "Alpharetta",
+    "Johns Creek",
+    "Duluth",
+    "Lawrenceville",
+    "Suwanee",
+    "Norcross",
+    "Tucker",
+    "Decatur",
+    "Stone Mountain",
+    "Brookhaven",
+    "Dunwoody",
+    "Chamblee",
+    "Buford"
   ],
   "perQuery": 12,
   "targets": [
-    { "query": "HOA management companies in Marietta GA", "segment": "hoa" },
-    { "query": "homeowners association management in Kennesaw GA", "segment": "hoa" },
-    { "query": "HOA management companies in Acworth GA", "segment": "hoa" },
-    { "query": "community association management in Woodstock GA", "segment": "hoa" },
-    { "query": "homeowners association management in Smyrna GA", "segment": "hoa" },
-    { "query": "HOA management companies in Powder Springs GA", "segment": "hoa" },
-    { "query": "HOA management companies in Douglasville GA", "segment": "hoa" },
-    { "query": "community association management in Roswell GA", "segment": "hoa" },
-    { "query": "HOA management companies in Canton GA", "segment": "hoa" },
-    { "query": "homeowners association management in Sandy Springs GA", "segment": "hoa" },
-    { "query": "community association management in Atlanta GA", "segment": "hoa" },
-    { "query": "HOA management companies in Dallas GA", "segment": "hoa" },
-    { "query": "homeowners association management in Cartersville GA", "segment": "hoa" },
-
-    { "query": "apartment complexes in Marietta GA", "segment": "apartment" },
-    { "query": "apartment communities in Smyrna GA", "segment": "apartment" },
-    { "query": "apartment complexes in Kennesaw GA", "segment": "apartment" },
-    { "query": "apartment complexes in Acworth GA", "segment": "apartment" },
-    { "query": "apartment communities in Austell GA", "segment": "apartment" },
-    { "query": "apartment complexes in Woodstock GA", "segment": "apartment" },
-    { "query": "apartment property management in Sandy Springs GA", "segment": "apartment" },
-    { "query": "apartment complexes in Mableton GA", "segment": "apartment" },
-    { "query": "student housing communities in Kennesaw GA", "segment": "apartment" },
-    { "query": "senior living apartments in Marietta GA", "segment": "apartment" },
-    { "query": "condominium communities in Atlanta GA", "segment": "apartment" },
-    { "query": "apartment complexes in Douglasville GA", "segment": "apartment" },
-    { "query": "apartment complexes in Roswell GA", "segment": "apartment" },
-    { "query": "apartment complexes in Vinings GA", "segment": "apartment" },
-
-    { "query": "real estate agents in Marietta GA", "segment": "realtor" },
-    { "query": "real estate agents in Kennesaw GA", "segment": "realtor" },
-    { "query": "realtors in Acworth GA", "segment": "realtor" },
-    { "query": "real estate agents in Woodstock GA", "segment": "realtor" },
-    { "query": "realtors in Powder Springs GA", "segment": "realtor" },
-    { "query": "real estate agents in Dallas GA", "segment": "realtor" },
-    { "query": "realtors in Douglasville GA", "segment": "realtor" },
-    { "query": "real estate brokers in Roswell GA", "segment": "realtor" },
-    { "query": "real estate agents in Smyrna GA", "segment": "realtor" },
-    { "query": "real estate brokers in Sandy Springs GA", "segment": "realtor" },
-    { "query": "real estate agents in Atlanta GA", "segment": "realtor" },
-    { "query": "realtors in Canton GA", "segment": "realtor" },
-    { "query": "real estate teams in Marietta GA", "segment": "realtor" },
-
-    { "query": "property management companies in Marietta GA", "segment": "property_manager" },
-    { "query": "property management companies in Smyrna GA", "segment": "property_manager" },
-    { "query": "rental property management in Kennesaw GA", "segment": "property_manager" },
-    { "query": "property management companies in Woodstock GA", "segment": "property_manager" },
-    { "query": "property management companies in Roswell GA", "segment": "property_manager" },
-    { "query": "property management companies in Atlanta GA", "segment": "property_manager" },
-    { "query": "commercial property management in Atlanta GA", "segment": "property_manager" },
-    { "query": "property management companies in Douglasville GA", "segment": "property_manager" },
-    { "query": "property management companies in Acworth GA", "segment": "property_manager" },
-    { "query": "property management companies in Sandy Springs GA", "segment": "property_manager" },
-
-    { "query": "general contractors in Marietta GA", "segment": "contractor" },
-    { "query": "home remodeling contractors in Kennesaw GA", "segment": "contractor" },
-    { "query": "general contractors in Woodstock GA", "segment": "contractor" },
-    { "query": "remodeling contractors in Acworth GA", "segment": "contractor" },
-    { "query": "general contractors in Powder Springs GA", "segment": "contractor" },
-    { "query": "home builders in Dallas GA", "segment": "contractor" },
-    { "query": "general contractors in Canton GA", "segment": "contractor" },
-    { "query": "remodeling contractors in Cartersville GA", "segment": "contractor" },
-    { "query": "roofing companies in Marietta GA", "segment": "contractor" },
-    { "query": "flooring contractors in Marietta GA", "segment": "contractor" },
-    { "query": "kitchen and bath remodelers in Roswell GA", "segment": "contractor" },
-    { "query": "water and fire damage restoration in Marietta GA", "segment": "contractor" },
-    { "query": "home builders in Woodstock GA", "segment": "contractor" },
-    { "query": "deck and fence builders in Kennesaw GA", "segment": "contractor" },
-    { "query": "remodeling contractors in Smyrna GA", "segment": "contractor" },
-    { "query": "roofing companies in Woodstock GA", "segment": "contractor" },
-
-    { "query": "estate sale companies in Marietta GA", "segment": "estate" },
-    { "query": "senior move managers in Marietta GA", "segment": "estate" },
-    { "query": "estate liquidators in Roswell GA", "segment": "estate" },
-    { "query": "estate sale companies in Woodstock GA", "segment": "estate" },
-    { "query": "estate sale companies in Atlanta GA", "segment": "estate" },
-    { "query": "estate liquidators in Marietta GA", "segment": "estate" },
-    { "query": "senior move managers in Roswell GA", "segment": "estate" },
-    { "query": "estate sale companies in Kennesaw GA", "segment": "estate" },
-    { "query": "estate sale companies in Douglasville GA", "segment": "estate" },
-
-    { "query": "office parks in Marietta GA", "segment": "office" },
-    { "query": "office buildings in Vinings GA", "segment": "office" },
-    { "query": "office space in Kennesaw GA", "segment": "office" },
-    { "query": "office buildings in Smyrna GA", "segment": "office" },
-    { "query": "restaurants in Marietta GA", "segment": "office" },
-    { "query": "restaurants in Kennesaw GA", "segment": "office" },
-    { "query": "retail stores in Marietta GA", "segment": "office" },
-    { "query": "medical offices in Marietta GA", "segment": "office" },
-    { "query": "dental offices in Roswell GA", "segment": "office" },
-    { "query": "gyms and fitness studios in Marietta GA", "segment": "office" },
-    { "query": "office buildings in Atlanta GA", "segment": "office" },
-    { "query": "retail stores in Woodstock GA", "segment": "office" },
-    { "query": "restaurants in Smyrna GA", "segment": "office" },
-    { "query": "medical offices in Kennesaw GA", "segment": "office" }
+    {
+      "query": "HOA management companies in Marietta GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "homeowners association management in Kennesaw GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "HOA management companies in Acworth GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "community association management in Woodstock GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "homeowners association management in Smyrna GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "HOA management companies in Powder Springs GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "HOA management companies in Douglasville GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "community association management in Roswell GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "HOA management companies in Canton GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "homeowners association management in Sandy Springs GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "community association management in Atlanta GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "HOA management companies in Dallas GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "homeowners association management in Cartersville GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "apartment complexes in Marietta GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment communities in Smyrna GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment complexes in Kennesaw GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment complexes in Acworth GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment communities in Austell GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment complexes in Woodstock GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment property management in Sandy Springs GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment complexes in Mableton GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "student housing communities in Kennesaw GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "senior living apartments in Marietta GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "condominium communities in Atlanta GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment complexes in Douglasville GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment complexes in Roswell GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "apartment complexes in Vinings GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Marietta GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "real estate agents in Kennesaw GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "realtors in Acworth GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "real estate agents in Woodstock GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "realtors in Powder Springs GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "real estate agents in Dallas GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "realtors in Douglasville GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "real estate brokers in Roswell GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "real estate agents in Smyrna GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "real estate brokers in Sandy Springs GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "real estate agents in Atlanta GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "realtors in Canton GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "real estate teams in Marietta GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Marietta GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "property management companies in Smyrna GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "rental property management in Kennesaw GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "property management companies in Woodstock GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "property management companies in Roswell GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "property management companies in Atlanta GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "commercial property management in Atlanta GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "property management companies in Douglasville GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "property management companies in Acworth GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "property management companies in Sandy Springs GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Marietta GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "home remodeling contractors in Kennesaw GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "general contractors in Woodstock GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "remodeling contractors in Acworth GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "general contractors in Powder Springs GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "home builders in Dallas GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "general contractors in Canton GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "remodeling contractors in Cartersville GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "roofing companies in Marietta GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "flooring contractors in Marietta GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "kitchen and bath remodelers in Roswell GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "water and fire damage restoration in Marietta GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "home builders in Woodstock GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "deck and fence builders in Kennesaw GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "remodeling contractors in Smyrna GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "roofing companies in Woodstock GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "estate sale companies in Marietta GA",
+      "segment": "estate"
+    },
+    {
+      "query": "senior move managers in Marietta GA",
+      "segment": "estate"
+    },
+    {
+      "query": "estate liquidators in Roswell GA",
+      "segment": "estate"
+    },
+    {
+      "query": "estate sale companies in Woodstock GA",
+      "segment": "estate"
+    },
+    {
+      "query": "estate sale companies in Atlanta GA",
+      "segment": "estate"
+    },
+    {
+      "query": "estate liquidators in Marietta GA",
+      "segment": "estate"
+    },
+    {
+      "query": "senior move managers in Roswell GA",
+      "segment": "estate"
+    },
+    {
+      "query": "estate sale companies in Kennesaw GA",
+      "segment": "estate"
+    },
+    {
+      "query": "estate sale companies in Douglasville GA",
+      "segment": "estate"
+    },
+    {
+      "query": "office parks in Marietta GA",
+      "segment": "office"
+    },
+    {
+      "query": "office buildings in Vinings GA",
+      "segment": "office"
+    },
+    {
+      "query": "office space in Kennesaw GA",
+      "segment": "office"
+    },
+    {
+      "query": "office buildings in Smyrna GA",
+      "segment": "office"
+    },
+    {
+      "query": "restaurants in Marietta GA",
+      "segment": "office"
+    },
+    {
+      "query": "restaurants in Kennesaw GA",
+      "segment": "office"
+    },
+    {
+      "query": "retail stores in Marietta GA",
+      "segment": "office"
+    },
+    {
+      "query": "medical offices in Marietta GA",
+      "segment": "office"
+    },
+    {
+      "query": "dental offices in Roswell GA",
+      "segment": "office"
+    },
+    {
+      "query": "gyms and fitness studios in Marietta GA",
+      "segment": "office"
+    },
+    {
+      "query": "office buildings in Atlanta GA",
+      "segment": "office"
+    },
+    {
+      "query": "retail stores in Woodstock GA",
+      "segment": "office"
+    },
+    {
+      "query": "restaurants in Smyrna GA",
+      "segment": "office"
+    },
+    {
+      "query": "medical offices in Kennesaw GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Alpharetta GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Alpharetta GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Alpharetta GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Alpharetta GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Alpharetta GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Alpharetta GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Johns Creek GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Johns Creek GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Johns Creek GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Johns Creek GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Johns Creek GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Johns Creek GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Duluth GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Duluth GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Duluth GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Duluth GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Duluth GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Duluth GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Lawrenceville GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Lawrenceville GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Lawrenceville GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Lawrenceville GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Lawrenceville GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Lawrenceville GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Suwanee GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Suwanee GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Suwanee GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Suwanee GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Suwanee GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Suwanee GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Norcross GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Norcross GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Norcross GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Norcross GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Norcross GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Norcross GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Tucker GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Tucker GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Tucker GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Tucker GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Tucker GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Tucker GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Decatur GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Decatur GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Decatur GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Decatur GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Decatur GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Decatur GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Stone Mountain GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Stone Mountain GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Stone Mountain GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Stone Mountain GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Stone Mountain GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Stone Mountain GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Brookhaven GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Brookhaven GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Brookhaven GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Brookhaven GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Brookhaven GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Brookhaven GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Dunwoody GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Dunwoody GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Dunwoody GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Dunwoody GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Dunwoody GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Dunwoody GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Chamblee GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Chamblee GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Chamblee GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Chamblee GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Chamblee GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Chamblee GA",
+      "segment": "office"
+    },
+    {
+      "query": "apartment complexes in Buford GA",
+      "segment": "apartment"
+    },
+    {
+      "query": "real estate agents in Buford GA",
+      "segment": "realtor"
+    },
+    {
+      "query": "property management companies in Buford GA",
+      "segment": "property_manager"
+    },
+    {
+      "query": "general contractors in Buford GA",
+      "segment": "contractor"
+    },
+    {
+      "query": "HOA management companies in Buford GA",
+      "segment": "hoa"
+    },
+    {
+      "query": "office buildings in Buford GA",
+      "segment": "office"
+    }
   ]
 }
