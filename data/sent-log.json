@@ -3835,6 +3835,1420 @@
       "stage": "followup1",
       "at": "2026-07-28T16:21:15.740Z",
       "id": "73bab021-3dac-44d1-8609-80512430565e"
+    },
+    {
+      "email": "suijingru2010@gmail.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "f7adf3e2-663a-429c-8d0e-ea0ce4809081"
+    },
+    {
+      "email": "randy@winfieldrealtygroup.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "44e13c74-7dcb-49ca-93f8-9d0d5f199400"
+    },
+    {
+      "email": "leasing@yourintownhome.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "b04f99f8-6007-43e2-91bb-2044ecbf783a"
+    },
+    {
+      "email": "info@micronconstruction.net",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "b282e1d8-601f-4a21-98de-bfd9725f659b"
+    },
+    {
+      "email": "arjohnscreek@gmail.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "fa0bea49-cb9c-4ded-adce-6bb01cced539"
+    },
+    {
+      "email": "bd@whbass.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "4de6b4bf-48f5-452c-a311-a3ae3273194a"
+    },
+    {
+      "email": "info@myroyaldeck.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "94b8691b-19d3-4256-a36e-c2c3cd1765ad"
+    },
+    {
+      "email": "info@cancollab.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "1273512d-23bb-473e-80fe-b88a08cae47d"
+    },
+    {
+      "email": "eric@summitgeorgia.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "bb5a58e0-99ac-499a-bc28-efcb21b68cf7"
+    },
+    {
+      "email": "mymail@mailservice.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "f64d9dbe-5f59-45c6-94e1-0f5fbc84f0dd"
+    },
+    {
+      "email": "support@webador.com",
+      "segment": "estate",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "3fcf62ce-53ec-42da-893c-62a3730f42c1"
+    },
+    {
+      "email": "e.executiverealtor@gmail.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "3f648534-c47b-48dc-b1e3-385526733288"
+    },
+    {
+      "email": "hughscott@skcr.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "e932172a-5e86-4d86-9718-d3b4d20c804a"
+    },
+    {
+      "email": "info@nakiproperties.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "78acc7ec-3754-4d6a-9dda-5f5a71c3908a"
+    },
+    {
+      "email": "amlinorthpoint.7783@leads.eliseai.com",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "68b59474-37f3-45af-8120-73e3c43dfeb1"
+    },
+    {
+      "email": "support@moxiworks.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "6b1aa26d-2319-4942-b80c-60201a49a196"
+    },
+    {
+      "email": "info@hksmartrenovation.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "26548642-cea7-4cfa-b9d8-e915d890013b"
+    },
+    {
+      "email": "colonyparkoffices@gmail.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "40d20229-fbd9-4be1-91f5-fe278403547d"
+    },
+    {
+      "email": "bhm40p03_bhwebsite.email@slopejet.net",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "fcdf66cd-e059-4a7c-a88f-44c0d8f71999"
+    },
+    {
+      "email": "info@mahoganyrealestate.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "ba8d0aa3-241e-4406-aee9-da333c590783"
+    },
+    {
+      "email": "jcrconstruction@jcrga.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "bffe9c0d-fb93-49bc-b395-b828473d0cbf"
+    },
+    {
+      "email": "contactus@g-rconstruction.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "343891aa-a5f3-40d2-87f9-8cf0165f302b"
+    },
+    {
+      "email": "rmmatlack@scenicofficesuites.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "9b86520b-2624-486b-b07e-65d56300cd01"
+    },
+    {
+      "email": "info@flexxoffices.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "ab25842b-31e8-445f-a748-e56dd884ca7f"
+    },
+    {
+      "email": "thejayne@galleryresidential.com",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "640a73a1-b27f-4eb8-8198-c88288dc28a3"
+    },
+    {
+      "email": "johanysrealestate@outlook.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "6ccf0af1-d15f-4b67-a315-bb307cf86049"
+    },
+    {
+      "email": "gacrownrealty@gmail.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "15b18c5d-82a4-4bd4-b303-0cb7927d1345"
+    },
+    {
+      "email": "thenadalteam@gmail.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "329142b5-6f95-40d7-9fc0-c6706675e7e0"
+    },
+    {
+      "email": "info@joygle.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "378077f5-a686-44da-a276-7a53be949a7e"
+    },
+    {
+      "email": "cjones@longwoodpm.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "ed4d7cb0-9918-4f7f-aca9-4eef2a47cc7d"
+    },
+    {
+      "email": "info@chpropman.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "68230c31-d101-494b-b4c7-8fdfc7c108ba"
+    },
+    {
+      "email": "agm@cordiausa.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "bf61339c-770e-403f-acde-b1d8d4a7a6f3"
+    },
+    {
+      "email": "admin@tricityrealty.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "4536bb7a-1b9e-4fa8-b9e0-ef3824ca9cdc"
+    },
+    {
+      "email": "info@newstonemgmt.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "22ab2961-1aec-4b2c-beb6-991f8360ab44"
+    },
+    {
+      "email": "jalal@shukranconstruction.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "e553e56a-c859-4575-b345-8991b3300de9"
+    },
+    {
+      "email": "gimconstructionpro@gmail.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "83752380-47a1-4246-9253-c289f7d2d7eb"
+    },
+    {
+      "email": "jonathan@superior-cs.net",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "f1f285eb-dd5b-4e13-999a-aac071f737f4"
+    },
+    {
+      "email": "info@built-strong.net",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "37a2bea9-b741-46d7-9cce-3852971a71cd"
+    },
+    {
+      "email": "info@mysite.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "60d387ac-8084-4933-9cff-ad97cc251d67"
+    },
+    {
+      "email": "info@dspm.us",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "48454639-4916-4645-8ab1-c6460a160186"
+    },
+    {
+      "email": "info@hlcontractors.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "d98c8fd3-da0b-436b-bb91-913addbbb6f0"
+    },
+    {
+      "email": "hi@georgiatiles.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "bee2569b-27d4-49ef-ac99-3e65494e9c8a"
+    },
+    {
+      "email": "contact@premiergacontractors.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "6f8bb87a-be0d-426a-b86a-1f34b3d1063f"
+    },
+    {
+      "email": "info@cardinalteam.org",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "5d71acb4-d552-442f-acd8-87653b92a8bf"
+    },
+    {
+      "email": "info@gracemountainrenovations.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "a73472fc-ac81-4d57-b499-d842519ca903"
+    },
+    {
+      "email": "timelessrenovationsga@gmail.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "3f2793cc-bed7-40d6-86d5-520ce6cba138"
+    },
+    {
+      "email": "info@cubework.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "f3b1418d-c491-463b-a838-1f531cbcd50a"
+    },
+    {
+      "email": "info@officepeachtreecorners.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "f6b0afb5-eaa9-4b38-bf12-38a9f97583b2"
+    },
+    {
+      "email": "coworks@asbn.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "06353a46-c2f2-4392-8721-b29c2295dfb7"
+    },
+    {
+      "email": "leasing@workstylespaces.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-07-29T16:23:13.130Z",
+      "id": "d36edd2b-cf94-4a20-87c8-51fa19b29ce2"
+    },
+    {
+      "email": "derek@3optionsrealty.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "b6ab0ecb-2f7a-40be-9f6f-40a83cd35416"
+    },
+    {
+      "email": "contact@1spm.net",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "dbfebd2e-99df-433d-8b98-ab1fb668d456"
+    },
+    {
+      "email": "info@citisidepropertymanagement.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "3d368ec9-5d2a-4936-8406-a88994a1e136"
+    },
+    {
+      "email": "website@specialized247.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "6112ad38-6358-402b-a2c9-a286b96d850c"
+    },
+    {
+      "email": "admin@greathomesatlanta.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "486e0522-e42b-486e-99b6-0c6eb1ea7a94"
+    },
+    {
+      "email": "info@shaheedahhill.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "4430f239-0329-47f4-b4f0-1fcffa9eaf14"
+    },
+    {
+      "email": "info@centerlineworks.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "7ad77dd3-9239-4221-ac58-350574f25b07"
+    },
+    {
+      "email": "info@goriverstone.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "a6c69f89-18e8-4167-9034-eb4bb39c68ee"
+    },
+    {
+      "email": "homeimprovementmasters@yahoo.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "4624d4a1-deea-4350-a624-69e21d01eab3"
+    },
+    {
+      "email": "info@montagerg.com",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "28936f90-2cc7-424d-abf4-940f5b5f4f8f"
+    },
+    {
+      "email": "info@curtinteam.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "930b7255-b399-473a-bf81-73bc8180e573"
+    },
+    {
+      "email": "stacey@staceywyattgroup.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "51f74c64-c5c6-438f-b2bd-3664500c8f24"
+    },
+    {
+      "email": "office@hkatlanta.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "703d523b-6cbe-474c-9a5d-5e874035d434"
+    },
+    {
+      "email": "randmcontracting@yahoo.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "9af668c7-8ca0-432d-9c4a-3e8cc6b6effd"
+    },
+    {
+      "email": "huntwarner@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "f95971b7-28b2-46a1-b9b2-fd68f17684dc"
+    },
+    {
+      "email": "bradfordcrafted@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "9cfbc4d4-2438-4f7e-9bde-af9d6babfaf7"
+    },
+    {
+      "email": "marketplacevillage.5962@leads.eliseai.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "bc558ad0-ee25-49c7-8433-ada2c8fb411e"
+    },
+    {
+      "email": "info@atlantamovingsolutions.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "18bbefcb-61f7-41dd-800a-3f4404697889"
+    },
+    {
+      "email": "cpsprestigeconstruction@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "7cf40526-33df-48b2-888e-bf15312fd185"
+    },
+    {
+      "email": "contactus@argrealty360.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "31474b08-4787-41a9-ab5b-99e55ab330cf"
+    },
+    {
+      "email": "korey@ducereconstruction.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "29be46ac-8cc4-4693-8a79-b293e0337dbf"
+    },
+    {
+      "email": "sales@allweatherrenovations.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "acfa5f44-5241-4c39-bca1-f2936b5e0f36"
+    },
+    {
+      "email": "atlwoakleighglen@drhorton.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "e875f3ef-fdd0-4028-b1ea-2fff21efaf5b"
+    },
+    {
+      "email": "morganslanding-g@m.knck.io",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "223c1154-401e-4db6-8a6b-971a547ae0e1"
+    },
+    {
+      "email": "leasing@invitationhomes.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "babfd686-96cc-4791-b177-62e532c8df12"
+    },
+    {
+      "email": "taylorhomeconstruction@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "731bd26a-d382-4255-9b0d-63df9985785b"
+    },
+    {
+      "email": "miles@ridgelinerandc.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "342512d7-6555-4c11-b834-661a902802ad"
+    },
+    {
+      "email": "info@infinitiroofingga.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "99138702-72fd-4cf9-97da-a6a9544996ab"
+    },
+    {
+      "email": "info@bestassociationmanagement.com",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "3668e28f-01a7-48fe-87ec-6f0aa35ccf29"
+    },
+    {
+      "email": "allatlantarealty@gmail.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "89e89ace-8b2b-4295-b6d1-ccec59355038"
+    },
+    {
+      "email": "allgoodgeneral@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "399dd1a4-4ba3-4203-a244-e12bad93ac54"
+    },
+    {
+      "email": "graham@3optionsrealty.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "55e6dba7-538a-4e13-a66f-ca5b8270f055"
+    },
+    {
+      "email": "webmaster@atlantaconstructionga.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "6b4c9d69-8323-4f54-bcf4-2ec3b3040356"
+    },
+    {
+      "email": "info@indiantypefoundry.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "95bb7654-39ae-43e6-b154-fe53de63ca76"
+    },
+    {
+      "email": "hello@apexsouthernhomes.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "cc6452dc-aec6-438e-a321-61d74c714203"
+    },
+    {
+      "email": "eaglebuiltconstruction@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "2cb086ac-da2d-4acf-a4f7-570f817449ec"
+    },
+    {
+      "email": "work@minbrowork.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.188Z",
+      "id": "e8ea8b02-db2d-4d2e-9873-abf426b4893a"
+    },
+    {
+      "email": "jennifer@3optionsrealty.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "fe820617-7909-4bcb-a49c-e82ee39fe6d7"
+    },
+    {
+      "email": "krackley@vintageconstructors.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "936bfcee-3ff6-42aa-8057-1af5ee27d80a"
+    },
+    {
+      "email": "contact@gdhomeremodelingllc.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "06fe226e-ace7-4465-a1db-0203c4f78656"
+    },
+    {
+      "email": "sraclosings@gmail.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "04e16140-5980-4f55-adfe-56d5beaaa430"
+    },
+    {
+      "email": "shiloh@camdenliving.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "43d1452c-5f1c-49e9-980e-2bf0afdb7b8a"
+    },
+    {
+      "email": "tom@townrg.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "cb75763b-aae9-43d5-8b05-9b9cb4284095"
+    },
+    {
+      "email": "templeton@kw.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "36df11d9-776f-4948-8043-1687b4cf7bed"
+    },
+    {
+      "email": "general@grahamcommercial.org",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "603f48bf-3048-40c2-9781-bd27fce82a46"
+    },
+    {
+      "email": "jennifer.hudlin@avisonyoung.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "49a55de3-297d-4175-bb7b-0b8012d3b40a"
+    },
+    {
+      "email": "vargasgeneralconstruction1@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "130dbcce-3e1f-4fec-a000-9c5e01fd0e87"
+    },
+    {
+      "email": "justin@meltyard.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "7efaf9c4-0db7-4338-bb4a-2cc8dd8bf476"
+    },
+    {
+      "email": "info@mariettaproper.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "2177f753-eccb-4162-9ba2-b1b17af8fce9"
+    },
+    {
+      "email": "kioscorestaurants@gmail.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "e98c11ba-83ef-4743-ad2d-e7abe13949ee"
+    },
+    {
+      "email": "info@stockyardburger.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "392183ba-d7a7-46c5-a24c-bd7a26e171fc"
+    },
+    {
+      "email": "info@1885grill.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "9eefefdb-b29b-44be-b12a-e7a920adf195"
+    },
+    {
+      "email": "owners@berniessocialbar.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "bb03daff-503e-4dd2-a809-25c0deb5fb8b"
+    },
+    {
+      "email": "admin@livingintown.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "685de91d-4a75-4728-88cd-7ca8027ac6db"
+    },
+    {
+      "email": "info@brownthrashermovers.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "9bb1d59b-4774-4cc6-86bd-95759d5d0082"
+    },
+    {
+      "email": "steve@ivyleaguemovers.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "de5cb683-73d2-4361-a0de-ebfa5ebbe6a3"
+    },
+    {
+      "email": "homemoversal@gmail.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "2755ba40-c371-4307-ad6c-3df96784abf7"
+    },
+    {
+      "email": "info0106@twomen.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "86da9f2e-838c-41f5-9ae8-2eee141e288f"
+    },
+    {
+      "email": "info@nobelrelo.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "8fc5b513-c908-4e8e-9a95-b09cfc4fae65"
+    },
+    {
+      "email": "amsprivacypolicy@allmysons.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "4ed3229e-bc91-4ca8-ae30-64fe8b9657ae"
+    },
+    {
+      "email": "marketwithab113@gmail.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "ecf0d2d3-398b-46a9-b917-3b62d431da51"
+    },
+    {
+      "email": "hello@shoptherusticmarket.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "8df85231-0d50-4fd3-96e7-d07b2a069e98"
+    },
+    {
+      "email": "shoptilyoudropmarietta@gmail.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "01ddf6e1-2aaf-4a65-a451-bb1223681c17"
+    },
+    {
+      "email": "patientrelations@southeastmedicalgroup.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "709b2d2b-201b-4743-a493-16d9039821a8"
+    },
+    {
+      "email": "mariettaclinic@yahoo.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "f0c1819f-72dc-45e1-b9de-9449078b14ca"
+    },
+    {
+      "email": "wellstarhealthsystemfinancialcounselingcopy1@wellstarhealthsystem.onmicrosoft.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "97f7281b-ccb7-4dcd-8fb0-90802a5521ce"
+    },
+    {
+      "email": "thenest@americancampus.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "afebed7e-f719-487a-9a84-d265a4e1b7d0"
+    },
+    {
+      "email": "bixby@peakmade.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "92b83903-e80a-4395-bed2-94ce1f0e13e0"
+    },
+    {
+      "email": "hello@hunthometeam.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "54bdbaa2-b3ba-4159-ab5c-9670cf393c32"
+    },
+    {
+      "email": "chad@totalatlantagroup.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "e2c4446f-e24f-4cdc-85ef-66130109eb9b"
+    },
+    {
+      "email": "info@platinumrealestate.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "562f9c01-a24f-4967-b4be-ffce53623132"
+    },
+    {
+      "email": "amabry@realtracs.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "60a3dee8-496c-4575-b6e2-75c5809cb398"
+    },
+    {
+      "email": "csrga@bluebuiltroofs.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "4da7b9d1-ebd2-4a4a-942b-979d833e6050"
+    },
+    {
+      "email": "bthomason74@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "98477ff1-b225-467f-9e01-5d2b0e8ba659"
+    },
+    {
+      "email": "classicroofing@yahoo.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "5495e66c-9799-438c-b8d0-4ba18601c586"
+    },
+    {
+      "email": "marietta@modernroofingusa.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "729806a9-14ff-4582-9c7d-2bff8a77b218"
+    },
+    {
+      "email": "info@summitroofingga.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "1887e397-854b-46b6-8380-4a89402af708"
+    },
+    {
+      "email": "info@theroofgallery.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "cb7acb1a-49d0-4cf4-97a3-9e586afbb41e"
+    },
+    {
+      "email": "sushil.kumar@swissdigitech.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "55b1270b-9cc7-467f-a9f8-2ffc57c685c6"
+    },
+    {
+      "email": "hi@roswellds.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "a3610b48-e25f-42a1-8fb2-d388094f2c93"
+    },
+    {
+      "email": "info@trucaredentistry.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "985e81fb-78b6-4608-aaab-90ff10fd9309"
+    },
+    {
+      "email": "reception@roswellmilldentistry.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "01c68174-9edd-4a24-8818-920da7ef8a82"
+    },
+    {
+      "email": "banberry@assetliving.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "d7286ec2-5fb8-4d28-b793-d10c52460452"
+    },
+    {
+      "email": "info@azurebrokerage.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "cc6d8197-e123-460a-8091-48274e5abb36"
+    },
+    {
+      "email": "alan.weng@goodshepherdrealty.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "bd657819-979c-4aed-8eb0-53c4811e5915"
+    },
+    {
+      "email": "contact@heritageproperty.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "ed65fdc5-eb59-4917-9a6b-acc2f534ff8a"
+    },
+    {
+      "email": "floors2012@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "512280b7-e9da-491e-9008-98140934fef7"
+    },
+    {
+      "email": "customercare@mrhardwoodinc.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "ddfab0ca-e9bc-47f6-a2c0-fe3b606bb1df"
+    },
+    {
+      "email": "contact@dcastroflooring.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "f9b569e0-bbdd-4f48-abcb-e18318b7c54d"
+    },
+    {
+      "email": "info@crunchmarietta.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "7af83b6f-36d0-4019-86eb-a8b4e860cd2f"
+    },
+    {
+      "email": "workout-anytime-marietta@email.gymsales.net",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "30c9acf1-b95d-4eab-9d2e-b0ebc0e7670e"
+    },
+    {
+      "email": "info@crunchwestcobb.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "0e182675-2a53-46bf-acfa-059277d3328c"
+    },
+    {
+      "email": "info@inspireeastcobb.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "c5e3f0de-174f-431c-b989-27e950921481"
+    },
+    {
+      "email": "info@cruncheastcobb.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "d8727992-31e9-466e-898d-d4290d5af279"
+    },
+    {
+      "email": "eastcobb@justfitness4u.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "4258f590-6d40-4c11-9898-3a01da0963ed"
+    },
+    {
+      "email": "requiredfitnessgym@gmail.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "91c10ba0-17c1-450b-a319-9732478df29c"
+    },
+    {
+      "email": "info@fitnessmarietta.biz",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "5f1fd8bb-e2e3-4c7b-a3ef-585ac7304e7c"
+    },
+    {
+      "email": "kasie@hotworx.net",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "e29bb922-a2b9-48af-80b0-12bb8165c46d"
+    },
+    {
+      "email": "be-more@treigned.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "f517b813-a26a-44fc-abaa-14e8a3f28a3f"
+    },
+    {
+      "email": "centennialparkwestcondo@gmail.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "353c5a6e-8fd5-44ba-89b2-2a4895ac91f8"
+    },
+    {
+      "email": "info@sovereignbuckhead.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "c08628dd-09c8-43ac-8a12-18cb950ee268"
+    },
+    {
+      "email": "rosanne@rootsatlanta.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "d800b983-e099-4855-9f94-134c3da5cd39"
+    },
+    {
+      "email": "hello@remodelrepublic.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "3edfae0b-4ca1-4927-a9aa-e0531771021c"
+    },
+    {
+      "email": "info@theuniqhouse.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "09797e39-75b8-4965-ba22-7fa2e0e032ba"
+    },
+    {
+      "email": "yfahmane@indesignkitchenandbath.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "9abdf3e2-d46a-49a6-bd1d-9d211e1c4d4d"
+    },
+    {
+      "email": "contacts@lrenovations.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "76cd43ee-2ff3-4911-8c7c-b15569db87c6"
+    },
+    {
+      "email": "info@atlantaintercontinental.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "65d23968-7127-4d7e-9c0a-66552694b421"
+    },
+    {
+      "email": "osborne-hills-apartments@rent.dynasty.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "0c1c0ecb-48bf-4041-b6db-68632134db31"
+    },
+    {
+      "email": "rlmatosc@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "cfc7cbe6-b110-4cf4-be54-25d629ef0c37"
+    },
+    {
+      "email": "info@totalmovingsolutionsinc.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "6a65b654-1efe-4e59-8f63-caef9dc7ec00"
+    },
+    {
+      "email": "craig.kalinowski@nmrk.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "e9558a0b-2e5e-4d96-925f-0ca56989e1eb"
+    },
+    {
+      "email": "nick@mariettacre.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "baced039-c701-4d14-84e8-c1b070a0ce2f"
+    },
+    {
+      "email": "todd@lemoinecontracting.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "280636df-ab16-4243-996e-d151b4a217e3"
+    },
+    {
+      "email": "meghan@leadhg.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "ad4d28f5-407c-4088-9efd-c4c6c01eab71"
+    },
+    {
+      "email": "chloe@macschophouse.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "a424817f-6ffc-402f-a2c9-2093574d8238"
+    },
+    {
+      "email": "debbie@clickready.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "eb9c86ac-fa2a-4a4a-9a0b-f774adc9f271"
+    },
+    {
+      "email": "riverevents@raysrestaurants.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "8786c3a9-cf05-4763-8295-2773973ec0c8"
+    },
+    {
+      "email": "info@falconpropertymanagement.biz",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "c25fe618-3c7c-43fe-af85-fce45ef476a0"
+    },
+    {
+      "email": "embop.manager@gmail.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "2099778d-5c72-43cd-a583-70bf6ccf240c"
+    },
+    {
+      "email": "massimoandreozzi@ilvesuviopizzeria.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "55251818-8472-4d6d-a640-5d6ad7fbf021"
+    },
+    {
+      "email": "service@rathomasrealty.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "257c9b40-025a-452f-949f-ee5f33292cf9"
+    },
+    {
+      "email": "info@topdogmovingatl.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "605930a4-650e-425a-af1e-4c79c0a1571f"
+    },
+    {
+      "email": "marietta@apricotlaneusa.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "f830b1c9-eb76-44d6-a810-b4380ad70a0b"
+    },
+    {
+      "email": "mariettafamilymedicine@gmail.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "6bf1b85f-0a30-4b06-8ca2-9d76318183f7"
+    },
+    {
+      "email": "sales@austinpatrick.com",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "2b757156-3284-4e79-82a5-00fa541113df"
+    },
+    {
+      "email": "14sixtyfive.531424@leads.eliseai.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "e45e3e51-6fc6-4287-8a99-df6953f7544b"
+    },
+    {
+      "email": "supremeroofingga@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "6b49629d-87f8-4891-a54a-2794b9e61d4f"
+    },
+    {
+      "email": "info@impactsidingandroofing.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "c1e420bc-d75c-473b-8c00-9bfec0b4f992"
+    },
+    {
+      "email": "contact@foxcroftcondosga.com",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "adc85b3c-7903-466c-8a7e-dd9e72033cda"
+    },
+    {
+      "email": "klrw156@kw.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "80b5b4e6-1c66-47da-9ac0-92a2a0f908cd"
+    },
+    {
+      "email": "info@arnold-flooring.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "06592604-2dc2-4ef0-bd70-7bdcf0311a46"
+    },
+    {
+      "email": "premiumflooringservices@gamil.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "e75ce14a-ee8c-4f49-b0a1-65953b90241e"
+    },
+    {
+      "email": "josh@atlantafloorstore.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "ed34f02a-68c0-4105-bc5b-3902e08e6885"
+    },
+    {
+      "email": "info@crunchkennesaw.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "ab726b4d-1866-47ad-9d39-ebee022bb449"
+    },
+    {
+      "email": "svsosin@revpartners.io",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "cb2d5c9f-20f5-41b9-88d2-6f61f0cbca77"
+    },
+    {
+      "email": "ttumbleson@nexus1201.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "c02ee583-0296-48ae-8d30-908692283693"
+    },
+    {
+      "email": "600@tkosuites.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "65f79c9a-6bb0-47cd-b1a8-2db3a3329b57"
+    },
+    {
+      "email": "info@serendipitylabs.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "f7db36e4-acd9-426a-9455-0dc08b5bf79d"
+    },
+    {
+      "email": "ascendcarlton@liverangewater.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "4dd004f0-f25b-4b53-b08d-b584b0ad7dd5"
+    },
+    {
+      "email": "sylvanmgr@elmingtonliving.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "98b60bde-35f8-4a4f-bc24-1a1c353fcb2c"
+    },
+    {
+      "email": "sweetwatervista-w@m.knck.io",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "ce0a7f29-01b9-4f51-ad98-3f88061bc9b6"
+    },
+    {
+      "email": "georgialistingagent@gmail.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "fae3d6c1-4454-4825-bc7a-2c201e886adb"
+    },
+    {
+      "email": "concierge@erasunriserealty.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "aa1771e9-6e7d-4f4b-8591-664caa98dc10"
+    },
+    {
+      "email": "jamesbagwell@windstream.net",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "d21b6eb2-e6eb-4eff-8a17-8245aaa3b622"
+    },
+    {
+      "email": "info.awfd@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "c6bf3672-d080-4a05-bcbc-24c499a38867"
+    },
+    {
+      "email": "info@floodprowaterdamagerestoration.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "54dd9f58-89c7-4f5b-b4c0-cfc51c93751d"
+    },
+    {
+      "email": "puroclean@brightpinkagency.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "304db110-e15a-4424-92b6-a56e4ee2241d"
+    },
+    {
+      "email": "info@meridianga.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "1d417ec9-ed7e-4fd4-a7db-13d97f91e8c4"
+    },
+    {
+      "email": "sales@shopdressup.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "ff24c6e8-06b3-49a8-87e1-4bcd92b78a32"
+    },
+    {
+      "email": "info@shopfashioncupcake.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "bee5d255-b67a-42b3-a339-a89928762c74"
+    },
+    {
+      "email": "bhm40p08_bhwebsite.email@slopejet.net",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "3f723e1c-3985-4380-9057-20569fe13a47"
+    },
+    {
+      "email": "woodcreekapts-g@m.knck.io",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-07-29T16:27:04.189Z",
+      "id": "515d5958-c8aa-4297-b350-e697738f69d2"
     }
   ]
 }
