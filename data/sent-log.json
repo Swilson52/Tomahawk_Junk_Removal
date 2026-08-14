@@ -11920,6 +11920,181 @@
       "stage": "followup2",
       "at": "2026-08-13T15:20:52.028Z",
       "id": "361faffe-566b-47b7-837f-fb1fde9018f0"
+    },
+    {
+      "email": "contact@allcountycumberland.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-08-14T15:12:34.211Z",
+      "id": "623c46df-f0d6-4935-9fb3-7cab227a8076"
+    },
+    {
+      "email": "adam.viente@jll.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-08-14T15:12:34.211Z",
+      "id": "53568e4f-4813-47f0-b2bb-da3fa355a2ad"
+    },
+    {
+      "email": "contact@allcountylegacy.com",
+      "segment": "hoa",
+      "stage": "initial",
+      "at": "2026-08-14T15:12:34.211Z",
+      "id": "13388685-d6cc-40e4-b679-3a68e328b5f4"
+    },
+    {
+      "email": "contact@allcountyfirst.com",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-08-14T15:12:34.211Z",
+      "id": "0e204c17-216b-4a8f-aa4c-6b1a82529ecf"
+    },
+    {
+      "email": "contact@allcountyperimeter.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-08-14T15:12:34.211Z",
+      "id": "36a5bc87-d2fc-4880-b60b-02aae87e564f"
+    },
+    {
+      "email": "contact@allcountynorthmetro.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-08-14T15:12:34.211Z",
+      "id": "66dbed7e-ebfa-48e5-be85-4d6343c10f73"
+    },
+    {
+      "email": "contact@allcountyexpert.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-08-14T15:12:34.211Z",
+      "id": "eca40ab0-02ed-4f63-a2b5-1107fca45dc6"
+    },
+    {
+      "email": "hughscott@skcr.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "615c328b-62c7-4bb8-a6e4-e598a8997793"
+    },
+    {
+      "email": "info@nakiproperties.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "a9b314da-d542-4af6-840b-f674e4205b85"
+    },
+    {
+      "email": "amlinorthpoint.7783@leads.eliseai.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "01fde41c-770a-45e3-87d8-44ca6dcd3490"
+    },
+    {
+      "email": "support@moxiworks.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "cb14a04c-f882-4208-aeac-0310a81bcc36"
+    },
+    {
+      "email": "info@hksmartrenovation.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "76fd51a2-1064-4c9b-a64e-b0f864c7e200"
+    },
+    {
+      "email": "colonyparkoffices@gmail.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "3855544d-7a26-4942-9711-13a867c5ff6b"
+    },
+    {
+      "email": "bhm40p03_bhwebsite.email@slopejet.net",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "a7ec854c-3baf-4c17-971c-98fc1754e527"
+    },
+    {
+      "email": "info@mahoganyrealestate.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "8fd6ce11-97f0-4dee-a216-6ecdefe036e2"
+    },
+    {
+      "email": "jcrconstruction@jcrga.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "036e050b-10f6-46cf-a126-1394ae8fbc69"
+    },
+    {
+      "email": "contactus@g-rconstruction.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "0c1ba165-ec09-4968-95c3-7ead0e718a64"
+    },
+    {
+      "email": "rmmatlack@scenicofficesuites.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "7f6a91fe-5c4f-4d15-9d8b-0f94c381c107"
+    },
+    {
+      "email": "info@flexxoffices.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "418c6aa4-06a5-4936-9a76-4d70a4d9af92"
+    },
+    {
+      "email": "thejayne@galleryresidential.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "e6fb287a-803b-442b-8121-1db7cfc44d1d"
+    },
+    {
+      "email": "johanysrealestate@outlook.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "49dfa8e0-2009-4053-b95f-1e2f2cf680b3"
+    },
+    {
+      "email": "gacrownrealty@gmail.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "fa1ca989-f7e1-43a6-a354-5311dac07d4c"
+    },
+    {
+      "email": "thenadalteam@gmail.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "b7ae20f3-fcba-4949-9af9-5af4fd10a856"
+    },
+    {
+      "email": "info@joygle.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "95dffb3d-bcf7-4753-8364-afdfcd180001"
+    },
+    {
+      "email": "cjones@longwoodpm.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-08-14T15:12:54.374Z",
+      "id": "80bf7046-b85b-40b7-974b-ad4a960fb2e6"
     }
   ]
 }
