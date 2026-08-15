@@ -5,11 +5,12 @@ import Head from 'next/head';
 // and sticky mobile call bar. Content is the print flyer, re-expressed in that system.
 
 const TIERS = [
-  { icon: '🪑', name: 'Single Item', price: '$75–$125', desc: 'Chairs, mattresses, small appliances, TVs', cap: '~1 Item', fill: 18 },
-  { icon: '📦', name: 'Small Load', price: '$125–$185', desc: 'Small cleanups, boxes, single-room junk', cap: '~¼ Truck', fill: 30 },
-  { icon: '🛋️', name: 'Medium Load', price: '$195–$285', desc: 'Furniture, appliances, garage cleanouts', cap: '~½ Truck', fill: 52, feature: true },
-  { icon: '🚪', name: 'Large Load', price: '$300–$485', desc: 'Full room cleanouts, heavy debris', cap: '~¾ Truck', fill: 76 },
-  { icon: '🚛', name: 'Full Truck Load', price: '$500–$750+', desc: 'Complete home or property cleanouts', cap: 'Full Truck', fill: 100 },
+  { icon: '🪑', name: 'Single Item', price: '$125', desc: 'Chairs, mattresses, small appliances, TVs', cap: '1 Item', fill: 10 },
+  { icon: '📦', name: 'Small Load', price: '$165–$195', desc: 'Small cleanups, boxes, single-room junk', cap: '½ Pickup Truck', fill: 25 },
+  { icon: '🛋️', name: 'Medium Load', price: '$225–$265', desc: 'Furniture, appliances, garage cleanouts', cap: '1 Pickup Truck', fill: 42, feature: true },
+  { icon: '🚪', name: 'Large Load', price: '$295–$365', desc: 'Full room cleanouts, heavy debris', cap: '1.5 Pickup Trucks', fill: 58 },
+  { icon: '🚛', name: 'Extra Large Load', price: '$395–$495', desc: 'Complete home or property cleanouts', cap: '2 Pickup Trucks', fill: 76 },
+  { icon: '🏘️', name: 'Multi-Truck Load', price: 'Custom Quote', desc: 'Large estates, commercial & multi-load cleanouts', cap: '3 or More Pickup Trucks', fill: 100, quote: true },
 ];
 
 const REMOVE = [
@@ -112,12 +113,13 @@ export default function Pricing() {
         .section-note { max-width: 640px; margin: -30px auto 44px; font-size: 0.98rem; color: #555; line-height: 1.55; text-align: center; }
 
         /* PRICING TIERS */
-        .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(178px, 1fr)); gap: 20px; max-width: 1080px; margin: 0 auto; }
+        .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(178px, 1fr)); gap: 20px; max-width: 1250px; margin: 0 auto; }
         .price-card { background: var(--white); border: 1px solid #e7eaee; border-top: 4px solid var(--navy); border-radius: 6px; padding: 26px 18px; text-align: center; display: flex; flex-direction: column; }
         .price-card.feature { border-top-color: var(--red); box-shadow: 0 10px 28px rgba(16,36,68,0.12); }
         .price-card .p-icon { font-size: 2rem; margin-bottom: 10px; }
         .price-card h3 { font-family: 'Saira Condensed', sans-serif; font-weight: 700; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--navy); }
         .price-card .price { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 1.7rem; color: var(--red); margin: 8px 0; }
+        .price-card .price.price-quote { font-size: 1.25rem; line-height: 1.15; }
         .price-card .p-desc { font-size: 0.88rem; color: #555; line-height: 1.45; flex: 1; }
         .price-bar { height: 7px; border-radius: 4px; background: #e6e9ee; margin: 16px 0 8px; overflow: hidden; }
         .price-bar span { display: block; height: 100%; background: var(--navy); border-radius: 4px; }
@@ -266,7 +268,7 @@ export default function Pricing() {
             <div key={t.name} className={`price-card${t.feature ? ' feature' : ''}`}>
               <div className="p-icon">{t.icon}</div>
               <h3>{t.name}</h3>
-              <div className="price">{t.price}</div>
+              <div className={`price${t.quote ? ' price-quote' : ''}`}>{t.price}</div>
               <div className="p-desc">{t.desc}</div>
               <div className="price-bar"><span style={{ width: `${t.fill}%` }} /></div>
               <div className="price-cap">{t.cap}</div>
