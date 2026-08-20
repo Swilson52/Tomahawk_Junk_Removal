@@ -13096,6 +13096,181 @@
       "stage": "followup2",
       "at": "2026-08-19T15:02:34.399Z",
       "id": "3e569b40-f15e-4548-b95c-7b6e1eb7b3c9"
+    },
+    {
+      "email": "contact@allcountycumberland.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-08-20T14:49:09.853Z",
+      "id": "72bee17e-2cfa-468f-9cdc-ea0b983c658f"
+    },
+    {
+      "email": "adam.viente@jll.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-08-20T14:49:09.853Z",
+      "id": "d5e37cb6-3182-47da-99bd-1266c82de3ee"
+    },
+    {
+      "email": "contact@allcountylegacy.com",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-08-20T14:49:09.853Z",
+      "id": "54650417-abe4-46fb-89cd-cfdd6a2562a3"
+    },
+    {
+      "email": "contact@allcountyfirst.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-08-20T14:49:09.853Z",
+      "id": "2b61bcf1-e870-4881-b79b-7d64789a313e"
+    },
+    {
+      "email": "contact@allcountyperimeter.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-08-20T14:49:09.853Z",
+      "id": "792f6e27-fc29-4658-8159-708b09bc922c"
+    },
+    {
+      "email": "contact@allcountynorthmetro.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-08-20T14:49:09.853Z",
+      "id": "30fe4e8e-364a-42f7-8b93-f279e2dbf4bd"
+    },
+    {
+      "email": "contact@allcountyexpert.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-08-20T14:49:09.853Z",
+      "id": "261a7b52-350c-438d-9836-8821c245758d"
+    },
+    {
+      "email": "halcyongrand-w@m.knck.io",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "f808cf03-45eb-4b58-9451-0ebc30cd5a0c"
+    },
+    {
+      "email": "venueatbigcreek-w@m.knck.io",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "bf11bd3f-d7a3-4bb4-860c-c68d547ca0dc"
+    },
+    {
+      "email": "andoveratjohnscreek.propertywebsite.greystarre@aptleasing.info",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "07027b12-7c94-4575-88b5-39094eab0a77"
+    },
+    {
+      "email": "manager@constellationpark.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "bdd2a603-b0fb-4a5e-ba0d-6a41ac0bd7c7"
+    },
+    {
+      "email": "manager@livebirchhouse.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "c26df8b8-daed-445f-8bbc-dc00d0ab8d67"
+    },
+    {
+      "email": "marle@marlegonzalez.net",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "973c01a8-98e8-43a8-8d95-eafacfc9b7b0"
+    },
+    {
+      "email": "voterregistration@gwinnettcounty.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "3ce707f1-c01f-4877-9262-ecf083d8c4cd"
+    },
+    {
+      "email": "iniazi786@gmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "5549a082-4b05-45f2-bb91-8ac2129a20cb"
+    },
+    {
+      "email": "theperryresidences-w@m.knck.io",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "9cf834a1-cc23-43eb-b492-d23a20afa1a1"
+    },
+    {
+      "email": "districtatparkview-w@m.knck.io",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "6fab1888-4270-4062-a9e1-6e2bfc3da41a"
+    },
+    {
+      "email": "debbie@debbieleonard.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "4fd1a1a9-f6d6-45e5-8ccb-44df3360a53c"
+    },
+    {
+      "email": "hello@macont.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "c7c612d6-193d-48e1-9c55-dfe61daaaaf7"
+    },
+    {
+      "email": "solisdv@greystar.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "7c43eb2e-7c89-410c-b2f7-6ceabc7fdbc0"
+    },
+    {
+      "email": "thequinnatperimeter-w@m.knck.io",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "2ad0b521-c6c5-4938-aef7-10dfc14d685d"
+    },
+    {
+      "email": "theoliverchamblee.propertywebsite.cbre@aptleasing.info",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "22b28451-1103-482a-96aa-03e7e125b8eb"
+    },
+    {
+      "email": "info@heartlandga.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "14121001-ae94-4901-9126-6164cc29a568"
+    },
+    {
+      "email": "jaime@teamturvey.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "cdb50d40-b1f8-4f14-9a65-3ad17c7ad0a8"
+    },
+    {
+      "email": "info@movetogeorgia.org",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-20T14:49:28.133Z",
+      "id": "2608a7f3-3828-4673-8ea5-ec3b025eb5e5"
     }
   ]
 }
