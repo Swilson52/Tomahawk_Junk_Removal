@@ -13271,6 +13271,181 @@
       "stage": "followup2",
       "at": "2026-08-20T14:49:28.133Z",
       "id": "2608a7f3-3828-4673-8ea5-ec3b025eb5e5"
+    },
+    {
+      "email": "studio.ga0056@hotworx.net",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-08-21T14:44:07.467Z",
+      "id": "c06e0fc9-b64a-465e-9a07-ac60f97d23c2"
+    },
+    {
+      "email": "+claudebot@anthropic.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-08-21T14:44:07.467Z",
+      "id": "fbf64e29-864f-4e1c-9c8a-829b20293288"
+    },
+    {
+      "email": "warner@hammersmith.net",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-08-21T14:44:07.467Z",
+      "id": "d9998b98-1e99-4b15-9404-caf353767c53"
+    },
+    {
+      "email": "cminotti@pattilloconstruction.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "5f36786c-81b9-4732-84ca-8f13f97374f6"
+    },
+    {
+      "email": "theremodelgroupatl@gmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "bc2b1fad-e313-4618-96b1-ed636ca02cda"
+    },
+    {
+      "email": "bbowers@joc-construction.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "d9e832c6-403a-4995-a18f-fda338f14249"
+    },
+    {
+      "email": "info@roofmastersatl.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "5172f3ac-ae8b-4bb1-818c-4a3835fe6522"
+    },
+    {
+      "email": "info@3411pierce.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "fcd53716-34c3-4827-90eb-bc8262f99bdd"
+    },
+    {
+      "email": "cdivy@liverangewater.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "b17ebbeb-5fa2-41a4-bc90-1c1ce64f0826"
+    },
+    {
+      "email": "noreply@multihub.io",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "55ca3518-d799-4f4d-a481-3a8e9e014b45"
+    },
+    {
+      "email": "joanna.harry@flournoyproperties.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "a6c055a4-f389-4751-9c5b-538585502c63"
+    },
+    {
+      "email": "crmconstr@gmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "d5db1355-59de-4fc3-aa31-8b2bd6fee00c"
+    },
+    {
+      "email": "office@cablik.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "d9e57a09-a917-4a5d-80de-897621e16580"
+    },
+    {
+      "email": "corporate@albiongc.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "41700af0-121f-4de7-924b-5c30df79c766"
+    },
+    {
+      "email": "poncedesignbuild@gmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "4e7dbcab-9905-480b-92fa-69dc126e3d10"
+    },
+    {
+      "email": "bclark@smconstructionllc.org",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "74acf3d3-740f-4cd1-b374-1bcd2272bed2"
+    },
+    {
+      "email": "jake@fiksebuild.co",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "6c6af58c-9a49-42b1-af14-bc9bf2248b78"
+    },
+    {
+      "email": "contact@integritycrr.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "bbe86e1b-6c58-4bde-a4dc-4936fd2ec8da"
+    },
+    {
+      "email": "richard@bluejuniperhomes.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "4aa4721e-837b-4006-9246-9b4329ca54d3"
+    },
+    {
+      "email": "info@hamlingroup.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "81ba9430-28e0-438d-8bc8-5016747c35ed"
+    },
+    {
+      "email": "vkyconstruction@gmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "3b965979-c950-4bac-9b6c-2f01c35c1b27"
+    },
+    {
+      "email": "info@pectg.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "aae9aa20-b43d-49af-89a5-493fb96e2ae1"
+    },
+    {
+      "email": "taylor@integralrenovations.co",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "d9d7f3c9-9caf-4b88-8e64-aef42fd6b67a"
+    },
+    {
+      "email": "sales@mainstayconstruction.net",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "946a7da3-977d-4385-963e-84c56a87c560"
+    },
+    {
+      "email": "sales@blackeagleusa.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-21T14:44:29.756Z",
+      "id": "2af22dd3-52b2-43ed-9b98-9bc2e0fae459"
     }
   ]
 }
