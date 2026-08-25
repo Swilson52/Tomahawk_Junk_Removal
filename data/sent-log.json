@@ -13964,6 +13964,83 @@
       "stage": "followup2",
       "at": "2026-08-24T14:53:55.564Z",
       "id": "689a7e74-0edf-41d3-a294-53e9c8d3fcde"
+    },
+    {
+      "email": "info@welldoneremodel.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-08-25T14:55:07.718Z",
+      "id": "5df74342-a119-41f9-a7e6-137054616ef0"
+    },
+    {
+      "email": "roy@visual101.com",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-08-25T14:55:07.718Z",
+      "id": "c8cf0300-375e-4d3a-b893-3d24998ad87b"
+    },
+    {
+      "email": "courts.web@gwinnettcounty.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-08-25T14:55:07.718Z",
+      "id": "afec7f80-1b66-4ad2-807e-b36c628aceaa"
+    },
+    {
+      "email": "info@kingdombuilders.construction",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-08-25T14:55:17.688Z",
+      "id": "89d44dba-9141-4da8-9b9e-6a00069d0046"
+    },
+    {
+      "email": "hello@rfuenzalida.com",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-08-25T14:55:17.688Z",
+      "id": "a95deb9a-55a0-4d92-8e40-c1c7be777547"
+    },
+    {
+      "email": "info@ndiscovered.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-08-25T14:55:17.688Z",
+      "id": "4a2d3831-84e9-4f36-954c-ef757189f70c"
+    },
+    {
+      "email": "info@dreambuildersusa.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-08-25T14:55:17.688Z",
+      "id": "74b15cac-ec7e-486b-8b55-41f367201505"
+    },
+    {
+      "email": "info@pagerelocation.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-08-25T14:55:17.688Z",
+      "id": "c2f7e248-8676-4415-b0cc-127a808f5166"
+    },
+    {
+      "email": "300riverside@radcoliving.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-08-25T14:55:17.688Z",
+      "id": "2fd246e4-c9fa-441b-ba95-69671bf80cef"
+    },
+    {
+      "email": "info@axiscontractors.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-08-25T14:55:17.688Z",
+      "id": "b3c9de9a-f7fe-4b90-89e2-0c89e813754f"
+    },
+    {
+      "email": "meralawrenceville@sparrowliving.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-08-25T14:55:17.688Z",
+      "id": "85f1de70-41be-438f-8aa3-9f4b33a61540"
     }
   ]
 }
