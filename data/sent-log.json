@@ -14041,6 +14041,104 @@
       "stage": "followup1",
       "at": "2026-08-25T14:55:17.688Z",
       "id": "85f1de70-41be-438f-8aa3-9f4b33a61540"
+    },
+    {
+      "email": "wecare@3optionsrealty.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-08-26T14:50:34.537Z",
+      "id": "b03cfe84-b947-4060-ae31-4549681822eb"
+    },
+    {
+      "email": "kristy@gowithmt.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-08-26T14:50:34.537Z",
+      "id": "f3144f5d-45a7-489b-bc18-fa548dcced83"
+    },
+    {
+      "email": "wmsusa@att.net",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-08-26T14:50:34.537Z",
+      "id": "52ea918b-4d7d-4c65-8b64-b9ca9026caec"
+    },
+    {
+      "email": "k1golfac@gmail.com",
+      "segment": "hoa",
+      "stage": "initial",
+      "at": "2026-08-26T14:50:34.537Z",
+      "id": "53ddcb22-ad71-4cc5-a31d-37834bd8e186"
+    },
+    {
+      "email": "studio.ga0056@hotworx.net",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-08-26T14:50:39.691Z",
+      "id": "d63a4f51-69fd-488d-8b4e-5a2ac846398f"
+    },
+    {
+      "email": "+claudebot@anthropic.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-08-26T14:50:39.691Z",
+      "id": "53d15bdc-3ca2-40bf-86f8-4561b0345ccb"
+    },
+    {
+      "email": "warner@hammersmith.net",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-08-26T14:50:39.691Z",
+      "id": "54df64bb-a6dc-474e-9a02-35e0c1f9a9ef"
+    },
+    {
+      "email": "melida@pottsrealtyinc.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-08-26T14:50:48.484Z",
+      "id": "d232af29-f672-45ee-a9f3-30cb3b9914be"
+    },
+    {
+      "email": "info@eliteremodelingllc.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-26T14:50:48.484Z",
+      "id": "36927f56-750d-448a-8514-381e0430ae51"
+    },
+    {
+      "email": "ridgewalkmgr@agpmanager.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-08-26T14:50:48.484Z",
+      "id": "1dc4e622-520a-44ee-852d-2f20511e6f29"
+    },
+    {
+      "email": "mainstreeteats2844@gmail.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-08-26T14:50:48.484Z",
+      "id": "08688d59-08ed-488e-8316-55bc494ceb93"
+    },
+    {
+      "email": "info@zoyakitchenandcocktails.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-08-26T14:50:48.484Z",
+      "id": "bc8beccb-123f-4a38-a881-bbacbf009bab"
+    },
+    {
+      "email": "allprodecksfences@hotmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-26T14:50:48.484Z",
+      "id": "3848cf03-e25f-4a43-9d3d-b0fac3cb4217"
+    },
+    {
+      "email": "website@business411.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-08-26T14:50:48.484Z",
+      "id": "f941cf8c-174a-40d5-b8bd-4101fdcd9c76"
     }
   ]
 }
