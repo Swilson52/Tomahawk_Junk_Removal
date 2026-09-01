@@ -14713,6 +14713,104 @@
       "stage": "followup2",
       "at": "2026-08-31T20:24:40.539Z",
       "id": "66e00922-03ed-444d-9b61-980d56299690"
+    },
+    {
+      "email": "norcross@radcoliving.com",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-09-01T18:24:45.294Z",
+      "id": "32941cb7-2302-41f0-9fed-3d387a9d5f40"
+    },
+    {
+      "email": "hello@paintpunchclean.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-01T18:24:45.294Z",
+      "id": "ee7d3f51-f5ed-4305-ae82-fbacaf22a6f6"
+    },
+    {
+      "email": "wecare@3optionsrealty.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-09-01T18:24:51.276Z",
+      "id": "c0028f8a-fe72-478b-8b9e-d0ae31d578e6"
+    },
+    {
+      "email": "kristy@gowithmt.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-09-01T18:24:51.276Z",
+      "id": "c524ace1-3c00-4882-9dbe-6cabdd5dee33"
+    },
+    {
+      "email": "wmsusa@att.net",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-09-01T18:24:51.276Z",
+      "id": "b81744af-25fd-46c6-b8a9-ab4bc7b67de5"
+    },
+    {
+      "email": "k1golfac@gmail.com",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-09-01T18:24:51.276Z",
+      "id": "d89b16c8-9250-459d-8fa0-3fe3a1389669"
+    },
+    {
+      "email": "info@kingdombuilders.construction",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-01T18:25:00.837Z",
+      "id": "b5c36160-c8f0-4464-bdc1-20b1e8315cab"
+    },
+    {
+      "email": "hello@rfuenzalida.com",
+      "segment": "hoa",
+      "stage": "followup2",
+      "at": "2026-09-01T18:25:00.837Z",
+      "id": "d8299088-9675-4e17-89fa-da7dfb8a2ce0"
+    },
+    {
+      "email": "info@ndiscovered.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-01T18:25:00.837Z",
+      "id": "797c37c3-4a94-4d05-a8c9-960509d858d2"
+    },
+    {
+      "email": "info@dreambuildersusa.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-01T18:25:00.837Z",
+      "id": "4e2d6f21-9ef9-4efc-ab8b-bed07e90203c"
+    },
+    {
+      "email": "info@pagerelocation.com",
+      "segment": "estate",
+      "stage": "followup2",
+      "at": "2026-09-01T18:25:00.837Z",
+      "id": "1dc2115b-cbc6-4f18-8dc2-f21a6beb2db4"
+    },
+    {
+      "email": "300riverside@radcoliving.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-09-01T18:25:00.837Z",
+      "id": "94db4dcb-5941-41bf-b78c-dc63af448491"
+    },
+    {
+      "email": "info@axiscontractors.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-01T18:25:00.837Z",
+      "id": "40f8bace-3775-40de-bc65-7fcbf2ee25c3"
+    },
+    {
+      "email": "meralawrenceville@sparrowliving.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-09-01T18:25:00.837Z",
+      "id": "d9368158-2c16-4852-a522-bdf7b80c58c7"
     }
   ]
 }
