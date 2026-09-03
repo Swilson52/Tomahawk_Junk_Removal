@@ -15007,6 +15007,160 @@
       "stage": "followup2",
       "at": "2026-09-02T18:02:47.433Z",
       "id": "01a06349-aac7-71cc-8a45-66830b07ed66"
+    },
+    {
+      "email": "thginfo@youneedresults.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-03T18:00:52.250Z",
+      "id": "01a0686e-315c-70a7-9ca9-0e51dd4a3bf3"
+    },
+    {
+      "email": "admin@rmntpropertymanagementgroup.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-09-03T18:00:52.250Z",
+      "id": "01a0686e-35e4-704a-80f1-4d66604781c5"
+    },
+    {
+      "email": "dkane@pminorthatlanta.com",
+      "segment": "hoa",
+      "stage": "initial",
+      "at": "2026-09-03T18:00:52.250Z",
+      "id": "01a0686e-3b0d-77d1-a742-bbff588d8fc2"
+    },
+    {
+      "email": "consult@jomaconstruction.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-03T18:00:52.250Z",
+      "id": "01a0686e-41b9-73fb-96d8-19c02bfc35d4"
+    },
+    {
+      "email": "hello@pelican-contracting.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-5204-75ef-90ac-055dc06edeb8"
+    },
+    {
+      "email": "info@advancedroofingatlanta.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-55e7-7796-bca9-6c7fca2dc2c4"
+    },
+    {
+      "email": "halo@nwravin.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-5b0e-722d-9394-199a5d233b1d"
+    },
+    {
+      "email": "info@ecogeneralcontractors.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-5f11-72af-bf3b-6f9c9ebbe698"
+    },
+    {
+      "email": "debbie@linkbrokerages.com",
+      "segment": "property_manager",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-62f7-739f-90d8-909218b4b66d"
+    },
+    {
+      "email": "services@handsyoudemand.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-6760-73ea-bd93-c176ee1202fd"
+    },
+    {
+      "email": "info@aumcommercial.com",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-6d24-7238-922a-c5020ab89cd5"
+    },
+    {
+      "email": "services@builderstechnologysource.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-7190-736c-89a7-cafb8aa38516"
+    },
+    {
+      "email": "+claude-user@anthropic.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-76e3-759c-a628-e6aa7134d107"
+    },
+    {
+      "email": "stewart.thrash@cbre.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-7b2f-718d-a7f9-7c19237d13d6"
+    },
+    {
+      "email": "ccrwillowsprings@gmail.com",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-7fea-7425-9cdf-889fc0f61da1"
+    },
+    {
+      "email": "info@elitebathsolutions.biz",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-83fa-740b-b721-036db82fa245"
+    },
+    {
+      "email": "info@dandbrestoration.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-885a-771d-b862-1adc2964350a"
+    },
+    {
+      "email": "om.krampetz@floorcoveringsinternational.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-8c4d-72dc-8e94-7ac53ba0e646"
+    },
+    {
+      "email": "kennesaw@peachtreemed.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-921b-724b-b8e7-b9b2cfe2f128"
+    },
+    {
+      "email": "info@trustterminus.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-96ea-7197-9b64-2e6930664a15"
+    },
+    {
+      "email": "office@terraguardhmsllc.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-9b25-71b8-bf10-8b0b0b2b6bd1"
+    },
+    {
+      "email": "awise@wiseconstruction.group",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-03T18:01:15.440Z",
+      "id": "01a0686e-9f2b-70fe-8160-06a20b627d27"
     }
   ]
 }
