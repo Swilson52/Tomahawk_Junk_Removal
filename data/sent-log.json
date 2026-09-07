@@ -15168,6 +15168,76 @@
       "stage": "initial",
       "at": "2026-09-04T17:48:12.681Z",
       "id": "8efb0558-35f4-4448-8271-bdcbc729def6"
+    },
+    {
+      "email": "info@zendryrestoration.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-07T18:56:11.960Z",
+      "id": "9c3139f8-9933-4eb5-99d0-dd91c9b31575"
+    },
+    {
+      "email": "thunter@lavista.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-09-07T18:56:11.960Z",
+      "id": "6aaea9d2-8916-44dc-931c-8c187ff2e2da"
+    },
+    {
+      "email": "zach@g-rconstruction.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-07T18:56:21.376Z",
+      "id": "e1fd837d-33e6-4e8a-8f67-c8943f6786e9"
+    },
+    {
+      "email": "info@buildwitheastern.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-07T18:56:21.376Z",
+      "id": "423af7b4-f605-4fc5-9ed9-f01684fdae9e"
+    },
+    {
+      "email": "gabriel@moraisconstruction.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-07T18:56:21.376Z",
+      "id": "0817db08-384f-4a31-a62d-a9543cfd39b7"
+    },
+    {
+      "email": "norcross@radcoliving.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-09-07T18:56:21.376Z",
+      "id": "92e66ab6-d5c2-4c91-bb94-f31ad2d822f1"
+    },
+    {
+      "email": "hello@paintpunchclean.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-07T18:56:21.376Z",
+      "id": "2f280eae-1d94-46c6-9a59-aa8254ad0973"
+    },
+    {
+      "email": "asiantastekennesaw@gmail.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-09-07T18:56:21.376Z",
+      "id": "e2a5180f-f245-44c6-a582-c61cf54bbca2"
+    },
+    {
+      "email": "info@roswellmover.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-09-07T18:56:21.376Z",
+      "id": "2dd00ee0-3ccf-4268-9f1f-442e4a03d5b4"
+    },
+    {
+      "email": "info@stewartbuilt.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-07T18:56:21.376Z",
+      "id": "c0f37253-79df-48d3-b1a9-ddac97e3ee04"
     }
   ]
 }
