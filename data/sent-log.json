@@ -15413,6 +15413,62 @@
       "stage": "followup2",
       "at": "2026-09-08T18:07:20.452Z",
       "id": "fd877c6e-b71b-4818-b096-4f30b3fc309e"
+    },
+    {
+      "email": "sekharsrealty@gmail.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-09T18:01:58.428Z",
+      "id": "db72d9e4-8615-480a-88ce-4c9cac9bedd5"
+    },
+    {
+      "email": "selomeabera@flossdental.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-09-09T18:02:01.829Z",
+      "id": "d22951d1-62a6-4302-a4f4-f4a4f3213793"
+    },
+    {
+      "email": "roy@visual101.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-09-09T18:02:10.809Z",
+      "id": "f54a05a2-ac98-46e0-9d84-3299f817050d"
+    },
+    {
+      "email": "courts.web@gwinnettcounty.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-09T18:02:10.809Z",
+      "id": "d5f6d7c5-9267-43d1-9143-fb6b1122d0ab"
+    },
+    {
+      "email": "wecare@3optionsrealty.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-09-09T18:02:10.809Z",
+      "id": "627b5a62-8d78-4c1e-97e7-b5cfe15eae81"
+    },
+    {
+      "email": "kristy@gowithmt.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-09-09T18:02:10.809Z",
+      "id": "4af3f22b-32ce-4476-bdfc-f44f40fdee60"
+    },
+    {
+      "email": "wmsusa@att.net",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-09T18:02:10.809Z",
+      "id": "d069a72e-7eae-4061-a832-3321a3718500"
+    },
+    {
+      "email": "k1golfac@gmail.com",
+      "segment": "hoa",
+      "stage": "followup2",
+      "at": "2026-09-09T18:02:10.809Z",
+      "id": "fee38c35-1a37-45e8-a149-4c0babb7c455"
     }
   ]
 }
