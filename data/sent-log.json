@@ -15469,6 +15469,167 @@
       "stage": "followup2",
       "at": "2026-09-09T18:02:10.809Z",
       "id": "fee38c35-1a37-45e8-a149-4c0babb7c455"
+    },
+    {
+      "email": "venterra_themaddox_website@leads.anyonehome.com",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-09-10T17:49:23.730Z",
+      "id": "00eb3e15-4050-44b5-8d98-e76e85cf96e8"
+    },
+    {
+      "email": "info@cobaltatl.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "c5bf8e8c-4e8c-46f0-80db-eacc35ac48a1"
+    },
+    {
+      "email": "will.porter@partnerealestate.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "33e82f1b-57cb-4b4e-b41b-2ff820ba2caa"
+    },
+    {
+      "email": "kelsey@twobirdstaphouse.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "56a46d92-3e4b-40e4-bc38-e2d7cd1003b4"
+    },
+    {
+      "email": "sphgmarketinganalytics@gmail.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "ec20cdd0-a65d-4a5d-a3ec-90b4af030b07"
+    },
+    {
+      "email": "trutledge@sapphireservicesga.com",
+      "segment": "hoa",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "aaccc5db-7a3a-4b82-9bfa-230193b2fd96"
+    },
+    {
+      "email": "feremodel@gmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "8b1aa99f-4b99-452d-b317-c1de76ff5ef7"
+    },
+    {
+      "email": "info@jagreno.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "c2da3ac7-e2cc-43b5-a8a5-fb9c7d895f05"
+    },
+    {
+      "email": "contact@pinkporchproperties.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "f3bacdc4-b75f-4c97-aa2a-28e9009e8113"
+    },
+    {
+      "email": "info@atlantarealtorscenter.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "066de1f3-7d43-4b47-91c1-47b3d85415bb"
+    },
+    {
+      "email": "doublencarpets@hotmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "e7f335bb-084e-4d76-a42f-cd6d44cf11fb"
+    },
+    {
+      "email": "jerry@jnlsmartrealty.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "75d98a89-0bce-46e6-9aca-6de8ff34c52e"
+    },
+    {
+      "email": "findlayrowe@gmail.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "16f140dd-e313-4610-95af-8094a58c6c83"
+    },
+    {
+      "email": "info@sunnyhomeglobal.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "aa84c75e-9aa9-4883-8ecf-a1dd1b989a67"
+    },
+    {
+      "email": "inquiry@robinmartinassoc.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "05628463-ccca-4edf-a106-6e9869282dc3"
+    },
+    {
+      "email": "sukhpreet@pmiatlantacity.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "7fe91485-44f8-46e6-90df-4a1c1652f9c2"
+    },
+    {
+      "email": "matt@orlandoconstructiongroup.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "c4495c17-782e-4f2a-b8d1-c9c8963a0357"
+    },
+    {
+      "email": "floydregroup@compass.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "c7b32839-0900-408e-9241-5217c96a5e32"
+    },
+    {
+      "email": "kevfrsr@gmail.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "e8c21131-c592-4f91-a9ba-b156ede129ed"
+    },
+    {
+      "email": "info@justfixtoday.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "d659ddc8-2284-4d00-8e1e-319168d2dcec"
+    },
+    {
+      "email": "duffyroof@gmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "e685d7f1-82e3-4036-8b85-4c814bae406e"
+    },
+    {
+      "email": "littlewaycoworking@gmail.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "74b29ab2-cae7-476d-b11e-27fd328b40ff"
+    },
+    {
+      "email": "contact@bkmmgmt.com",
+      "segment": "hoa",
+      "stage": "followup2",
+      "at": "2026-09-10T17:49:46.128Z",
+      "id": "10314f2b-1480-435e-90c5-16a95fb3223c"
     }
   ]
 }
