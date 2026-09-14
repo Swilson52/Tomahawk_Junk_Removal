@@ -15756,6 +15756,111 @@
       "stage": "followup2",
       "at": "2026-09-11T17:50:21.699Z",
       "id": "5577cc86-a318-4020-80af-ad19a24d3c1c"
+    },
+    {
+      "email": "admin@platinumrealestate.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-14T19:25:38.885Z",
+      "id": "a0784999-426f-4f84-b0f8-559352a45208"
+    },
+    {
+      "email": "sspringer@puroclean.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-14T19:25:38.886Z",
+      "id": "66013ff7-d37d-480a-99b4-708291d56d4c"
+    },
+    {
+      "email": "atlantaproconstruction1@gmail.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-14T19:25:38.886Z",
+      "id": "897adc13-3b48-4417-84c7-d359786dd70d"
+    },
+    {
+      "email": "info@zendryrestoration.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-14T19:25:45.075Z",
+      "id": "3696a248-8671-43ef-91d5-9df4480b729b"
+    },
+    {
+      "email": "thunter@lavista.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-09-14T19:25:45.075Z",
+      "id": "89a5edae-2387-4fa3-8ca3-08d48c737bfc"
+    },
+    {
+      "email": "onlinesupport@shopsimon.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-09-14T19:25:45.075Z",
+      "id": "c238dfc0-3454-441f-9b52-91ed6f6426a1"
+    },
+    {
+      "email": "sekharsrealty@gmail.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-09-14T19:25:45.075Z",
+      "id": "812bb6f4-1e31-4a31-91db-271b47b53ed2"
+    },
+    {
+      "email": "zach@g-rconstruction.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-14T19:25:55.010Z",
+      "id": "b8b987dc-673d-443d-be00-ac1001250155"
+    },
+    {
+      "email": "info@buildwitheastern.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-14T19:25:55.010Z",
+      "id": "763c6c95-dffe-4f54-863d-9fcd6229a1c6"
+    },
+    {
+      "email": "gabriel@moraisconstruction.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-14T19:25:55.010Z",
+      "id": "e28119fc-4759-4bbf-9101-2134e17640c7"
+    },
+    {
+      "email": "norcross@radcoliving.com",
+      "segment": "apartment",
+      "stage": "followup2",
+      "at": "2026-09-14T19:25:55.010Z",
+      "id": "7247a560-8be0-4489-81ac-7f73c38867c1"
+    },
+    {
+      "email": "hello@paintpunchclean.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-14T19:25:55.010Z",
+      "id": "461ab08e-0531-4212-8b87-936b34d94f00"
+    },
+    {
+      "email": "asiantastekennesaw@gmail.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-14T19:25:55.010Z",
+      "id": "b9e2b322-f434-4671-9943-a7eccb044122"
+    },
+    {
+      "email": "info@roswellmover.com",
+      "segment": "estate",
+      "stage": "followup2",
+      "at": "2026-09-14T19:25:55.010Z",
+      "id": "94bd27dc-c9bc-4d88-a591-462bd87fceaa"
+    },
+    {
+      "email": "info@stewartbuilt.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-14T19:25:55.010Z",
+      "id": "1b5c5fdc-5af4-41d1-8250-10eb6f84c235"
     }
   ]
 }
