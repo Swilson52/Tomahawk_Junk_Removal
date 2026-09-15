@@ -15861,6 +15861,48 @@
       "stage": "followup2",
       "at": "2026-09-14T19:25:55.010Z",
       "id": "1b5c5fdc-5af4-41d1-8250-10eb6f84c235"
+    },
+    {
+      "email": "retail@camdenliving.com",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-09-15T18:31:47.804Z",
+      "id": "f402e910-d2ee-45ae-b0e2-7831740d0624"
+    },
+    {
+      "email": "venterra_themaddox_website@leads.anyonehome.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-09-15T18:31:51.127Z",
+      "id": "b78098ce-48a1-4fb1-97d7-81a172d0eb23"
+    },
+    {
+      "email": "thginfo@youneedresults.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-09-15T18:31:57.927Z",
+      "id": "c893e4bd-012f-4165-a5e7-9d5c860eb101"
+    },
+    {
+      "email": "admin@rmntpropertymanagementgroup.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-09-15T18:31:57.927Z",
+      "id": "f1963215-7521-4f07-bb2c-7158b7e38533"
+    },
+    {
+      "email": "dkane@pminorthatlanta.com",
+      "segment": "hoa",
+      "stage": "followup2",
+      "at": "2026-09-15T18:31:57.927Z",
+      "id": "fdb0ba75-cc12-4e35-af14-80fe38a01403"
+    },
+    {
+      "email": "consult@jomaconstruction.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-15T18:31:57.927Z",
+      "id": "a37f5b48-0027-4c6c-80f1-a1c747201b86"
     }
   ]
 }
