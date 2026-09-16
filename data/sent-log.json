@@ -15903,6 +15903,27 @@
       "stage": "followup2",
       "at": "2026-09-15T18:31:57.927Z",
       "id": "a37f5b48-0027-4c6c-80f1-a1c747201b86"
+    },
+    {
+      "email": "tina@rcdigital.us",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-16T18:27:59.295Z",
+      "id": "01a0ab79-c0ac-740e-be5a-22d2f47497fc"
+    },
+    {
+      "email": "ak@haskconstruction.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-16T18:27:59.295Z",
+      "id": "01a0ab79-c454-761c-b892-0a1b143b3c4a"
+    },
+    {
+      "email": "selomeabera@flossdental.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-16T18:28:02.686Z",
+      "id": "01a0ab79-d193-774c-8e54-4ab24a5ab77b"
     }
   ]
 }
