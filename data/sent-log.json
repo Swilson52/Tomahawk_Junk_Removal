@@ -15924,6 +15924,41 @@
       "stage": "followup2",
       "at": "2026-09-16T18:28:02.686Z",
       "id": "01a0ab79-d193-774c-8e54-4ab24a5ab77b"
+    },
+    {
+      "email": "marietta@minbrowork.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-09-17T18:28:44.891Z",
+      "id": "01a0b0a0-c39f-714d-b622-4a633e482ebf"
+    },
+    {
+      "email": "info@phoenixconstructioninc.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-17T18:28:44.891Z",
+      "id": "01a0b0a0-c751-71b6-bd63-942fabf0a9d9"
+    },
+    {
+      "email": "max@georgiapeachmovers.net",
+      "segment": "estate",
+      "stage": "initial",
+      "at": "2026-09-17T18:28:44.891Z",
+      "id": "01a0b0a0-cb0c-741e-a144-d0fc0e24c7f2"
+    },
+    {
+      "email": "sacha.rady@compass.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-09-17T18:28:44.891Z",
+      "id": "01a0b0a0-ceb8-7369-95b0-2ea6dad14774"
+    },
+    {
+      "email": "doneconstructionservices@gmail.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-17T18:28:44.891Z",
+      "id": "01a0b0a0-d288-7369-ab31-bb352911df3d"
     }
   ]
 }
