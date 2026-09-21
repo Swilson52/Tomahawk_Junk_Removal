@@ -15973,6 +15973,90 @@
       "stage": "initial",
       "at": "2026-09-18T17:56:10.101Z",
       "id": "01a0b5a9-5aac-77da-a31a-f45a3bee959d"
+    },
+    {
+      "email": "info@nickysundefeated.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-09-21T19:39:20.821Z",
+      "id": "01a0c57a-e1b4-70db-a9fe-750b60fefbb1"
+    },
+    {
+      "email": "info@thehappyfloor.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-21T19:39:20.821Z",
+      "id": "01a0c57a-e537-755c-80f4-e8e94e09530d"
+    },
+    {
+      "email": "admin@platinumrealestate.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-09-21T19:39:28.639Z",
+      "id": "01a0c57a-f22d-76cc-a446-751697c29517"
+    },
+    {
+      "email": "sspringer@puroclean.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-21T19:39:28.639Z",
+      "id": "01a0c57a-f5b6-7429-bef5-099c65e32d2e"
+    },
+    {
+      "email": "atlantaproconstruction1@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-21T19:39:28.639Z",
+      "id": "01a0c57a-f934-7044-8ea6-df493c2e33b3"
+    },
+    {
+      "email": "retail@camdenliving.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-09-21T19:39:28.639Z",
+      "id": "01a0c57a-fcab-70e9-a180-b08d57e0beab"
+    },
+    {
+      "email": "tina@rcdigital.us",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-21T19:39:28.639Z",
+      "id": "01a0c57b-002b-7448-960a-4f8fbb1882ab"
+    },
+    {
+      "email": "ak@haskconstruction.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-21T19:39:28.639Z",
+      "id": "01a0c57b-03b3-75fe-9a23-e0bb3665c641"
+    },
+    {
+      "email": "info@zendryrestoration.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-21T19:39:34.581Z",
+      "id": "01a0c57b-1070-705d-ae31-157cd4087ffa"
+    },
+    {
+      "email": "thunter@lavista.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-21T19:39:34.581Z",
+      "id": "01a0c57b-13f5-729e-b637-32a5a0fdaf63"
+    },
+    {
+      "email": "onlinesupport@shopsimon.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-21T19:39:34.581Z",
+      "id": "01a0c57b-1773-7705-b6ce-5e79d8a35ad1"
+    },
+    {
+      "email": "sekharsrealty@gmail.com",
+      "segment": "realtor",
+      "stage": "followup2",
+      "at": "2026-09-21T19:39:34.581Z",
+      "id": "01a0c57b-1af4-7065-a870-c83fd254c2af"
     }
   ]
 }
