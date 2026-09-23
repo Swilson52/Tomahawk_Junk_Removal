@@ -16274,6 +16274,111 @@
       "stage": "followup2",
       "at": "2026-09-22T18:33:05.461Z",
       "id": "01a0ca64-97b0-77a4-9cad-ca2d61a8541c"
+    },
+    {
+      "email": "info@homenowproperties.net",
+      "segment": "hoa",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf94-eef4-773b-b743-01ab202f17cf"
+    },
+    {
+      "email": "brooke.dewey@jll.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf94-f283-77a7-ad03-9ca6ab1530a1"
+    },
+    {
+      "email": "kdokitchens@gmail.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf94-f60d-75bc-a238-2e0d56900abc"
+    },
+    {
+      "email": "info@buckhaven.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf94-f990-762a-b1d2-a32529e99fee"
+    },
+    {
+      "email": "experiencebuilder@winter-construction.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf94-fd18-7531-95d7-a3a2390d4319"
+    },
+    {
+      "email": "nadine.lutz@compass.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf95-00b0-7258-ba40-0e63ea2cc62b"
+    },
+    {
+      "email": "info@communityandcouncil.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf95-04d9-70ab-accb-0749dba7dd6b"
+    },
+    {
+      "email": "bdollar@kw.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf95-087a-701b-858b-5af31fcd0585"
+    },
+    {
+      "email": "claims@rytechinc.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf95-0bfe-776b-9ccb-c12cabe48183"
+    },
+    {
+      "email": "luis.a.lopez@kw.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf95-0fca-77b4-965f-a55edb01f5f3"
+    },
+    {
+      "email": "lashanda@greenpathre.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf95-1365-72fd-9d53-927da6cfe9c9"
+    },
+    {
+      "email": "isellbighomes@gmail.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf95-16f3-70b5-abf0-869aaaa3a822"
+    },
+    {
+      "email": "angel@weebtop.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-23T18:44:10.642Z",
+      "id": "01a0cf95-1a83-731c-86ae-50212d0d888f"
+    },
+    {
+      "email": "dynastysalesinfo@gmail.com",
+      "segment": "estate",
+      "stage": "followup1",
+      "at": "2026-09-23T18:44:14.818Z",
+      "id": "01a0cf95-278f-7592-9e40-947344ddb436"
+    },
+    {
+      "email": "luxuryconstruction22@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-23T18:44:14.818Z",
+      "id": "01a0cf95-2b24-7209-b588-649936342bd0"
     }
   ]
 }
