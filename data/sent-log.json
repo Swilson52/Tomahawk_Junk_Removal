@@ -16379,6 +16379,48 @@
       "stage": "followup1",
       "at": "2026-09-23T18:44:14.818Z",
       "id": "01a0cf95-2b24-7209-b588-649936342bd0"
+    },
+    {
+      "email": "info@peachhausgroup.com",
+      "segment": "property_manager",
+      "stage": "initial",
+      "at": "2026-09-24T18:47:23.847Z",
+      "id": "01a0d4be-5747-7481-b8b3-72e5c2180dca"
+    },
+    {
+      "email": "mary@maryconnellhomes.com",
+      "segment": "hoa",
+      "stage": "initial",
+      "at": "2026-09-24T18:47:23.847Z",
+      "id": "01a0d4be-5aeb-7a34-8866-0e5c5c0c8236"
+    },
+    {
+      "email": "office@gawfr.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-24T18:47:23.847Z",
+      "id": "01a0d4be-5e94-725b-aa23-3c8d3aa56dfb"
+    },
+    {
+      "email": "courtney@courtneynewton.com",
+      "segment": "realtor",
+      "stage": "initial",
+      "at": "2026-09-24T18:47:23.847Z",
+      "id": "01a0d4be-622c-7442-89c7-9b2cc713ebe2"
+    },
+    {
+      "email": "sugarloafwalk.propertywebsite.woodwardmanagement@aptleasing.info",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-09-24T18:47:23.847Z",
+      "id": "01a0d4be-65d3-71a7-bfb9-ab45c9312fbf"
+    },
+    {
+      "email": "noreply@revize.com",
+      "segment": "office",
+      "stage": "initial",
+      "at": "2026-09-24T18:47:23.847Z",
+      "id": "01a0d4be-6979-7089-ab1f-b16f6b341fe2"
     }
   ]
 }
