@@ -16421,6 +16421,20 @@
       "stage": "initial",
       "at": "2026-09-24T18:47:23.847Z",
       "id": "01a0d4be-6979-7089-ab1f-b16f6b341fe2"
+    },
+    {
+      "email": "scout.evans@rentinquiries.com",
+      "segment": "apartment",
+      "stage": "initial",
+      "at": "2026-09-25T18:45:46.685Z",
+      "id": "01a0d9e3-4693-748a-aa8b-16a2130f8b5a"
+    },
+    {
+      "email": "info@vanwinkleco.com",
+      "segment": "contractor",
+      "stage": "initial",
+      "at": "2026-09-25T18:45:46.685Z",
+      "id": "01a0d9e3-4a09-719e-8cb8-48d29db15e3a"
     }
   ]
 }
