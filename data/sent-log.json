@@ -16652,6 +16652,146 @@
       "stage": "followup2",
       "at": "2026-09-28T20:08:27.330Z",
       "id": "01a0e9a2-0f5a-7701-b1da-f83aa615464d"
+    },
+    {
+      "email": "info@amaflooring.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-7f46-7df6-973a-fea6db0ca8b7"
+    },
+    {
+      "email": "info@peachtreecornersservicesllc.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-82ea-7497-94b4-ed6bd885f2c8"
+    },
+    {
+      "email": "info@homenowproperties.net",
+      "segment": "hoa",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-8685-74fa-8fa7-eeef071de048"
+    },
+    {
+      "email": "brooke.dewey@jll.com",
+      "segment": "office",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-8a1b-7e83-bba2-8466dc29643a"
+    },
+    {
+      "email": "kdokitchens@gmail.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-8dad-7c6c-9216-aafbe9ce0da7"
+    },
+    {
+      "email": "info@buckhaven.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-9138-707c-a1e9-196f144c099d"
+    },
+    {
+      "email": "experiencebuilder@winter-construction.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-94d1-76c0-bd32-2ca200301cfd"
+    },
+    {
+      "email": "nadine.lutz@compass.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-9870-701a-bc3b-1a65658f5d24"
+    },
+    {
+      "email": "info@communityandcouncil.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-9c0e-7c47-9346-2de49aee76ed"
+    },
+    {
+      "email": "bdollar@kw.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-9faa-741e-84c2-4fe5444a8079"
+    },
+    {
+      "email": "claims@rytechinc.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-a335-7aff-a44c-c88d75cc451b"
+    },
+    {
+      "email": "luis.a.lopez@kw.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-a6cf-770e-9800-018932ad1f39"
+    },
+    {
+      "email": "lashanda@greenpathre.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-aa71-7396-8ec5-bd820899365a"
+    },
+    {
+      "email": "isellbighomes@gmail.com",
+      "segment": "realtor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-adfd-7497-bd1e-696319c4ba01"
+    },
+    {
+      "email": "angel@weebtop.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-09-29T18:39:11.323Z",
+      "id": "01a0ee76-b18f-71a5-8a62-7d2730914ea5"
+    },
+    {
+      "email": "marietta@minbrowork.com",
+      "segment": "office",
+      "stage": "followup2",
+      "at": "2026-09-29T18:39:18.269Z",
+      "id": "01a0ee76-be6f-74ef-a025-1ba8451d98c2"
+    },
+    {
+      "email": "info@phoenixconstructioninc.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-29T18:39:18.269Z",
+      "id": "01a0ee76-c20b-7009-8e4b-292fe21a859d"
+    },
+    {
+      "email": "max@georgiapeachmovers.net",
+      "segment": "estate",
+      "stage": "followup2",
+      "at": "2026-09-29T18:39:18.269Z",
+      "id": "01a0ee76-c593-766e-97e9-8624c8649f49"
+    },
+    {
+      "email": "sacha.rady@compass.com",
+      "segment": "property_manager",
+      "stage": "followup2",
+      "at": "2026-09-29T18:39:18.269Z",
+      "id": "01a0ee76-c92f-7de4-bc80-7173b7de73af"
+    },
+    {
+      "email": "doneconstructionservices@gmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-09-29T18:39:18.269Z",
+      "id": "01a0ee76-ccbc-7e61-bee3-a008cb57264b"
     }
   ]
 }
