@@ -16834,6 +16834,34 @@
       "stage": "followup1",
       "at": "2026-09-30T18:27:28.551Z",
       "id": "01a0f392-545c-76be-94f1-08a08c912996"
+    },
+    {
+      "email": "scout.evans@rentinquiries.com",
+      "segment": "apartment",
+      "stage": "followup1",
+      "at": "2026-10-01T18:53:59.407Z",
+      "id": "01a0f8d0-f348-73bf-9a77-dcd922403fd5"
+    },
+    {
+      "email": "info@vanwinkleco.com",
+      "segment": "contractor",
+      "stage": "followup1",
+      "at": "2026-10-01T18:53:59.407Z",
+      "id": "01a0f8d0-f6b6-7740-ad5e-c4cf5905ea11"
+    },
+    {
+      "email": "dynastysalesinfo@gmail.com",
+      "segment": "estate",
+      "stage": "followup2",
+      "at": "2026-10-01T18:54:03.597Z",
+      "id": "01a0f8d1-0394-778f-902c-3824bb1d22b1"
+    },
+    {
+      "email": "luxuryconstruction22@gmail.com",
+      "segment": "contractor",
+      "stage": "followup2",
+      "at": "2026-10-01T18:54:03.598Z",
+      "id": "01a0f8d1-0711-7a27-ae32-064be10d983f"
     }
   ]
 }
